@@ -143,7 +143,7 @@ GLOBAL_LIST_INIT(metal_recipes, list ( \
 		TOOL_WELDER = list(
 			SCREENTIP_CONTEXT_LMB = "Craft iron rods",
 			SCREENTIP_CONTEXT_RMB = "Craft floor tiles",
-		)
+		),
 	)
 	AddElement(/datum/element/contextual_screentip_tools, tool_behaviors)
 
