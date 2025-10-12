@@ -12,10 +12,6 @@
 	non_craftable = TRUE
 	steps = list("Use cloth on a glass shard of any type")
 
-/datum/crafting_recipe/restraints
-	reqs = list(/obj/item/stack/cable_coil = 15)
-	result = /obj/item/restraints/handcuffs/cable
-	category = CAT_TOOLS
 /* // DARKPACK EDIT REMOVE
 /datum/crafting_recipe/runed_metal
 	reqs = list(/obj/item/stack/sheet/plasteel = 1)
