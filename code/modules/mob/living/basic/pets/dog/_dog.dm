@@ -118,7 +118,7 @@
 		/obj/item/food/meat/slab/human/mutant/skeleton,
 		/obj/item/stack/sheet/bone,
 // DARKPACK ADD START
- 		/obj/item/food/meat/slab,
+		/obj/item/food/meat/slab,
 		/obj/item/food/meat/rawbacon,
 		/obj/item/food/meat/bacon,
 		/obj/item/food/meat/rawcutlet,
