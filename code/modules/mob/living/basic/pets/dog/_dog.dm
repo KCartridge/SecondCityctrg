@@ -93,7 +93,7 @@
 
 /datum/ai_behavior/hunt_target/interact_with_target/find_dog_food
 	always_reset_target = TRUE
-// DARKPACK ADD END
+// DARKPACK EDIT ADD END
 
 /datum/emote/dog
 	mob_type_allowed_typecache = /mob/living/basic/pet/dog
