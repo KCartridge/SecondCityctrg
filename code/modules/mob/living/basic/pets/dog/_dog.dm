@@ -124,7 +124,7 @@
 		/obj/item/food/meat/rawcutlet,
 // DARKPACK EDIT ADD END
 	)
-// DARKPACK ADD START
+// DARKPACK EDIT ADD START
 	AddElement(/datum/element/ai_retaliate)
 	AddElement(/datum/element/ai_flee_while_injured)
 // DARKPACK ADD END
