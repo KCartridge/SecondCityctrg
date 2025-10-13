@@ -53,7 +53,7 @@
 	///icon state of our cult icon
 	var/cult_icon_state
 
-// DARKPACK ADD START
+// DARKPACK EDIT ADD START
 	maxHealth = 70
 	health = 70
 	obj_damage = 15
