@@ -127,7 +127,7 @@
 // DARKPACK EDIT ADD START
 	AddElement(/datum/element/ai_retaliate)
 	AddElement(/datum/element/ai_flee_while_injured)
-// DARKPACK ADD END
+// DARKPACK EDIT ADD END
 	AddComponent(/datum/component/tameable, food_types = food_types, tame_chance = 30, bonus_tame_chance = 15, unique = FALSE)
 	AddComponent(/datum/component/obeys_commands, pet_commands)
 	var/dog_area = get_area(src)
