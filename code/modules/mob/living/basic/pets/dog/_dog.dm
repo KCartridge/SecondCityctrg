@@ -46,7 +46,7 @@
 		/datum/pet_command/attack/dog,
 		/datum/pet_command/fetch,
 		/datum/pet_command/play_dead,
-		/datum/pet_command/protect_owner, // DARKPACK ADD
+		/datum/pet_command/protect_owner, // DARKPACK EDIT ADD
 	)
 	///icon state of the collar we can wear
 	var/collar_icon_state
