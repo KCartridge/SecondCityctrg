@@ -122,7 +122,7 @@
 		/obj/item/food/meat/rawbacon,
 		/obj/item/food/meat/bacon,
 		/obj/item/food/meat/rawcutlet,
-// DARKPACK ADD END
+// DARKPACK EDIT ADD END
 	)
 // DARKPACK ADD START
 	AddElement(/datum/element/ai_retaliate)
