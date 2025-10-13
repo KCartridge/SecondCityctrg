@@ -87,7 +87,7 @@
 		/obj/item/food/meat/rawbacon,
 		/obj/item/food/meat/bacon,
 		/obj/item/food/meat/rawcutlet,
-		 )
+		)
 	hunt_chance = 75
 	hunt_range = 18
 
