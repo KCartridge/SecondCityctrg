@@ -42,15 +42,58 @@
 		/datum/pet_command/move,
 		/datum/pet_command/good_boy/dog,
 		/datum/pet_command/follow/dog,
-		/datum/pet_command/perform_trick_sequence,
+//		/datum/pet_command/perform_trick_sequence // Might be usable later
 		/datum/pet_command/attack/dog,
 		/datum/pet_command/fetch,
 		/datum/pet_command/play_dead,
+		/datum/pet_command/protect_owner, // DARKPACK ADD
 	)
 	///icon state of the collar we can wear
 	var/collar_icon_state
 	///icon state of our cult icon
 	var/cult_icon_state
+
+// DARKPACK ADD START
+	maxHealth = 70
+	health = 70
+	obj_damage = 15
+	melee_damage_lower = 7.5
+	melee_damage_upper = 7.5
+
+	butcher_results = list(/obj/item/food/meat/slab/corgi = 3) // different types of dogmeat is redundant
+	bloodpool = 5
+	maxbloodpool = 5
+
+	var/can_hold_item = TRUE // for gathering food
+
+/mob/living/basic/pet/dog/update_resting()
+	. = ..()
+	if(stat == DEAD)
+		return
+	update_appearance(UPDATE_ICON_STATE)
+
+/mob/living/basic/pet/dog/update_icon_state()
+	. = ..()
+	if (resting)
+		icon_state = "[icon_living]_rest"
+		return
+	icon_state = "[icon_living]"
+
+/datum/ai_planning_subtree/find_and_hunt_target/find_dog_food
+	hunting_behavior = /datum/ai_behavior/hunt_target/interact_with_target/find_dog_food
+	hunt_targets = list(
+		/obj/item/food/deadmouse,
+		/obj/item/food/meat/slab,
+		/obj/item/food/meat/rawbacon,
+		/obj/item/food/meat/bacon,
+		/obj/item/food/meat/rawcutlet,
+		 )
+	hunt_chance = 75
+	hunt_range = 18
+
+/datum/ai_behavior/hunt_target/interact_with_target/find_dog_food
+	always_reset_target = TRUE
+// DARKPACK ADD END
 
 /datum/emote/dog
 	mob_type_allowed_typecache = /mob/living/basic/pet/dog
@@ -74,7 +117,17 @@
 	var/static/list/food_types = list(
 		/obj/item/food/meat/slab/human/mutant/skeleton,
 		/obj/item/stack/sheet/bone,
+// DARKPACK ADD START
+ 		/obj/item/food/meat/slab,
+		/obj/item/food/meat/rawbacon,
+		/obj/item/food/meat/bacon,
+		/obj/item/food/meat/rawcutlet,
+// DARKPACK ADD END
 	)
+// DARKPACK ADD START
+	AddElement(/datum/element/ai_retaliate)
+	AddElement(/datum/element/ai_flee_while_injured)
+// DARKPACK ADD END
 	AddComponent(/datum/component/tameable, food_types = food_types, tame_chance = 30, bonus_tame_chance = 15, unique = FALSE)
 	AddComponent(/datum/component/obeys_commands, pet_commands)
 	var/dog_area = get_area(src)
