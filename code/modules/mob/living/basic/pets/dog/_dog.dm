@@ -42,7 +42,7 @@
 		/datum/pet_command/move,
 		/datum/pet_command/good_boy/dog,
 		/datum/pet_command/follow/dog,
-//		/datum/pet_command/perform_trick_sequence // Might be usable later
+//		/datum/pet_command/perform_trick_sequence // DARKPACK EDIT REMOVE - Might be usable later
 		/datum/pet_command/attack/dog,
 		/datum/pet_command/fetch,
 		/datum/pet_command/play_dead,
