@@ -16,3 +16,10 @@
 		icon_state = "[base_icon_state][id]"
 		icon_living = "[base_icon_state][id]"
 		icon_dead = "[base_icon_state][id]_dead"
+
+/mob/living/basic/pet/dog/darkpack/update_icon_state()
+	. = ..()
+	if (resting)
+		icon_state = "[icon_living]_rest"
+		return
+	icon_state = "[icon_living]"

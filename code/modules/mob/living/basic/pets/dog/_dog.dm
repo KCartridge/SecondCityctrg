@@ -72,12 +72,6 @@
 		return
 	update_appearance(UPDATE_ICON_STATE)
 
-/mob/living/basic/pet/dog/update_icon_state()
-	. = ..()
-	if (resting)
-		icon_state = "[icon_living]_rest"
-		return
-	icon_state = "[icon_living]"
 
 /datum/ai_planning_subtree/find_and_hunt_target/find_dog_food
 	hunting_behavior = /datum/ai_behavior/hunt_target/interact_with_target/find_dog_food
@@ -124,7 +118,7 @@
 		/obj/item/food/meat/rawcutlet,
 // DARKPACK EDIT ADD END
 	)
-	AddElement(/datum/element/ai_flee_while_injured) // DARKPACK EDIT ADD 
+	AddElement(/datum/element/ai_flee_while_injured) // DARKPACK EDIT ADD
 	AddComponent(/datum/component/tameable, food_types = food_types, tame_chance = 30, bonus_tame_chance = 15, unique = FALSE)
 	AddComponent(/datum/component/obeys_commands, pet_commands)
 	var/dog_area = get_area(src)
