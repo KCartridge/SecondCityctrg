@@ -147,11 +147,15 @@
 		held_item_overlay = mutable_appearance(icon, "cat_mouse_overlay")
 	. += held_item_overlay
 
+// DARKPACK EDIT START
 /mob/living/basic/pet/cat/update_resting()
 	. = ..()
-	if(stat == DEAD)
-		return
-	update_appearance(UPDATE_ICON_STATE)
+	if(stat != DEAD)
+		if(resting)
+    		icon_state = "[icon_living]_rest"
+  		else
+    		icon_state = "[icon_living]"
+// DARKPACK EDIT END
 
 /mob/living/basic/pet/cat/update_icon_state()
 	. = ..()

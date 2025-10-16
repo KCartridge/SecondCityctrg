@@ -19,7 +19,8 @@
 
 /mob/living/basic/pet/dog/darkpack/update_icon_state()
 	. = ..()
-	if (resting)
-		icon_state = "[icon_living]_rest"
-		return
-	icon_state = "[icon_living]"
+	if(stat != DEAD)
+		if(resting)
+    		icon_state = "[icon_living]_rest"
+  		else
+    		icon_state = "[icon_living]"
