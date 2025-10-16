@@ -21,6 +21,6 @@
 	. = ..()
 	if(stat != DEAD)
 		if(resting)
-    		icon_state = "[icon_living]_rest"
-  		else
-    		icon_state = "[icon_living]"
+			icon_state = "[icon_living]_rest"
+		else
+			icon_state = "[icon_living]"
