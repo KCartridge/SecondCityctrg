@@ -19,6 +19,7 @@
 	icon = 'icons/obj/smooth_structures/darkpack/bubway_table.dmi'
 	icon_state = "bubway_table-0"
 	base_icon_state = "bubway_table"
+	abstract_type = /obj/structure/table/countertop
 	max_integrity = 200
 	can_flip = FALSE
 
