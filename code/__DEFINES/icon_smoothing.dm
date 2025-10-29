@@ -235,13 +235,7 @@ DEFINE_BITFIELD(smoothing_junction, list(
 #define SMOOTH_GROUP_VENTS S_OBJ(87) ///obj/structure/roofstuff/vent/autotiling
 #define SMOOTH_GROUP_SPILL S_OBJ(88) ///obj/effect/decal/cleanable/gasoline
 
-#define SMOOTH_GROUP_TABLES_BEIGE S_OBJ(88) ///obj/structure/table/countertop/beige
-#define SMOOTH_GROUP_TABLES_BLACK S_OBJ(89) ///obj/structure/table/countertop/black
-#define SMOOTH_GROUP_TABLES_GREEN S_OBJ(90) ///obj/structure/table/countertop/green
-#define SMOOTH_GROUP_TABLES_PURPLE S_OBJ(91) ///obj/structure/table/countertop/purple
-#define SMOOTH_GROUP_TABLES_RED S_OBJ(92) ///obj/structure/table/countertop/red
-#define SMOOTH_GROUP_TABLES_TEAL S_OBJ(93) ///obj/structure/table/countertop/teal
-#define SMOOTH_GROUP_TABLES_YELLOW S_OBJ(94) ///obj/structure/table/countertop/yellow
+#define SMOOTH_GROUP_COLOR_COUNTERTOP S_OBJ(89) ///obj/structure/table/countertop/(color)
 // DARKPACK EDIT END
 
 /// Performs the work to set smoothing_groups and canSmoothWith.
