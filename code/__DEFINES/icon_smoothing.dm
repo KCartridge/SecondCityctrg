@@ -192,7 +192,7 @@ DEFINE_BITFIELD(smoothing_junction, list(
 
 // DARKPACK EDIT START
 #define SMOOTH_GROUP_REINFORCED_TABLES S_OBJ(57) ///obj/structure/table/reinforced
-#define SMOOTH_GROUP_BACO_TABLES S_OBJ(58) ///obj/structure/countertop/bacotell
+#define SMOOTH_GROUP_BACO_TABLES S_OBJ(58) ///obj/structure/table/countertop/bacotell
 #define SMOOTH_GROUP_BUB_TABLES S_OBJ(59) ///obj/structure/table/countertop/bubway
 // DARKPACK EDIT END
 
