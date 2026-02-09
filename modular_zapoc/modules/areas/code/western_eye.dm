@@ -1,21 +1,18 @@
-/area/vtm/interior/forest
-	name = "Forest"
-	music_index = MUSIC_FOREST
-
 /area/vtm/outside/forest/sept
 	name = "Sinkhole Cave"
-	sound_environment = SOUND_ENVIRONMENT_CAVE
 
-/area/vtm/interior/forest/cave
+
+/area/vtm/outside/forest/interior
+	outdoors = FALSE
+
+/area/vtm/outside/forest/interior/cave
 	name = "Forest Cave"
-	sound_environment = SOUND_ENVIRONMENT_CAVE
 
-/area/vtm/interior/forest/cave/bane
-	name = "Forbidden Burial Site"
-
-/area/vtm/interior/forest/cabin
+/area/vtm/outside/forest/interior/cabin
 	name = "Forest Cabin"
 
-/area/vtm/interior/forest/abandoned_cabin
+/area/vtm/outside/forest/interior/abandoned_cabin
 	name = "Abandoned Cabin"
 
+/area/vtm/outside/forest/interior/cave/bane
+	name = "Forbidden Burial Site"

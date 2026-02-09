@@ -9,11 +9,11 @@
 /area/vtm/interior/endron_facility/forest)
 "an" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "ap" = (
-/obj/structure/chair/stool/bar/darkpack/red,
+/obj/structure/chair/stool/bar,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "aA" = (
@@ -47,6 +47,7 @@
 /area/misc/cordon)
 "aI" = (
 /obj/structure/vampdoor/glass{
+	lock_id = "pentex_poi";
 	dir = 1
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -64,14 +65,14 @@
 	dir = 5
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "bb" = (
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "bf" = (
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "bi" = (
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/trimline/red/line{
@@ -102,7 +103,7 @@
 /area/vtm/outside/forest)
 "bP" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/endron/security,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "bV" = (
@@ -140,9 +141,9 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "ci" = (
-/obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
+/mob/living/basic/mining/legion/advanced,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "co" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/trimline/yellow/line{
@@ -156,12 +157,12 @@
 	dir = 10
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "cq" = (
 /obj/structure/flora/bush/style_random,
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "cr" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/light/red/directional/west,
@@ -197,7 +198,7 @@
 "cW" = (
 /obj/effect/turf_decal/darkpack/cave,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "db" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 6
@@ -249,14 +250,14 @@
 	dir = 1
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "ee" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 10
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "ef" = (
 /obj/structure/flora/rock/pile/darkpack,
 /turf/open/floor/plating/rough,
@@ -269,9 +270,11 @@
 "ev" = (
 /obj/effect/turf_decal/darkpack/cave,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "ez" = (
-/obj/structure/vampdoor/glass,
+/obj/structure/vampdoor/glass{
+	lock_id = "pentex_poi"
+	},
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_mono,
@@ -302,7 +305,7 @@
 	dir = 8
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "eR" = (
 /obj/structure/filingcabinet/chestdrawer,
 /turf/open/floor/city/plating,
@@ -390,7 +393,7 @@
 "fS" = (
 /obj/structure/glowshroom/shadowshroom,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "fW" = (
 /obj/item/rag,
 /turf/open/floor/plating/asphalt,
@@ -407,12 +410,12 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "gp" = (
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /obj/effect/gibspawner/human/bodypartless,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "gv" = (
-/obj/effect/mob_spawn/corpse/human/endron/security,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
 /obj/item/vamp/keys/poi/pentex_poi{
 	pixel_y = 10;
 	pixel_x = 2
@@ -421,7 +424,7 @@
 /area/vtm/interior/endron_facility/forest)
 "gB" = (
 /obj/effect/spawner/random/trash/garbage,
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "gG" = (
@@ -435,7 +438,7 @@
 	dir = 5
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "gK" = (
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
@@ -520,7 +523,7 @@
 	pixel_y = 48
 	},
 /turf/closed/wall/vampwall/rock,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "hR" = (
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough,
@@ -537,9 +540,9 @@
 	dir = 9
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "il" = (
-/obj/structure/chair/office/darkpack/green,
+/obj/structure/chair/office,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "ir" = (
@@ -559,7 +562,7 @@
 "iN" = (
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "iQ" = (
 /obj/structure/table,
 /obj/item/paper_bin{
@@ -601,7 +604,7 @@
 	},
 /obj/effect/spawner/random/trash/mess,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "jf" = (
 /obj/structure/table,
 /obj/item/trash/raisins,
@@ -609,7 +612,7 @@
 /area/vtm/interior/endron_facility/forest)
 "jl" = (
 /obj/structure/table,
-/obj/item/stack/medical/wrap/gauze/twelve,
+/obj/item/stack/medical/gauze/twelve,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "jm" = (
@@ -654,13 +657,18 @@
 	},
 /obj/effect/turf_decal/darkpack/cave/corner,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "jR" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 1
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
+"jS" = (
+/obj/structure/lattice/catwalk,
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/turf/open/water/acid,
+/area/vtm/interior/endron_facility/forest)
 "jX" = (
 /obj/effect/turf_decal/darkpack/dirt,
 /obj/effect/turf_decal/darkpack/dirt{
@@ -717,14 +725,16 @@
 /area/vtm/interior/endron_facility/forest)
 "kH" = (
 /obj/effect/turf_decal/siding/white/end,
-/obj/structure/vampdoor/reinf,
-/obj/effect/mapping_helpers/door/access/pentex_poi,
-/obj/effect/mapping_helpers/door/lock,
+/obj/structure/vampdoor/reinf/pentex/poi,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "kK" = (
 /turf/open/floor/plating/rough,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
+"kL" = (
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/forest/interior/cave)
 "kP" = (
 /obj/machinery/light/floor,
 /obj/effect/realistic_fog/dense,
@@ -759,12 +769,12 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "ly" = (
 /obj/structure/table,
 /obj/item/stack/medical/bone_gel,
 /obj/item/stack/medical/bone_gel,
-/obj/item/stack/medical/wrap/sticky_tape/surgical,
+/obj/item/stack/sticky_tape/surgical,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "lA" = (
@@ -803,7 +813,7 @@
 "md" = (
 /obj/structure/stone_tile/slab/cracked,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "mg" = (
 /obj/machinery/light/directional/north,
 /obj/effect/decal/garou_glyph/howl,
@@ -817,7 +827,7 @@
 /area/vtm/outside/forest)
 "mk" = (
 /obj/structure/table,
-/obj/item/pen/charcoal{
+/obj/item/charcoal_stick{
 	pixel_x = 2;
 	pixel_y = 4
 	},
@@ -862,7 +872,7 @@
 "mV" = (
 /obj/structure/glowshroom/glowcap,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "na" = (
 /obj/effect/decal/cleanable/gasoline,
 /obj/structure/vampipe{
@@ -875,18 +885,16 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "nb" = (
-/obj/structure/vampdoor/reinf{
+/obj/structure/vampdoor/reinf/pentex/poi{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/door/access/pentex_poi,
-/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "nl" = (
 /obj/effect/turf_decal/darkpack/cave,
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "nv" = (
 /obj/machinery/shower/directional/north,
 /obj/structure/curtain,
@@ -896,7 +904,7 @@
 "nw" = (
 /obj/effect/realistic_fog/dense/extreme,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "nz" = (
 /obj/structure/sign/directions/science{
 	dir = 1;
@@ -954,7 +962,7 @@
 	dir = 5
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "ok" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 10
@@ -963,7 +971,7 @@
 	dir = 1
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "on" = (
 /obj/structure/chair/sofa/corp/left{
 	color = "#50C878";
@@ -973,10 +981,11 @@
 /area/vtm/interior/endron_facility/forest)
 "ov" = (
 /obj/effect/gibspawner/human/bodypartless,
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
 /obj/effect/decal/cleanable/gasoline,
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "ox" = (
 /obj/machinery/door/poddoor/shutters/window{
 	id = "pentexpoi_northwest_shutter"
@@ -1004,9 +1013,9 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "oF" = (
-/obj/effect/mob_spawn/corpse/human/endron/security,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "oK" = (
 /obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 4
@@ -1037,7 +1046,7 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "pr" = (
 /obj/structure/table,
 /obj/machinery/light/directional/east,
@@ -1060,7 +1069,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "pG" = (
 /obj/effect/turf_decal/darkpack/dirt,
 /obj/effect/turf_decal/darkpack/dirt/corner{
@@ -1071,8 +1080,16 @@
 "pL" = (
 /obj/effect/spawner/random/trash/mess,
 /obj/effect/turf_decal/darkpack/cave/corner,
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
+"pP" = (
+/obj/effect/turf_decal/darkpack/cave{
+	dir = 9
+	},
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
+/turf/open/indestructible/necropolis/air,
+/area/vtm/forest/interior/cave/bane)
 "pT" = (
 /obj/machinery/door/poddoor{
 	id = "pentexpoi_northeast_blast"
@@ -1103,7 +1120,7 @@
 "qf" = (
 /obj/structure/flora/bush/style_random,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "ql" = (
 /obj/structure/bed,
 /turf/open/floor/city/circled,
@@ -1118,7 +1135,7 @@
 /turf/closed/wall/vampwall/metal/reinforced,
 /area/vtm/interior/endron_facility/forest)
 "qH" = (
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "qK" = (
@@ -1148,9 +1165,9 @@
 /obj/structure/necropolis_arch,
 /obj/structure/necropolis_gate/legion_gate,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "rk" = (
-/obj/structure/chair/office/darkpack/green,
+/obj/structure/chair/office,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "rl" = (
@@ -1186,7 +1203,7 @@
 	dir = 8
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "ru" = (
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/misc/dirt,
@@ -1194,7 +1211,7 @@
 "rv" = (
 /obj/effect/turf_decal/darkpack/cave/corner,
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "rx" = (
 /obj/machinery/shower/directional/north,
 /obj/structure/curtain,
@@ -1212,9 +1229,9 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "sk" = (
-/mob/living/basic/cockroach/apoc,
+/mob/living/simple_animal/hostile/cockroach/apoc,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "sm" = (
@@ -1226,7 +1243,7 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "su" = (
-/obj/effect/mob_spawn/corpse/human/endron/cbrn,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/cbrn,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "sw" = (
@@ -1236,7 +1253,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "sC" = (
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 4
 	},
@@ -1246,7 +1263,7 @@
 /obj/effect/turf_decal/trimline/red/line{
 	dir = 1
 	},
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "sK" = (
@@ -1273,6 +1290,7 @@
 /area/vtm/interior/endron_facility/forest)
 "sM" = (
 /obj/structure/vampdoor/glass{
+	lock_id = "pentex_poi";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -1293,8 +1311,15 @@
 /area/vtm/interior/endron_facility/forest)
 "sU" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/city/circled,
+/area/vtm/interior/endron_facility/forest)
+"tb" = (
+/obj/structure/vampdoor/simple{
+	name = "Bathroom";
+	dir = 8
+	},
+/turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "tc" = (
 /obj/machinery/shower/directional/west{
@@ -1310,7 +1335,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "to" = (
@@ -1342,7 +1367,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "tG" = (
 /obj/structure/fence{
 	dir = 4
@@ -1351,7 +1376,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
 "tJ" = (
-/mob/living/basic/mining/legion/large/gray_masses,
+/mob/living/basic/mining/legion/big,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "tL" = (
@@ -1360,10 +1385,12 @@
 	},
 /turf/open/genturf,
 /area/vtm/planetgeneration)
+"tM" = (
+/obj/effect/spawner/random/trash/mess,
+/turf/open/water/bloodwave,
+/area/vtm/forest/interior/cave/bane)
 "tQ" = (
-/obj/structure/vampdoor/reinf,
-/obj/effect/mapping_helpers/door/access/pentex_poi,
-/obj/effect/mapping_helpers/door/lock,
+/obj/structure/vampdoor/reinf/pentex/poi,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "uf" = (
@@ -1377,7 +1404,9 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "uB" = (
-/obj/structure/vampdoor/wood,
+/obj/structure/vampdoor/wood{
+	lock_id = "pentex_poi"
+	},
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -1426,7 +1455,7 @@
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "uU" = (
-/obj/structure/chair/office/darkpack/green{
+/obj/structure/chair/office{
 	dir = 1
 	},
 /turf/open/floor/city/circled,
@@ -1464,15 +1493,21 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
+"vC" = (
+/obj/structure/glowshroom,
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/obj/effect/decal/cleanable/gasoline,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/forest/interior/cave)
 "vF" = (
 /obj/structure/lattice/catwalk,
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /turf/open/water/acid,
 /area/vtm/interior/endron_facility/forest)
 "wb" = (
 /obj/effect/realistic_fog/dense,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "wg" = (
 /obj/structure/sign/directions/science{
 	dir = 1;
@@ -1485,11 +1520,9 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "wh" = (
-/obj/structure/vampdoor/reinf{
+/obj/structure/vampdoor/reinf/pentex/poi{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/door/access/pentex_poi,
-/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "wo" = (
@@ -1513,7 +1546,7 @@
 "ww" = (
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "wx" = (
 /obj/structure/table,
 /obj/item/screwdriver{
@@ -1523,19 +1556,19 @@
 	pixel_y = 11;
 	pixel_x = 3
 	},
-/obj/item/stack/medical/wrap/sticky_tape/surgical{
+/obj/item/stack/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},
-/obj/item/stack/medical/wrap/sticky_tape/surgical{
+/obj/item/stack/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},
-/obj/item/stack/medical/wrap/sticky_tape/surgical{
+/obj/item/stack/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},
-/obj/item/stack/medical/wrap/sticky_tape/surgical{
+/obj/item/stack/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},
@@ -1569,7 +1602,7 @@
 	dir = 8
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "xc" = (
 /obj/machinery/light/floor,
 /obj/effect/turf_decal/trimline/blue/line,
@@ -1596,7 +1629,7 @@
 	dir = 10
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "xr" = (
 /obj/machinery/door/poddoor{
 	id = "pentexpoi_southeast_blast"
@@ -1618,7 +1651,7 @@
 /area/vtm/outside/forest)
 "xx" = (
 /turf/closed/indestructible/necropolis,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "xB" = (
 /obj/structure/closet{
 	icon_state = "armory"
@@ -1700,7 +1733,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "yI" = (
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "yM" = (
@@ -1711,7 +1744,7 @@
 /area/vtm/interior/endron_facility/forest)
 "za" = (
 /turf/closed/wall/vampwall/rock,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "zn" = (
 /obj/structure/rack{
 	density = 0;
@@ -1726,7 +1759,7 @@
 "zx" = (
 /mob/living/simple_animal/hostile/megafauna/legion,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "zF" = (
 /obj/effect/turf_decal/siding/thinplating/light,
 /obj/effect/gibspawner/human/bodypartless,
@@ -1734,9 +1767,9 @@
 /area/vtm/interior/endron_facility/forest)
 "zK" = (
 /obj/effect/turf_decal/darkpack/cave/corner,
-/obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
+/mob/living/basic/mining/legion/advanced,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "zO" = (
 /obj/structure/sign/directions/medical{
 	dir = 4;
@@ -1746,8 +1779,7 @@
 /area/vtm/interior/endron_facility/forest)
 "zW" = (
 /obj/structure/fence/door{
-	icon_state = "door_opened";
-	density = 0
+	open = 1
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
@@ -1765,9 +1797,11 @@
 "Ak" = (
 /obj/structure/stone_tile/slab,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "At" = (
-/obj/structure/vampdoor/glass,
+/obj/structure/vampdoor/glass{
+	lock_id = "pentex_poi"
+	},
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/circled,
@@ -1775,7 +1809,7 @@
 "Aw" = (
 /obj/effect/spawner/random/trash/mess,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Ax" = (
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/trimline/purple/line{
@@ -1811,7 +1845,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Bl" = (
 /obj/effect/turf_decal/trimline/purple/corner{
 	dir = 4
@@ -1829,7 +1863,7 @@
 	pixel_x = -19
 	},
 /turf/closed/wall/vampwall/rock,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Bs" = (
 /obj/structure/flora/rock/pile/darkpack,
 /obj/structure/flora/rock/darkpack,
@@ -1849,7 +1883,7 @@
 	dir = 4;
 	pixel_y = 4
 	},
-/obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
+/mob/living/basic/mining/legion/random,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "Bz" = (
@@ -1860,7 +1894,7 @@
 	dir = 5
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "BD" = (
 /obj/structure/lattice/catwalk,
 /obj/machinery/light/red/directional/east,
@@ -1870,7 +1904,7 @@
 /obj/structure/closet{
 	icon_state = "armory"
 	},
-/obj/effect/mob_spawn/corpse/human/endron/security,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "BF" = (
@@ -1898,7 +1932,7 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "BN" = (
-/obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
+/mob/living/basic/mining/legion/random,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "BR" = (
@@ -1961,7 +1995,7 @@
 	dir = 5
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "CY" = (
 /obj/structure/closet{
 	icon_state = "armory"
@@ -1985,7 +2019,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Dl" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 6
@@ -1997,7 +2031,7 @@
 	dir = 6
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "DA" = (
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/city/plating_mono,
@@ -2010,9 +2044,9 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "DN" = (
-/obj/structure/chair/office/darkpack/green,
+/obj/structure/chair/office,
 /obj/effect/spawner/random/trash/garbage,
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "DR" = (
@@ -2053,7 +2087,7 @@
 /area/vtm/interior/endron_facility/forest)
 "Eb" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/endron,
+/obj/effect/mob_spawn/corpse/human/damaged/endron,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "Ee" = (
@@ -2062,7 +2096,7 @@
 	},
 /obj/effect/spawner/random/trash/garbage,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Ef" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 5
@@ -2071,7 +2105,7 @@
 	dir = 8
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Ek" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 4
@@ -2099,7 +2133,7 @@
 	pixel_y = -30
 	},
 /turf/closed/indestructible/necropolis,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "EL" = (
 /obj/structure/glowshroom/glowcap,
 /turf/open/floor/city/plating,
@@ -2110,7 +2144,7 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "EQ" = (
 /obj/effect/turf_decal/siding/white/end{
 	dir = 8
@@ -2123,7 +2157,7 @@
 	dir = 6
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "Fc" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 1
@@ -2174,7 +2208,7 @@
 	dir = 9
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "FD" = (
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 1
@@ -2212,7 +2246,7 @@
 	pixel_y = 15
 	},
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "FR" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 1
@@ -2221,18 +2255,18 @@
 	dir = 8
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "FU" = (
 /obj/effect/decal/cleanable/gasoline,
-/mob/living/basic/mining/legion/large/gray_masses,
+/mob/living/basic/mining/legion/big,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "FV" = (
 /obj/effect/gibspawner/human/bodypartless,
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/realistic_fog/dense,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "FW" = (
 /obj/structure/fence{
 	dir = 4
@@ -2243,7 +2277,7 @@
 "FX" = (
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "Gb" = (
 /obj/machinery/button/door{
 	pixel_x = -8;
@@ -2288,7 +2322,7 @@
 /area/vtm/interior/endron_facility/forest)
 "Gs" = (
 /obj/structure/table,
-/obj/effect/mob_spawn/corpse/human/endron/security,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "GB" = (
@@ -2318,7 +2352,7 @@
 	pixel_x = 4;
 	pixel_y = 10
 	},
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /turf/open/floor/city/clinic,
 /area/vtm/interior/endron_facility/forest)
 "GU" = (
@@ -2348,12 +2382,9 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "HB" = (
-/obj/effect/decal/garou_glyph/wyrm{
-	pixel_x = 0;
-	pixel_y = 31
-	},
-/turf/open/misc/dirt,
-/area/vtm/outside/forest)
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
+/turf/open/indestructible/necropolis/air,
+/area/vtm/forest/interior/cave/bane)
 "HO" = (
 /obj/effect/turf_decal/trimline/red/line{
 	dir = 1
@@ -2406,14 +2437,14 @@
 	dir = 10
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "IC" = (
 /obj/structure/table,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "IE" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "IM" = (
@@ -2500,13 +2531,13 @@
 	dir = 9
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Jk" = (
 /obj/structure/bonfire/torch{
 	pixel_x = 21
 	},
 /turf/closed/wall/vampwall/rock,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Ju" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
@@ -2543,7 +2574,7 @@
 /area/vtm/outside/forest)
 "Ky" = (
 /obj/effect/turf_decal/trimline/red/line,
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "KK" = (
@@ -2589,7 +2620,7 @@
 	},
 /obj/effect/realistic_fog/dense,
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "KY" = (
 /obj/item/fish/darkpack/catfish,
 /obj/effect/turf_decal/darkpack/dirt{
@@ -2605,17 +2636,17 @@
 "Ld" = (
 /obj/machinery/shower/directional/west{
 	name = "safety shower";
-	actually_on = 1
+	on = 1
 	},
 /obj/effect/turf_decal/stock{
 	dir = 8
 	},
-/obj/effect/mob_spawn/corpse/human/endron/cbrn,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/cbrn,
 /obj/effect/gibspawner/human/bodypartless,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "Li" = (
-/obj/structure/chair/stool/bar/darkpack/red,
+/obj/structure/chair/stool/bar,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
@@ -2623,7 +2654,7 @@
 /area/vtm/interior/endron_facility/forest)
 "Lp" = (
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Ls" = (
 /obj/effect/spawner/random/trash/food_packaging,
 /turf/open/misc/dirt,
@@ -2653,8 +2684,15 @@
 "LD" = (
 /turf/closed/wall/vampwall/green,
 /area/vtm/outside/forest)
+"LE" = (
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/obj/effect/turf_decal/trimline/red/line{
+	dir = 1
+	},
+/turf/open/floor/city/plating,
+/area/vtm/interior/endron_facility/forest)
 "LF" = (
-/obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
+/mob/living/basic/mining/legion/random,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "LL" = (
@@ -2712,7 +2750,10 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "Mi" = (
-/obj/structure/vampdoor/glass,
+/obj/structure/vampdoor/glass{
+	lockpick_difficulty = 6;
+	lock_id = "pentex_poi"
+	},
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -2727,7 +2768,7 @@
 	pixel_x = -16
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "MC" = (
 /obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 1
@@ -2774,7 +2815,7 @@
 "Nm" = (
 /obj/structure/glowshroom,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "Nv" = (
 /turf/open/misc/grass/random/grass,
 /area/vtm/outside/forest)
@@ -2785,12 +2826,16 @@
 	dir = 1
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "ND" = (
 /turf/open/water/acid,
 /area/vtm/outside/forest)
 "NJ" = (
-/obj/structure/vampdoor/wood,
+/obj/structure/vampdoor/wood{
+	name = "Endron Tree Planting Outpost";
+	lock_id = "pentex_poi";
+	lockpick_difficulty = 8
+	},
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -2834,12 +2879,12 @@
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "Od" = (
-/mob/living/basic/cockroach/apoc,
+/mob/living/simple_animal/hostile/cockroach/apoc,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "Og" = (
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "Ox" = (
@@ -2880,7 +2925,7 @@
 /obj/structure/lattice/grate,
 /obj/machinery/shower/directional/south{
 	name = "safety shower";
-	actually_on = 1
+	on = 1
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/endron_facility/forest)
@@ -2896,13 +2941,13 @@
 	dir = 4
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "OU" = (
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 9
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "OV" = (
 /obj/effect/turf_decal/trimline/blue/line{
 	dir = 1
@@ -2915,10 +2960,10 @@
 /area/vtm/interior/endron_facility/forest)
 "Pg" = (
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Ph" = (
 /obj/warehouse_generator{
-	on = 0
+	init_on = 0
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
@@ -2949,7 +2994,7 @@
 /obj/structure/glowshroom,
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "PM" = (
 /obj/structure/toilet{
 	dir = 4;
@@ -2962,22 +3007,32 @@
 /turf/open/water/acid,
 /area/vtm/outside/forest)
 "PQ" = (
-/obj/structure/stone_tile/slab,
-/obj/effect/spawner/random/trash/mess,
+/obj/structure/flora/bush/style_random,
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave)
 "PU" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 1
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "PW" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 5
 	},
 /turf/open/genturf,
 /area/vtm/planetgeneration)
+"Qe" = (
+/obj/effect/decal/graffiti/large,
+/turf/closed/wall/vampwall/metal/reinforced,
+/area/vtm/interior/endron_facility/forest)
+"Qh" = (
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/obj/effect/decal/cleanable/gasoline,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/forest/interior/cave)
 "Qr" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/city/plating,
@@ -2993,7 +3048,7 @@
 	dir = 6
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "QI" = (
 /obj/machinery/light/small/broken/directional/south,
 /obj/structure/extinguisher_cabinet/directional/west,
@@ -3002,7 +3057,9 @@
 /area/vtm/interior/endron_facility/forest)
 "QK" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/glass,
+/obj/structure/vampdoor/glass{
+	lock_id = "pentex_poi"
+	},
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating,
@@ -3015,9 +3072,9 @@
 	dir = 6
 	},
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "QP" = (
-/obj/structure/chair/office/darkpack/green,
+/obj/structure/chair/office,
 /obj/effect/gibspawner/human/bodypartless,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
@@ -3025,7 +3082,7 @@
 /obj/structure/glowshroom/glowcap,
 /obj/effect/decal/cleanable/gasoline,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "Rh" = (
 /obj/structure/mirror/directional/north,
 /obj/structure/sink/directional/south,
@@ -3083,7 +3140,7 @@
 "RM" = (
 /obj/effect/realistic_fog/dense,
 /turf/open/water/acid,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "RP" = (
 /obj/effect/decal/remains/human,
 /turf/open/floor/city/circled,
@@ -3105,9 +3162,10 @@
 "RS" = (
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "RW" = (
 /obj/structure/vampdoor/glass{
+	lock_id = "pentex_poi";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -3137,9 +3195,7 @@
 /obj/effect/turf_decal/siding/white/end{
 	dir = 1
 	},
-/obj/structure/vampdoor/reinf,
-/obj/effect/mapping_helpers/door/access/pentex_poi,
-/obj/effect/mapping_helpers/door/lock,
+/obj/structure/vampdoor/reinf/pentex/poi,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "Su" = (
@@ -3167,22 +3223,21 @@
 /area/vtm/interior/endron_facility/forest)
 "SR" = (
 /obj/effect/decal/cleanable/garbage,
-/obj/effect/decal/graffiti/large,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
 "SS" = (
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "SV" = (
 /obj/effect/turf_decal/trimline/purple/line{
 	dir = 4
 	},
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/gray_masses,
+/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "Tf" = (
-/obj/effect/mob_spawn/corpse/human/endron/security,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "Ti" = (
@@ -3204,6 +3259,7 @@
 "Tt" = (
 /obj/structure/flora/rock/pile/darkpack,
 /obj/structure/vampdoor/glass{
+	lock_id = "pentex_poi";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -3223,7 +3279,7 @@
 	dir = 4
 	},
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "TA" = (
 /obj/effect/turf_decal/trimline/blue/line,
 /turf/open/floor/city/circled,
@@ -3237,6 +3293,10 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
+"TD" = (
+/obj/effect/decal/garou_glyph/wyrm,
+/turf/closed/wall/vampwall/rock,
+/area/vtm/outside/forest)
 "TE" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/trimline/red/line,
@@ -3270,7 +3330,7 @@
 	dir = 1
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "UA" = (
 /obj/machinery/light/broken/directional/south,
 /obj/effect/spawner/random/trash/garbage,
@@ -3309,12 +3369,21 @@
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
+"Vi" = (
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/endron_facility/forest)
 "Vk" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
+"Vm" = (
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
+/obj/effect/turf_decal/trimline/red/line,
+/turf/open/floor/city/plating,
+/area/vtm/interior/endron_facility/forest)
 "Vp" = (
-/obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
+/mob/living/basic/mining/legion/random,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/endron_facility/forest)
 "Vr" = (
@@ -3365,7 +3434,7 @@
 	dir = 8
 	},
 /turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Ww" = (
 /obj/effect/turf_decal/trimline/purple/corner,
 /obj/effect/spawner/random/trash/mess,
@@ -3373,8 +3442,9 @@
 /area/vtm/interior/endron_facility/forest)
 "Wx" = (
 /obj/effect/spawner/random/trash/garbage,
+/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
 /turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/area/vtm/forest/interior/cave/bane)
 "Wy" = (
 /obj/effect/turf_decal/darkpack/dirt/corner{
 	dir = 4
@@ -3415,7 +3485,7 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "Xa" = (
-/mob/living/basic/mining/legion/gray_masses,
+/mob/living/basic/mining/legion,
 /obj/effect/turf_decal/trimline/red/corner{
 	dir = 8
 	},
@@ -3438,9 +3508,9 @@
 /area/vtm/interior/endron_facility/forest)
 "Xu" = (
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "XA" = (
-/obj/structure/chair/stool/bar/darkpack/red{
+/obj/structure/chair/stool/bar{
 	pixel_y = 9
 	},
 /obj/effect/turf_decal/siding/thinplating/light,
@@ -3458,9 +3528,9 @@
 /area/vtm/interior/endron_facility/forest)
 "XM" = (
 /turf/closed/wall/vampwall/rock,
-/area/vtm/interior/forest/cave)
+/area/vtm/forest/interior/cave)
 "XO" = (
-/obj/effect/mob_spawn/corpse/human/endron/cbrn,
+/obj/effect/mob_spawn/corpse/human/damaged/endron/cbrn,
 /obj/effect/gibspawner/human/bodypartless,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
@@ -5361,7 +5431,7 @@ NT
 cU
 XA
 HO
-tw
+jS
 sL
 Pw
 Ul
@@ -5576,9 +5646,9 @@ Mf
 wD
 lu
 NT
-NT
+Vi
 zF
-HO
+LE
 tw
 Ky
 wD
@@ -5905,7 +5975,7 @@ xG
 Li
 Ju
 mm
-HO
+LE
 tw
 aD
 uB
@@ -6231,7 +6301,7 @@ mK
 mK
 Mf
 wD
-HO
+LE
 eJ
 Ul
 Ox
@@ -6342,7 +6412,7 @@ Mf
 wD
 HO
 tw
-sL
+Vm
 wD
 wD
 wD
@@ -6477,7 +6547,7 @@ XM
 Nm
 qf
 FX
-FX
+Qh
 Xu
 XM
 Mf
@@ -6693,10 +6763,10 @@ kK
 fS
 FX
 Rb
-PJ
+vC
 FX
-FX
-FX
+Qh
+Qh
 XM
 XM
 Mf
@@ -6784,9 +6854,9 @@ OL
 Pb
 Tf
 wD
-Pu
+tb
 wD
-Pu
+tb
 wD
 Mf
 mK
@@ -6801,10 +6871,10 @@ dr
 ww
 FX
 FX
-FX
+Qh
 FX
 FV
-cq
+PQ
 FX
 FX
 XM
@@ -6914,7 +6984,7 @@ FX
 cq
 FU
 FX
-FX
+Qh
 Rb
 XM
 Mf
@@ -7020,9 +7090,9 @@ XM
 XM
 XM
 Xu
+Qh
 FX
-FX
-PJ
+vC
 FX
 XM
 XM
@@ -7130,7 +7200,7 @@ Mf
 XM
 qf
 PJ
-FX
+Qh
 an
 XM
 XM
@@ -7239,7 +7309,7 @@ Mf
 XM
 XM
 Nm
-Xu
+kL
 XM
 XM
 Mf
@@ -7516,7 +7586,7 @@ za
 Dh
 wb
 IA
-RS
+Lp
 Lp
 Lp
 RS
@@ -7723,9 +7793,9 @@ mK
 Mf
 za
 za
-if
+pP
 pL
-SS
+HB
 Wx
 cW
 za
@@ -7739,7 +7809,7 @@ Pg
 Pg
 Wi
 IA
-RS
+Lp
 wD
 wD
 wD
@@ -7845,7 +7915,7 @@ md
 ed
 Pg
 wb
-Pg
+tM
 Pg
 nl
 Lp
@@ -7952,7 +8022,7 @@ rg
 Ak
 Ak
 ed
-Pg
+tM
 Pg
 Pg
 Pg
@@ -8059,11 +8129,11 @@ za
 xx
 xx
 Ak
-PQ
+Ak
 ed
 Pg
 Pg
-Pg
+tM
 Pg
 ev
 iN
@@ -8159,10 +8229,10 @@ Mf
 za
 Bz
 Nw
-SS
-SS
-SS
-SS
+HB
+HB
+HB
+HB
 cW
 za
 za
@@ -8173,7 +8243,7 @@ CX
 Ux
 bf
 Pg
-Pg
+tM
 ev
 Lp
 wD
@@ -8236,7 +8306,7 @@ MG
 MG
 uK
 iU
-wD
+Qe
 SR
 Vk
 vA
@@ -8386,7 +8456,7 @@ za
 za
 za
 za
-RS
+Lp
 RS
 FM
 CX
@@ -9210,8 +9280,8 @@ mK
 mK
 mK
 Mf
-cS
-HB
+TD
+bb
 bL
 oK
 BS
