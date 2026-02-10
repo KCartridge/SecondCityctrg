@@ -495,10 +495,7 @@
 /area/vtm/outside/forest)
 "dZ" = (
 /obj/structure/vampdoor/wood{
-	dir = 1;
-	lock_id = "gangrelcomm";
-	locked = 1;
-	lockpick_difficulty = 16
+	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)
@@ -1325,11 +1322,7 @@
 /turf/open/water/beach/vamp,
 /area/vtm/forest/interior/cave)
 "mO" = (
-/obj/structure/vampdoor{
-	baseicon = "wood";
-	icon_state = "wood-1";
-	lockpick_difficulty = 4
-	},
+/obj/structure/vampdoor,
 /obj/effect/turf_decal/darkpack/grass,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/forest/interior/cabin)
@@ -1942,9 +1935,7 @@
 /area/vtm/outside/forest)
 "sj" = (
 /obj/structure/vampdoor/wood{
-	dir = 1;
-	lockpick_difficulty = 0;
-	name = "theurge house"
+	dir = 1
 	},
 /obj/effect/turf_decal/darkpack/dirt,
 /turf/open/floor/plating/rough/cave,
@@ -2790,11 +2781,7 @@
 /turf/closed/wall/vampwall/wood,
 /area/vtm/forest/sept)
 "zi" = (
-/obj/structure/vampdoor{
-	baseicon = "wood";
-	icon_state = "wood-1";
-	lockpick_difficulty = 4
-	},
+/obj/structure/vampdoor,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/forest/interior/cabin)
 "zk" = (
@@ -3148,10 +3135,7 @@
 /area/vtm/forest/interior/cave)
 "Cq" = (
 /obj/structure/vampdoor/wood{
-	dir = 8;
-	lock_id = "gangrelcomm";
-	locked = 1;
-	lockpick_difficulty = 16
+	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)

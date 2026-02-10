@@ -70,9 +70,7 @@
 /area/vtm/interior/apartment)
 "aI" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 8;
-	icon_state = "wood-1"
+	dir = 8
 	},
 /obj/effect/turf_decal/siding/white{
 	color = "#434343";
@@ -423,9 +421,7 @@
 /area/vtm/interior/ghetto)
 "dM" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 8;
-	icon_state = "wood-1"
+	dir = 8
 	},
 /obj/effect/turf_decal/siding/white{
 	color = "#636363";
@@ -713,9 +709,7 @@
 /area/vtm)
 "gq" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1;
@@ -1040,9 +1034,7 @@
 /area/vtm/interior/apartment)
 "iI" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925"
@@ -1466,9 +1458,7 @@
 /area/vtm/outside/northbeach)
 "mp" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 8;
-	icon_state = "wood-1"
+	dir = 8
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 8;
@@ -1966,9 +1956,7 @@
 	dir = 8
 	},
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 8;
-	icon_state = "wood-1"
+	dir = 8
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/apartment)
@@ -2290,9 +2278,7 @@
 /area/vtm/interior/ghetto)
 "sP" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 4;
-	icon_state = "wood-1"
+	dir = 4
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925";
@@ -2309,11 +2295,7 @@
 /area/vtm/outside/fishermanswharf/ghetto)
 "sW" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 8;
-	icon_state = "wood-1";
-	lock_id = "high_income_1";
-	locked = 1
+	dir = 8
 	},
 /obj/effect/turf_decal/siding/white{
 	color = "#434343";
@@ -2353,9 +2335,7 @@
 /area/vtm/outside/fishermanswharf)
 "tl" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/white{
 	dir = 1;
@@ -2639,9 +2619,7 @@
 	dir = 1
 	},
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/interior/apartment)
@@ -2863,9 +2841,7 @@
 /area/vtm/outside/fishermanswharf/ghetto)
 "xh" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/apartment)
@@ -3351,8 +3327,7 @@
 /area/vtm/interior/apartment)
 "Be" = (
 /obj/structure/vampdoor/wood{
-	dir = 8;
-	lockpick_difficulty = 12
+	dir = 8
 	},
 /obj/effect/mapping_helpers/door/access/npc,
 /obj/effect/mapping_helpers/door/lock,
@@ -3542,9 +3517,7 @@
 /area/vtm/interior/ghetto)
 "CH" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
@@ -3796,9 +3769,7 @@
 	color = "#4a3925"
 	},
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
@@ -4564,11 +4535,7 @@
 	dir = 1
 	},
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1";
-	lock_id = "high_income_2";
-	locked = 1
+	dir = 1
 	},
 /turf/open/floor/wood,
 /area/vtm/interior/apartment)
@@ -5145,9 +5112,7 @@
 /area/vtm/outside/northbeach)
 "OJ" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/white{
 	color = "#434343";
@@ -5214,9 +5179,7 @@
 	color = "#4a3925"
 	},
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/apartment)
@@ -5947,9 +5910,7 @@
 	dir = 4
 	},
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 8;
-	icon_state = "wood-1"
+	dir = 8
 	},
 /turf/open/floor/city/toilet,
 /area/vtm/interior/apartment)
@@ -5965,9 +5926,7 @@
 /area/vtm/interior/apartment)
 "VT" = (
 /obj/structure/vampdoor{
-	baseicon = "wood";
-	dir = 1;
-	icon_state = "wood-1"
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
