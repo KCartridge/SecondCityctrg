@@ -20,7 +20,7 @@
 		#include "map_files\debug\multiz.dmm"
 		#include "map_files\debug\runtimestation.dmm"
 		// DARKPACK EDIT CHANGE END
-		// APOC EDIT ADD START - (Special Fran)
+		// APOC EDIT ADD START
 		#include "map_files\Vampire\special_fran\special_francisco.dmm"
 		// APOC EDIT ADD END
 	#endif
