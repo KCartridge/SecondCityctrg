@@ -30,6 +30,18 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"ba" = (
+/obj/structure/retail/clothing_store,
+/obj/structure/table,
+/obj/structure/platform/lowwall/brick,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop)
+"bh" = (
+/obj/structure/chair/darkpack{
+	dir = 8
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/outside/pacificheights)
 "bj" = (
 /obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/city/toilet,
@@ -3033,6 +3045,7 @@
 /turf/open/openspace,
 /area/vtm/outside/pacificheights)
 "Yz" = (
+/obj/structure/chair/office/darkpack/green{
 /obj/structure/chair/office/darkpack/green{
 	dir = 8
 	},
