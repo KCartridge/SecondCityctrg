@@ -6825,7 +6825,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/financialdistrict)
 "dYd" = (
-/obj/structure/chair/sofa/bench/metal/left{
+/obj/structure/chair/sofa/city_bench/metal/left{
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk,
@@ -8748,7 +8748,7 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior/library)
 "feN" = (
-/obj/structure/chair/sofa/bench/metal/right{
+/obj/structure/chair/sofa/city_bench/metal/right{
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk,
@@ -11517,7 +11517,7 @@
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/apartment)
 "gCB" = (
-/obj/structure/chair/sofa/bench/metal/right{
+/obj/structure/chair/sofa/city_bench/metal/right{
 	dir = 8
 	},
 /turf/open/misc/grass,
@@ -12753,7 +12753,7 @@
 /turf/open/floor/iron/stairs/right,
 /area/vtm/interior/voivodate)
 "hlH" = (
-/obj/structure/chair/sofa/bench/metal/right{
+/obj/structure/chair/sofa/city_bench/metal/right{
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk,
@@ -14922,7 +14922,7 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/vet)
 "iBi" = (
-/obj/structure/chair/sofa/bench/metal/left{
+/obj/structure/chair/sofa/city_bench/metal/left{
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk,
@@ -16177,7 +16177,7 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/anarch)
 "jqk" = (
-/obj/structure/chair/sofa/bench/metal/right,
+/obj/structure/chair/sofa/city_bench/metal/right,
 /turf/open/misc/grass,
 /area/vtm)
 "jqn" = (
@@ -17363,7 +17363,7 @@
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/millennium_tower/f4)
 "jZD" = (
-/obj/structure/chair/sofa/bench/metal/left,
+/obj/structure/chair/sofa/city_bench/metal/left,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "jZI" = (
@@ -18614,7 +18614,7 @@
 /turf/open/floor/carpet/red,
 /area/vtm/interior/coffee)
 "kPM" = (
-/obj/structure/chair/sofa/bench/metal/right{
+/obj/structure/chair/sofa/city_bench/metal/right{
 	dir = 1
 	},
 /mob/living/carbon/human/npc/walkby,
@@ -19270,7 +19270,7 @@
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/endron_facility/restricted)
 "ljE" = (
-/obj/structure/chair/sofa/bench/metal/right,
+/obj/structure/chair/sofa/city_bench/metal/right,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/gangbasement)
 "ljG" = (
@@ -21483,7 +21483,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
 "mzi" = (
-/obj/structure/chair/sofa/bench/metal/left,
+/obj/structure/chair/sofa/city_bench/metal/left,
 /turf/open/misc/grass,
 /area/vtm)
 "mzj" = (
@@ -26000,7 +26000,7 @@
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "pax" = (
-/obj/structure/chair/sofa/bench/metal/left{
+/obj/structure/chair/sofa/city_bench/metal/left{
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk,
@@ -26970,7 +26970,7 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/voivodate)
 "pBz" = (
-/obj/structure/chair/sofa/bench/metal/left,
+/obj/structure/chair/sofa/city_bench/metal/left,
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
@@ -27264,7 +27264,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/radio)
 "pKH" = (
-/obj/structure/chair/sofa/bench/metal/right,
+/obj/structure/chair/sofa/city_bench/metal/right,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "pKL" = (
@@ -28131,7 +28131,7 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/unionsquare)
 "qjr" = (
-/obj/structure/chair/sofa/bench/metal/left,
+/obj/structure/chair/sofa/city_bench/metal/left,
 /obj/structure/coclock,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
@@ -28726,7 +28726,7 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "qAO" = (
-/obj/structure/chair/sofa/bench/metal/left,
+/obj/structure/chair/sofa/city_bench/metal/left,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/gangbasement)
 "qAW" = (
@@ -30694,7 +30694,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
-/obj/sarcophagus/voivodate{
+/obj/fake_sarcophagus/voivode{
 	pixel_y = -15
 	},
 /obj/effect/realistic_fog/dense/extreme{
@@ -32932,7 +32932,7 @@
 /area/vtm/interior/gang)
 "sQi" = (
 /obj/effect/landmark/start/darkpack/citizen/citizen,
-/obj/structure/chair/sofa/bench/metal/right{
+/obj/structure/chair/sofa/city_bench/metal/right{
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk,
@@ -35392,9 +35392,7 @@
 /turf/open/misc/dirt,
 /area/vtm/interior/voivodate/cave)
 "uhM" = (
-/obj/structure/vaultdoor/key{
-	lock_id = "manormalk_s"
-	},
+/obj/structure/vaultdoor,
 /turf/open/floor/fakebasalt,
 /area/vtm/interior/voivodate/cave)
 "uhQ" = (
@@ -35848,7 +35846,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/vet)
 "uwi" = (
-/obj/structure/chair/sofa/bench/metal/right,
+/obj/structure/chair/sofa/city_bench/metal/right,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "uwk" = (
@@ -38728,7 +38726,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/voivodate)
 "wdN" = (
-/obj/structure/chair/sofa/bench/metal,
+/obj/structure/chair/sofa/city_bench/metal,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "wdQ" = (
@@ -38820,7 +38818,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/pizza)
 "wgN" = (
-/obj/structure/chair/sofa/bench/metal/left{
+/obj/structure/chair/sofa/city_bench/metal/left{
 	dir = 8
 	},
 /turf/open/misc/grass,
