@@ -41,7 +41,7 @@
 /area/vtm)
 "au" = (
 /obj/item/fishing_rod,
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 8
 	},
 /obj/effect/turf_decal/siding/wood{
@@ -267,7 +267,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/apartment)
 "cn" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
@@ -302,7 +302,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf)
 "cJ" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 8
 	},
 /turf/open/floor/carpet/darkpack/blackgold,
@@ -367,7 +367,7 @@
 /turf/closed/wall/vampwall/city,
 /area/vtm/interior/ghetto)
 "df" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1;
 	pixel_y = 4
 	},
@@ -678,7 +678,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "gd" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/apartment)
 "ge" = (
@@ -746,7 +746,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/ghetto)
 "gG" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "gI" = (
@@ -936,7 +936,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "ib" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1;
 	pixel_y = 4
 	},
@@ -1031,7 +1031,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "iE" = (
@@ -1206,7 +1206,7 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm)
 "kq" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/apartment)
 "kw" = (
@@ -1459,7 +1459,7 @@
 /turf/open/floor/stone,
 /area/vtm/interior/shop)
 "mo" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 8
 	},
 /turf/open/misc/beach/vamp,
@@ -1741,8 +1741,8 @@
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/blood/oil/slippery,
-/obj/item/chair/wood,
-/obj/item/chair/wood,
+/obj/item/chair/wood/darkpack,
+/obj/item/chair/wood/darkpack,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/apartment)
 "ok" = (
@@ -1787,7 +1787,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/outside/fishermanswharf)
 "oH" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
@@ -1848,7 +1848,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/apartment)
 "pg" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /obj/item/fishing_rod,
 /turf/open/misc/beach/vamp,
 /area/vtm/interior)
@@ -1879,7 +1879,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/ghetto)
 "po" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/plating/sidewalk,
 /area/vtm)
 "pp" = (
@@ -2144,7 +2144,7 @@
 /area/vtm/outside/northbeach)
 "rC" = (
 /obj/machinery/light/prince/directional/north,
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "rG" = (
@@ -2274,7 +2274,7 @@
 /turf/open/floor/city/clinic,
 /area/vtm/interior/apartment)
 "sI" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /obj/machinery/light/small/directional/west,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
@@ -2547,7 +2547,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/fishermanswharf/ghetto)
 "uD" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /turf/open/misc/beach/vamp,
 /area/vtm/interior)
 "uF" = (
@@ -2812,7 +2812,7 @@
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/apartment)
 "wz" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/blackgold,
@@ -2933,7 +2933,7 @@
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
 "xR" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1
 	},
 /obj/machinery/light/small/directional/east,
@@ -3163,7 +3163,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/fishermanswharf/ghetto)
 "zA" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 4;
 	pixel_y = 7
 	},
@@ -3210,7 +3210,7 @@
 	color = "#4a3925";
 	dir = 4
 	},
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 8
 	},
 /turf/open/floor/wood/smooth,
@@ -3283,7 +3283,7 @@
 /turf/open/misc/dirt,
 /area/vtm/interior)
 "AC" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 8
 	},
 /turf/open/floor/stone,
@@ -3343,7 +3343,7 @@
 /turf/closed/wall/vampwall/city,
 /area/vtm/interior/ghetto)
 "Bd" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#FFECD5";
 	dir = 4
 	},
@@ -3424,14 +3424,14 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/apartment)
 "Bv" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/stone,
 /area/vtm/interior/shop/gummaguts)
 "By" = (
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
 "Bz" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
@@ -3747,7 +3747,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/fishermanswharf/ghetto)
 "El" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/northbeach)
 "Ep" = (
@@ -4202,7 +4202,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/apartment)
 "HV" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1;
 	pixel_y = 4
 	},
@@ -4372,7 +4372,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "Jh" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/stone,
 /area/vtm/interior/shop/gummaguts)
 "Ji" = (
@@ -4444,7 +4444,7 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/ghetto)
 "JE" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1
 	},
 /obj/machinery/light/small/directional/south,
@@ -4626,7 +4626,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/gummaguts)
 "KU" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
@@ -4770,7 +4770,7 @@
 /area/vtm/interior/apartment)
 "LZ" = (
 /obj/item/fishing_rod,
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 8
 	},
 /turf/open/misc/beach/vamp,
@@ -4813,7 +4813,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/apartment)
 "Mq" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
@@ -4889,7 +4889,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "MS" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "MT" = (
@@ -5045,7 +5045,7 @@
 /turf/open/floor/carpet/darkpack/purplegold,
 /area/vtm/interior/apartment)
 "Oi" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1
 	},
 /turf/open/floor/stone,
@@ -5114,7 +5114,7 @@
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/apartment)
 "Ox" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 4
 	},
 /turf/open/floor/stone,
@@ -5198,7 +5198,7 @@
 /area/vtm/interior/apartment)
 "Pd" = (
 /obj/effect/turf_decal/weather/dirt,
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 1
 	},
 /turf/open/misc/beach/vamp,
@@ -5254,7 +5254,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/northbeach)
 "Py" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#FFECD5";
 	dir = 8
 	},
@@ -5415,7 +5415,7 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/northbeach)
 "Rc" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "Re" = (
@@ -5495,7 +5495,7 @@
 /obj/effect/turf_decal/siding/wood/corner{
 	dir = 1
 	},
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
@@ -5569,16 +5569,16 @@
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
 "SD" = (
-/obj/structure/chair/office,
+/obj/structure/chair/office/darkpack/green,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "SF" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "SG" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#50C878";
 	dir = 1
 	},
@@ -5753,7 +5753,7 @@
 /turf/open/floor/city/clinic,
 /area/vtm/interior/apartment)
 "Uj" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
@@ -5771,7 +5771,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/fishermanswharf/ghetto)
 "Us" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "Ut" = (
@@ -5789,7 +5789,7 @@
 /turf/open/floor/carpet/darkpack/purplegold,
 /area/vtm/interior/apartment)
 "Uz" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 8
 	},
 /obj/effect/landmark/npcwall,
@@ -6089,7 +6089,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/ghetto)
 "Xe" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 4
 	},
 /turf/open/floor/wood/smooth/old,
@@ -6151,7 +6151,7 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/ghetto)
 "XN" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/apartment)
 "XO" = (
@@ -6364,7 +6364,7 @@
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
 "Zv" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 8
 	},
 /turf/open/misc/beach/vamp,

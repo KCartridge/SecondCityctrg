@@ -13,7 +13,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)
 "ap" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "aA" = (
@@ -542,7 +542,7 @@
 /turf/open/indestructible/necropolis/air,
 /area/vtm/forest/interior/cave/bane)
 "il" = (
-/obj/structure/chair/office,
+/obj/structure/chair/office/darkpack/green,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "ir" = (
@@ -1167,7 +1167,7 @@
 /turf/open/indestructible/necropolis/air,
 /area/vtm/forest/interior/cave/bane)
 "rk" = (
-/obj/structure/chair/office,
+/obj/structure/chair/office/darkpack/green,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "rl" = (
@@ -1455,7 +1455,7 @@
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "uU" = (
-/obj/structure/chair/office{
+/obj/structure/chair/office/darkpack/green{
 	dir = 1
 	},
 /turf/open/floor/city/circled,
@@ -2044,7 +2044,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "DN" = (
-/obj/structure/chair/office,
+/obj/structure/chair/office/darkpack/green,
 /obj/effect/spawner/random/trash/garbage,
 /mob/living/basic/mining/legion,
 /turf/open/floor/city/plating,
@@ -2646,7 +2646,7 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "Li" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
 	},
@@ -3074,7 +3074,7 @@
 /turf/open/water/acid,
 /area/vtm/forest/interior/cave)
 "QP" = (
-/obj/structure/chair/office,
+/obj/structure/chair/office/darkpack/green,
 /obj/effect/gibspawner/human/bodypartless,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
@@ -3510,7 +3510,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)
 "XA" = (
-/obj/structure/chair/stool/bar{
+/obj/structure/chair/stool/bar/darkpack/red{
 	pixel_y = 9
 	},
 /obj/effect/turf_decal/siding/thinplating/light,

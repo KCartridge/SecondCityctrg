@@ -22,7 +22,7 @@
 /obj/structure/noticeboard{
 	pixel_y = 32
 	},
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/forest/interior/cabin)
 "am" = (
@@ -168,7 +168,7 @@
 /obj/item/fishing_rod{
 	pixel_y = 13
 	},
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 4
 	},
 /turf/open/misc/beach/vamp,
@@ -274,7 +274,7 @@
 /area/vtm/forest/sept)
 "ck" = (
 /obj/machinery/light/small/directional/east,
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
@@ -429,11 +429,11 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/forest/interior)
 "du" = (
-/obj/item/chair/wood,
-/obj/item/chair/wood,
-/obj/item/chair/wood,
-/obj/item/chair/wood,
-/obj/item/chair/wood,
+/obj/item/chair/wood/darkpack,
+/obj/item/chair/wood/darkpack,
+/obj/item/chair/wood/darkpack,
+/obj/item/chair/wood/darkpack,
+/obj/item/chair/wood/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/forest/interior/cabin)
 "dy" = (
@@ -578,7 +578,7 @@
 /turf/open/misc/dirt,
 /area/vtm/forest/sept)
 "eL" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /obj/effect/landmark/start/darkpack/forest_wolves/guardian,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/forest/sept)
@@ -720,7 +720,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/forest/interior/cabin)
 "gc" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /obj/effect/turf_decal/darkpack/sand{
 	dir = 5
 	},
@@ -824,7 +824,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "hz" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /obj/effect/decal/carpet,
 /obj/effect/landmark/start/darkpack/forest_wolves/guardian,
 /turf/open/floor/wood/smooth/old,
@@ -893,7 +893,7 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/forest)
 "is" = (
-/obj/structure/chair/wood,
+/obj/structure/chair/wood/darkpack,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/sept)
 "iw" = (
@@ -1243,7 +1243,7 @@
 /turf/open/genturf,
 /area/vtm/planetgeneration)
 "lT" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)
 "lV" = (
@@ -2011,7 +2011,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)
 "sJ" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 1
 	},
 /turf/open/misc/beach/vamp,
@@ -2241,13 +2241,13 @@
 /turf/open/misc/dirt,
 /area/vtm/forest/sept)
 "ui" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 4
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/forest)
 "uo" = (
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 1
 	},
 /obj/effect/landmark/start/darkpack/forest_wolves/guardian,
@@ -2373,7 +2373,7 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/forest/sept)
 "vD" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 1
 	},
 /obj/effect/turf_decal/darkpack/sand{
@@ -2517,7 +2517,7 @@
 /turf/open/misc/dirt,
 /area/vtm/forest/sept)
 "wG" = (
-/obj/structure/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/floor/plating/concrete,
 /area/vtm/forest/interior)
 "wH" = (
@@ -2556,7 +2556,7 @@
 /turf/open/misc/grass/random/grass,
 /area/vtm/forest/sept)
 "wV" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 1
 	},
 /obj/effect/turf_decal/darkpack/sand{
@@ -3180,7 +3180,7 @@
 /turf/open/misc/grass/random/grass,
 /area/vtm/forest/sept)
 "Cx" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/forest)
 "Cy" = (
@@ -3212,7 +3212,7 @@
 /turf/open/misc/grass,
 /area/vtm/outside/forest)
 "CJ" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 1
 	},
 /turf/open/floor/plating/rough/cave,
@@ -3342,7 +3342,7 @@
 /area/vtm/outside/forest)
 "Ea" = (
 /obj/effect/landmark/start/darkpack/forest_wolves/wyrmfoe,
-/obj/structure/chair/wood{
+/obj/structure/chair/wood/darkpack{
 	dir = 8
 	},
 /turf/open/floor/wood/smooth/old,
@@ -3501,7 +3501,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave)
 "FO" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 8
 	},
 /turf/open/floor/plating/rough/cave,
@@ -3736,7 +3736,7 @@
 /turf/open/misc/dirt,
 /area/vtm/forest/sept)
 "If" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /obj/effect/turf_decal/darkpack/sand{
 	dir = 9
 	},
@@ -4305,7 +4305,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "NQ" = (
-/obj/structure/chair/plastic,
+/obj/structure/chair/plastic/darkpack,
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 1
 	},
@@ -4878,13 +4878,13 @@
 "Tl" = (
 /obj/effect/decal/pallet,
 /obj/structure/table/wood,
-/obj/item/chair/plastic{
+/obj/item/chair/plastic/darkpack{
 	pixel_y = 9
 	},
-/obj/item/chair/plastic{
+/obj/item/chair/plastic/darkpack{
 	pixel_y = 13
 	},
-/obj/item/chair/plastic{
+/obj/item/chair/plastic/darkpack{
 	pixel_y = 17
 	},
 /turf/open/floor/plating/rough/cave,
@@ -4927,7 +4927,7 @@
 /turf/open/misc/grass/random/grass,
 /area/vtm/forest/sept)
 "TH" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 4;
 	pixel_y = 1
 	},
@@ -5165,9 +5165,9 @@
 /turf/open/water/beach/vamp,
 /area/vtm/forest/interior/cave)
 "Wc" = (
-/obj/item/chair/stool/bar,
-/obj/item/chair/stool/bar,
-/obj/item/chair/stool/bar,
+/obj/structure/chair/stool/bar/darkpack/red,
+/obj/structure/chair/stool/bar/darkpack/red,
+/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/forest)
 "Wd" = (
@@ -5384,7 +5384,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/forest/interior/cave)
 "Yw" = (
-/obj/structure/chair/plastic{
+/obj/structure/chair/plastic/darkpack{
 	dir = 4
 	},
 /obj/effect/turf_decal/darkpack/dirt{
