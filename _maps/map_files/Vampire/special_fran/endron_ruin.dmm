@@ -47,7 +47,6 @@
 /area/misc/cordon)
 "aI" = (
 /obj/structure/vampdoor/glass{
-	lock_id = "pentex_poi";
 	dir = 1
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -272,9 +271,7 @@
 /turf/open/water/bloodwave,
 /area/vtm/forest/interior/cave/bane)
 "ez" = (
-/obj/structure/vampdoor/glass{
-	lock_id = "pentex_poi"
-	},
+/obj/structure/vampdoor/glass,
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_mono,
@@ -1290,7 +1287,6 @@
 /area/vtm/interior/endron_facility/forest)
 "sM" = (
 /obj/structure/vampdoor/glass{
-	lock_id = "pentex_poi";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -1313,13 +1309,6 @@
 /obj/effect/gibspawner/human/bodypartless,
 /obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
 /turf/open/floor/city/circled,
-/area/vtm/interior/endron_facility/forest)
-"tb" = (
-/obj/structure/vampdoor/simple{
-	name = "Bathroom";
-	dir = 8
-	},
-/turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "tc" = (
 /obj/machinery/shower/directional/west{
@@ -1404,9 +1393,7 @@
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "uB" = (
-/obj/structure/vampdoor/wood{
-	lock_id = "pentex_poi"
-	},
+/obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -1799,9 +1786,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/forest/interior/cave/bane)
 "At" = (
-/obj/structure/vampdoor/glass{
-	lock_id = "pentex_poi"
-	},
+/obj/structure/vampdoor/glass,
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/circled,
@@ -2750,10 +2735,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "Mi" = (
-/obj/structure/vampdoor/glass{
-	lockpick_difficulty = 6;
-	lock_id = "pentex_poi"
-	},
+/obj/structure/vampdoor/glass,
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/siding/thinplating/dark,
@@ -2831,11 +2813,7 @@
 /turf/open/water/acid,
 /area/vtm/outside/forest)
 "NJ" = (
-/obj/structure/vampdoor/wood{
-	name = "Endron Tree Planting Outpost";
-	lock_id = "pentex_poi";
-	lockpick_difficulty = 8
-	},
+/obj/structure/vampdoor/wood,
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /obj/machinery/door/poddoor/shutters/preopen{
@@ -3057,9 +3035,7 @@
 /area/vtm/interior/endron_facility/forest)
 "QK" = (
 /obj/effect/turf_decal/siding/thinplating/dark,
-/obj/structure/vampdoor/glass{
-	lock_id = "pentex_poi"
-	},
+/obj/structure/vampdoor/glass,
 /obj/effect/mapping_helpers/door/access/pentex,
 /obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating,
@@ -3165,7 +3141,6 @@
 /area/vtm/forest/interior/cave/bane)
 "RW" = (
 /obj/structure/vampdoor/glass{
-	lock_id = "pentex_poi";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -3259,7 +3234,6 @@
 "Tt" = (
 /obj/structure/flora/rock/pile/darkpack,
 /obj/structure/vampdoor/glass{
-	lock_id = "pentex_poi";
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/pentex,
@@ -6854,9 +6828,9 @@ OL
 Pb
 Tf
 wD
-tb
+Pu
 wD
-tb
+Pu
 wD
 Mf
 mK
