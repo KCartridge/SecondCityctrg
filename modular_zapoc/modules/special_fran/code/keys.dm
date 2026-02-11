@@ -79,3 +79,14 @@
 
 /obj/effect/mapping_helpers/door/access/voivodate_master
 	lock_id = LOCKACCESS_VOIVODATE_MASTER
+
+
+/obj/item/vamp/keys/poi/pentex_poi
+	name = "Endron Logging Facility keys"
+	accesslocks = list(
+		"pentex_poi"
+	)
+	color = "#062e03"
+
+/obj/effect/mapping_helpers/door/access/pentex_poi
+	lock_id = "pentex_poi"

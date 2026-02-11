@@ -7891,6 +7891,8 @@
 #include "modular_zapoc\modules\decor\code\superhigh_railing.dm"
 #include "modular_zapoc\modules\decor\code\torch.dm"
 #include "modular_zapoc\modules\special_fran\code\areas.dm"
+#include "modular_zapoc\modules\special_fran\code\cockroach.dm"
+#include "modular_zapoc\modules\special_fran\code\corpses.dm"
 #include "modular_zapoc\modules\special_fran\code\keys.dm"
 #include "modular_zapoc\modules\special_fran\code\mapping_helper.dm"
 #include "modular_zapoc\modules\special_fran\code\transfer_zones.dm"

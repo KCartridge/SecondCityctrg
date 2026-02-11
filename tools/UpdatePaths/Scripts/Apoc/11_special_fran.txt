@@ -1,5 +1,12 @@
+/area/vtm/forest/sept : /area/vtm/outside/forest/sept
 /area/vtm/forest/interior : /area/vtm/interior/forest
 /area/vtm/forest/interior/@SUBTYPES : /area/vtm/interior/forest/@SUBTYPES
 /area/vtm/outside/forest/interior : /area/vtm/interior/forest
 /area/vtm/outisde/forest/interior/@SUBTYPES : /area/vtm/interior/forest/@SUBTYPES
+
 /obj/item/spear/wood : /obj/item/darkpack/spear {@OLD}
+
+/obj/effect/mob_spawn/corpse/human/damaged/@SUBTPYES : /obj/effect/mob_spawn/corpse/human/@SUBTYPES {@OLD}
+
+/mob/living/simple_animal/hostile/cockroach/apoc : /mob/living/basic/cockroach/apoc
+/mob/living/simple_animal/hostile/cockroach/apoc/unsquishable : /mob/living/basic/cockroach/apoc/unsquishable
