@@ -1228,7 +1228,7 @@
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/forest/cave/bane)
 "sk" = (
-/mob/living/simple_animal/hostile/cockroach/apoc,
+/mob/living/basic/cockroach/apoc,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "sm" = (
@@ -2857,7 +2857,7 @@
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "Od" = (
-/mob/living/simple_animal/hostile/cockroach/apoc,
+/mob/living/basic/cockroach/apoc,
 /obj/effect/spawner/random/trash/mess,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
