@@ -12,5 +12,6 @@
 	set_light(6, l_color = color)
 
 /obj/structure/man_crystal/atom_destruction(damage_flag)
-	new /obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost(loc)
+	. = ..()
+	//new /obj/effect/mob_spawn/human/corpse/damaged/legioninfested/permafrost(loc)
 	set_light(0)

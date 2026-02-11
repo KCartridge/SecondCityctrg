@@ -9,10 +9,10 @@
 	burn_icon = "torch_lit"
 
 
-/obj/structure/bonfire/torch/Initialize()
-	. = ..()
-	if(start_lit)
-		StartBurning()
+// /obj/structure/bonfire/torch/Initialize()
+// 	. = ..()
+// 	if(start_lit)
+// 		StartBurning()
 
 /obj/structure/bonfire/torch/unlit
 	start_lit = FALSE

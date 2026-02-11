@@ -116,10 +116,10 @@ GLOBAL_VAR_INIT(glowshrooms, 0)
 	AddElement(/datum/element/atmos_sensitive, mapload)
 	COOLDOWN_START(src, spread_cooldown, rand(min_delay_spread, max_delay_spread))
 
-	// DARKPACK EDIT CHANGE START
+	// APOC EDIT CHANGE START
 	if(!mapload)
 		START_PROCESSING(SSobj, src)
-	// DARKPACK EDIT CHANGE END
+	// APOC EDIT CHANGE END
 
 	var/static/list/hovering_item_typechecks = list(
 		/obj/item/plant_analyzer = list(
