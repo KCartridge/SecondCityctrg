@@ -1067,10 +1067,8 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/police)
 "aHf" = (
-/obj/machinery/hydroponics/simple/plastic{
-	pixel_y = 4
-	},
 /obj/machinery/light/small/directional/north,
+/obj/machinery/hydroponics/simple/plastic,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch/basement)
 "aHq" = (
@@ -15813,6 +15811,10 @@
 /obj/machinery/light/small/red/directional/south,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/sewer)
+"jvp" = (
+/obj/machinery/hydroponics/simple/wooden,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/anarch/basement)
 "jvX" = (
 /turf/open/openspace,
 /area/vtm/interior/endron_facility/restricted)
@@ -23479,9 +23481,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/supply)
 "ofs" = (
-/obj/machinery/hydroponics/simple/plastic{
-	pixel_y = 4
-	},
+/obj/machinery/hydroponics/simple/wooden,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/anarch/basement)
 "ofK" = (
@@ -27757,6 +27757,10 @@
 /obj/structure/barrels/rand,
 /turf/open/misc/dirt,
 /area/vtm/outside/pacificheights)
+"qAu" = (
+/obj/machinery/hydroponics/simple/plastic,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/anarch/basement)
 "qAJ" = (
 /obj/structure/table/countertop/bacotell,
 /obj/machinery/light/directional/east,
@@ -31480,9 +31484,7 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/voivodate)
 "sEM" = (
-/obj/machinery/hydroponics/simple/plastic{
-	pixel_y = 4
-	},
+/obj/machinery/hydroponics/simple/plastic,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch/basement)
 "sEQ" = (
@@ -44712,10 +44714,10 @@ bpq
 xPy
 aHf
 gbR
-sEM
+jvp
 ofs
 nTH
-ofs
+qAu
 xPy
 xZX
 aKa
