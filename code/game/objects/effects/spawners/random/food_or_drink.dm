@@ -232,8 +232,7 @@
 		/obj/item/pizzabox/mushroom = 2,
 		/obj/item/pizzabox/pineapple = 2,
 		/obj/item/pizzabox/vegetable = 2,
-		/obj/item/pizzabox/bomb/armed = 1,
-
+		// /obj/item/pizzabox/bomb/armed = 1, // APOC EDIT REMOVAL
 	)
 
 /obj/effect/spawner/random/food_or_drink/seed_vault

@@ -22,9 +22,9 @@
 	. += span_notice("Alt-click to flip the eyepatch to the other eye.")
 
 
-/obj/item/clothing/glasses/apoc/eyepatch/AltClick(mob/user)
-	if(isliving(user))
-		swap_eye(user)
+// /obj/item/clothing/glasses/apoc/eyepatch/AltClick(mob/user)
+// 	if(isliving(user))
+// 		swap_eye(user)
 
 
 /obj/item/clothing/glasses/apoc/eyepatch/proc/swap_eye(mob/user)
@@ -91,10 +91,10 @@
 	user.cure_blind("blindfold")
 
 
-/obj/item/clothing/glasses/apoc/blindfold/AltClick(mob/user)
-	if(!ishuman(user))
-		return
-	adjust_blindfold(user)
+// /obj/item/clothing/glasses/apoc/blindfold/AltClick(mob/user)
+	// if(!ishuman(user))
+		// return
+	// adjust_blindfold(user)
 
 
 /obj/item/clothing/glasses/apoc/blindfold/proc/adjust_blindfold(mob/living/carbon/user)
