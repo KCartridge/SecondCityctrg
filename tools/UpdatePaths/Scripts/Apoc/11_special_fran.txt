@@ -1,0 +1,5 @@
+/area/vtm/forest/interior : /area/vtm/interior/forest
+/area/vtm/forest/interior/@SUBTYPES : /area/vtm/interior/forest/@SUBTYPES
+/area/vtm/outside/forest/interior : /area/vtm/interior/forest
+/area/vtm/outisde/forest/interior/@SUBTYPES : /area/vtm/interior/forest/@SUBTYPES
+/obj/item/spear/wood : /obj/item/darkpack/spear {@OLD}
