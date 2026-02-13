@@ -9,7 +9,7 @@
 
 	// Vampire vars
 	var/generation
-	var/datum/vampire_clan/clan/clan
+	var/datum/vampire_clan/clan
 	var/enlightenment
 
 	// Dog vars // TODO: add these when the fera rework is done
