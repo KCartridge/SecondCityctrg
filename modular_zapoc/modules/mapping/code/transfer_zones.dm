@@ -8,7 +8,6 @@
 		return INITIALIZE_HINT_LATELOAD
 
 /obj/transfer_point_vamp/forest/LateInitialize()
-	. = ..()
 	if(src in GLOB.unallocted_transfer_points)
 		qdel(src)
 
