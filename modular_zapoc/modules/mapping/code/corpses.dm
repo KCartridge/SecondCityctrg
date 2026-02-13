@@ -1,3 +1,4 @@
+// ENDRON RUIN
 /obj/effect/mob_spawn/corpse/human/endron
 	outfit = /datum/outfit/job/vampire/pentex_sec
 
@@ -32,6 +33,7 @@
 	outfit = /datum/outfit/job/vampire/guardian
 	outfit_override = list("r_pocket" = /obj/item/stack/dollar/rand)
 
+// GENERIC
 /obj/effect/mob_spawn/corpse/human/police
 	outfit = /datum/outfit/job/vampire/police_officer
 	outfit_override = list("r_pocket" = /obj/item/stack/dollar/rand)

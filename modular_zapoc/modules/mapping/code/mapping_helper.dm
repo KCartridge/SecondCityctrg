@@ -1,7 +1,7 @@
 /obj/effect/mapping_helpers/deleter
 	name = "Deleter"
 	desc = "Supply a type-path and watch it DISAPPEAR!"
-	icon = 'modular_zapoc/modules/special_fran/icons/mapping_helpers.dmi'
+	icon = 'modular_zapoc/modules/mapping/icons/mapping_helpers.dmi'
 	icon_state = "cut"
 	var/list/objs_to_del = list() // VAR EDIT ME
 	var/chance_to_del = 100
