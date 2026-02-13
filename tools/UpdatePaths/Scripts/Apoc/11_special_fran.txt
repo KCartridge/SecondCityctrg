@@ -11,4 +11,4 @@
 /mob/living/simple_animal/hostile/cockroach/apoc : /mob/living/basic/cockroach/apoc
 /mob/living/simple_animal/hostile/cockroach/apoc/unsquishable : /mob/living/basic/cockroach/apoc/unsquishable
 
-/obj/structure/vampdoor/reinf/pentex/poi : /obj/structure/vampdoor/reinf/pentex/poi {@OLD}, /obj/effect/mapping_helpers/door/access/pentex_poi, /obj/effect/mapping_helpers/door/lock
+/obj/structure/vampdoor/reinf/pentex/poi : /obj/structure/vampdoor/reinf {@OLD}, /obj/effect/mapping_helpers/door/access/pentex_poi, /obj/effect/mapping_helpers/door/lock

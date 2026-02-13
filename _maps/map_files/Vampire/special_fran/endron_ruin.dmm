@@ -9,7 +9,7 @@
 /area/vtm/interior/endron_facility/forest)
 "an" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/forest/cave)
 "ap" = (
@@ -102,7 +102,7 @@
 /area/vtm/outside/forest)
 "bP" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
+/obj/effect/mob_spawn/corpse/human/endron/security,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "bV" = (
@@ -412,7 +412,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "gv" = (
-/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
+/obj/effect/mob_spawn/corpse/human/endron/security,
 /obj/item/vamp/keys/poi/pentex_poi{
 	pixel_y = 10;
 	pixel_x = 2
@@ -722,7 +722,9 @@
 /area/vtm/interior/endron_facility/forest)
 "kH" = (
 /obj/effect/turf_decal/siding/white/end,
-/obj/structure/vampdoor/reinf/pentex/poi,
+/obj/structure/vampdoor/reinf,
+/obj/effect/mapping_helpers/door/access/pentex_poi,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "kK" = (
@@ -882,9 +884,11 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "nb" = (
-/obj/structure/vampdoor/reinf/pentex/poi{
+/obj/structure/vampdoor/reinf{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/pentex_poi,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "nl" = (
@@ -980,7 +984,7 @@
 /obj/effect/gibspawner/human/bodypartless,
 /mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
 /obj/effect/decal/cleanable/gasoline,
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/forest/cave)
 "ox" = (
@@ -1010,7 +1014,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "oF" = (
-/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
+/obj/effect/mob_spawn/corpse/human/endron/security,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/forest/cave/bane)
 "oK" = (
@@ -1240,7 +1244,7 @@
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "su" = (
-/obj/effect/mob_spawn/corpse/human/damaged/endron/cbrn,
+/obj/effect/mob_spawn/corpse/human/endron/cbrn,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "sw" = (
@@ -1260,7 +1264,7 @@
 /obj/effect/turf_decal/trimline/red/line{
 	dir = 1
 	},
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "sK" = (
@@ -1307,7 +1311,7 @@
 /area/vtm/interior/endron_facility/forest)
 "sU" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "tc" = (
@@ -1324,7 +1328,7 @@
 	dir = 8
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "to" = (
@@ -1379,7 +1383,9 @@
 /turf/open/water/bloodwave,
 /area/vtm/interior/forest/cave/bane)
 "tQ" = (
-/obj/structure/vampdoor/reinf/pentex/poi,
+/obj/structure/vampdoor/reinf,
+/obj/effect/mapping_helpers/door/access/pentex_poi,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "uf" = (
@@ -1507,9 +1513,11 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "wh" = (
-/obj/structure/vampdoor/reinf/pentex/poi{
+/obj/structure/vampdoor/reinf{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/pentex_poi,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "wo" = (
@@ -1889,7 +1897,7 @@
 /obj/structure/closet{
 	icon_state = "armory"
 	},
-/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
+/obj/effect/mob_spawn/corpse/human/endron/security,
 /turf/open/floor/city/factory,
 /area/vtm/interior/endron_facility/forest)
 "BF" = (
@@ -2072,7 +2080,7 @@
 /area/vtm/interior/endron_facility/forest)
 "Eb" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/damaged/endron,
+/obj/effect/mob_spawn/corpse/human/endron,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "Ee" = (
@@ -2307,7 +2315,7 @@
 /area/vtm/interior/endron_facility/forest)
 "Gs" = (
 /obj/structure/table,
-/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
+/obj/effect/mob_spawn/corpse/human/endron/security,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "GB" = (
@@ -2429,7 +2437,7 @@
 /area/vtm/interior/endron_facility/forest)
 "IE" = (
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "IM" = (
@@ -2559,7 +2567,7 @@
 /area/vtm/outside/forest)
 "Ky" = (
 /obj/effect/turf_decal/trimline/red/line,
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "KK" = (
@@ -2626,7 +2634,7 @@
 /obj/effect/turf_decal/stock{
 	dir = 8
 	},
-/obj/effect/mob_spawn/corpse/human/damaged/endron/cbrn,
+/obj/effect/mob_spawn/corpse/human/endron/cbrn,
 /obj/effect/gibspawner/human/bodypartless,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
@@ -3170,7 +3178,9 @@
 /obj/effect/turf_decal/siding/white/end{
 	dir = 1
 	},
-/obj/structure/vampdoor/reinf/pentex/poi,
+/obj/structure/vampdoor/reinf,
+/obj/effect/mapping_helpers/door/access/pentex_poi,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "Su" = (
@@ -3208,11 +3218,11 @@
 	dir = 4
 	},
 /obj/effect/gibspawner/human/bodypartless,
-/obj/effect/mob_spawn/corpse/human/damaged/legioninfested,
+/obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "Tf" = (
-/obj/effect/mob_spawn/corpse/human/damaged/endron/security,
+/obj/effect/mob_spawn/corpse/human/endron/security,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
 "Ti" = (
@@ -3504,7 +3514,7 @@
 /turf/closed/wall/vampwall/rock,
 /area/vtm/interior/forest/cave)
 "XO" = (
-/obj/effect/mob_spawn/corpse/human/damaged/endron/cbrn,
+/obj/effect/mob_spawn/corpse/human/endron/cbrn,
 /obj/effect/gibspawner/human/bodypartless,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
