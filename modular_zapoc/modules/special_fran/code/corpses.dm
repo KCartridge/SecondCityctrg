@@ -1,46 +1,37 @@
-/obj/effect/mob_spawn/human/corpse/endron
-	uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
+/obj/effect/mob_spawn/corpse/human/endron
+	outfit = /datum/outfit/job/vampire/pentex_sec
+
+/datum/outfit/job/vampire/pentex_scientist_corpse
+	name = MAIN_EVIL_COMPANY + " Scientist Corpse"
+
+	uniform = /obj/item/clothing/under/vampire/pentex_turtleneck
 	suit = /obj/item/clothing/suit/vampire/labcoat
 	gloves = /obj/item/clothing/gloves/vampire/latex
 	shoes = /obj/item/clothing/shoes/vampire
-	l_pocket = /obj/item/vamp/phone
+	l_pocket = /obj/item/smartphone
 
+/obj/effect/mob_spawn/corpse/human/endron/security
+	outfit = /datum/outfit/job/vampire/pentex_scientist_corpse
+	outfit_override = list("r_pocket" = /obj/item/stack/dollar/rand)
 
-/obj/effect/mob_spawn/human/corpse/endron/security
-	shoes = /obj/item/clothing/shoes/vampire/jackboots
-	uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
-	r_pocket = /obj/item/stack/dollar/rand
-	gloves = /obj/item/clothing/gloves/vampire/work
-	suit = /obj/item/clothing/suit/vampire/vest
-	glasses = /obj/item/clothing/glasses/vampire/sun
-	head = /obj/item/clothing/head/beret/black
-	mask = /obj/item/clothing/mask/vampire/balaclava
+/obj/effect/mob_spawn/corpse/human/endron/cbrn
+	outfit = /datum/outfit/job/vampire/pentex_scientist_corpse/cbrn
 
+/datum/outfit/job/vampire/pentex_scientist_corpse/cbrn
+	name = MAIN_EVIL_COMPANY + " Scientist Corpse (CBRN)"
 
-/obj/effect/mob_spawn/human/corpse/endron/cbrn
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
 	head = /obj/item/clothing/head/hooded/heisenberg_hood
-	uniform = /obj/item/clothing/under/pentex/pentex_turtleneck
 	r_pocket = /obj/item/stack/dollar/rand
 	gloves = /obj/item/clothing/gloves/vampire/latex
 	suit = /obj/item/clothing/suit/hooded/heisenberg
 	glasses = /obj/item/clothing/glasses/vampire/sun
 	mask = /obj/item/clothing/mask/gas/explorer/pentex/endron
 
+/obj/effect/mob_spawn/corpse/human/garou
+	outfit = /datum/outfit/job/vampire/guardian
+	outfit_override = list("r_pocket" = /obj/item/stack/dollar/rand)
 
-/obj/effect/mob_spawn/human/corpse/garou
-	id = /obj/item/card/id/garou/glade/guardian
-	uniform =  /obj/item/clothing/under/vampire/biker
-	shoes = /obj/item/clothing/shoes/vampire/jackboots
-	head = /obj/item/clothing/head/vampire/baseballcap
-	belt = /obj/item/melee/classic_baton/vampire
-	gloves = /obj/item/clothing/gloves/vampire/leather
-	suit = /obj/item/clothing/suit/vampire/jacket
-
-
-/obj/effect/mob_spawn/human/corpse/police
-	shoes = /obj/item/clothing/shoes/vampire/jackboots
-	uniform = /obj/item/clothing/under/vampire/police
-	head = /obj/item/clothing/head/vampire/police
-	suit = /obj/item/clothing/suit/vampire/vest/police
-	r_pocket = /obj/item/stack/dollar/rand
+/obj/effect/mob_spawn/corpse/human/police
+	outfit = /datum/outfit/job/vampire/police_officer
+	outfit_override = list("r_pocket" = /obj/item/stack/dollar/rand)
