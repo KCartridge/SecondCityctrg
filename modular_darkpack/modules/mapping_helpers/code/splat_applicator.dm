@@ -9,7 +9,7 @@
 
 	// Vampire vars
 	var/generation
-	var/datum/subsplat/vampire_clan/clan
+	var/datum/vampire_clan/clan/clan
 	var/enlightenment
 
 	// Dog vars // TODO: add these when the fera rework is done
@@ -19,7 +19,7 @@
 
 /obj/effect/mapping_helpers/splat_applicator/Initialize(mapload)
 	. = ..()
-	if(findtext(name, "abstract")) // inelegant. ugly.
+	if(istype(src, abstract_type))
 		CRASH("[name] ([x],[y],[z]) says, \"We're using the abstract splat applicator! Use a subtype, darnit!\"")
 
 	for(var/mob/living/guy in range(range, src))
@@ -32,7 +32,7 @@
 		if(SPLAT_GHOUL)
 			return guy.make_ghoul()
 		if(SPLAT_GAROU)
-			return guy.add_splat(/datum/splat/werewolf/shifter/garou) // TODO: make this randomize tribe/auspice/breed/etc.
+			return FALSE // TODO: Fera rework
 
 /obj/effect/mapping_helpers/splat_applicator/kindred
 	name = "kindred splat applicator"

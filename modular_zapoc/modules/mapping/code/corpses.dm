@@ -33,6 +33,51 @@
 	outfit = /datum/outfit/job/vampire/guardian
 	outfit_override = list("r_pocket" = /obj/item/stack/dollar/rand)
 
+/obj/effect/mob_spawn/corpse/human/garou/create(mob/mob_possessor, newname, apply_prefs)
+	new /obj/effect/mapping_helpers/splat_applicator/garou(get_turf(src))
+	. = ..()
+
+/obj/effect/mob_spawn/corpse/human/gray_masses
+	brute_damage = 1000
+
+/obj/effect/mob_spawn/corpse/human/gray_masses/Initialize(mapload)
+	outfit = select_outfit()
+	return ..()
+
+/obj/effect/mob_spawn/corpse/human/gray_masses/proc/select_outfit()
+	var/corpse_theme = pick_weight(list(
+		pick(list(
+			"Scientist",
+			"CBRN",
+		)) = 50,
+		"Security" = 25,
+		"Garou" = 15,
+		pick(list(
+			"Ciz1",
+			"Ciz2",
+			"Ciz3",
+			"Ciz4",
+		)) = 5,
+	))
+
+	switch(corpse_theme)
+		if("Scientist")
+			return /datum/outfit/job/vampire/pentex_scientist_corpse
+		if("CBRN")
+			return /datum/outfit/job/vampire/pentex_scientist_corpse/cbrn
+		if("Security")
+			return /obj/effect/mob_spawn/corpse/human/endron/security
+		if("Garou")
+			return /obj/effect/mob_spawn/corpse/human/garou
+		if("Ciz1")
+			return /datum/outfit/civillian1
+		if("Ciz2")
+			return /datum/outfit/civillian2
+		if("Ciz3")
+			return /datum/outfit/civillian3
+		if("Ciz4")
+			return /datum/outfit/civillian4
+
 // GENERIC
 /obj/effect/mob_spawn/corpse/human/police
 	outfit = /datum/outfit/job/vampire/police_officer
