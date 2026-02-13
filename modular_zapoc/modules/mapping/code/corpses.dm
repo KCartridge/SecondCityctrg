@@ -40,6 +40,9 @@
 /obj/effect/mob_spawn/corpse/human/gray_masses
 	brute_damage = 1000
 
+/obj/effect/mob_spawn/corpse/human/legioninfested/skeleton/charred/gray_masses
+	name = "charred fungal skeleton"
+
 /obj/effect/mob_spawn/corpse/human/gray_masses/Initialize(mapload)
 	outfit = select_outfit()
 	return ..()
@@ -77,6 +80,10 @@
 			return /datum/outfit/civillian3
 		if("Ciz4")
 			return /datum/outfit/civillian4
+
+/obj/effect/mob_spawn/corpse/human/gray_masses/dwarf/special(mob/living/carbon/human/spawned_human, mob/mob_possessor, apply_prefs)
+	. = ..()
+	spawned_human.dna.add_mutation(/datum/mutation/dwarfism, MUTATION_SOURCE_MUTATOR)
 
 // GENERIC
 /obj/effect/mob_spawn/corpse/human/police
