@@ -2490,8 +2490,7 @@
 	dir = 4
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
@@ -3694,8 +3693,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/floor/wood/rough,
 /area/vtm)
@@ -5386,8 +5384,7 @@
 /obj/effect/decal/pallet,
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/structure/railing,
 /turf/open/floor/wood/rough,
@@ -5849,8 +5846,7 @@
 	},
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/effect/decal/pallet,
 /obj/structure/railing,
@@ -7524,8 +7520,7 @@
 	},
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/structure/railing,
 /turf/open/floor/wood/rough,
@@ -8217,8 +8212,7 @@
 	},
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/effect/decal/pallet,
 /turf/open/floor/wood/rough,
@@ -8346,8 +8340,7 @@
 /area/vtm/outside/financialdistrict)
 "fbW" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 8
@@ -11528,8 +11521,7 @@
 	},
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/effect/decal/pallet,
 /obj/structure/railing{
@@ -12518,8 +12510,7 @@
 /area/vtm/interior/gang)
 "hwE" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 1
@@ -15696,8 +15687,7 @@
 	pixel_y = 6
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/structure/flora/bush/flowers_yw/style_random{
 	pixel_y = 10
@@ -18668,8 +18658,7 @@
 	dir = 4
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/structure/flora/bush/flowers_yw/style_random{
 	pixel_y = 10
@@ -18687,8 +18676,7 @@
 	pixel_y = 6
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/structure/flora/bush/flowers_yw/style_random{
 	pixel_y = 10
@@ -19605,8 +19593,7 @@
 	dir = 8
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/brown{
 	dir = 1;
@@ -24034,8 +24021,7 @@
 /area/vtm/interior/millennium_tower/f4)
 "owe" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/structure/railing{
 	dir = 8;
@@ -25780,8 +25766,7 @@
 	},
 /obj/structure/lattice,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/structure/railing,
 /turf/open/floor/wood/rough,
@@ -26230,8 +26215,7 @@
 /area/vtm/interior/strip)
 "pKG" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/brown{
 	dir = 1;
@@ -28888,8 +28872,7 @@
 /obj/structure/lattice,
 /obj/structure/railing,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/floor/wood/rough,
 /area/vtm)
@@ -31656,8 +31639,7 @@
 	pixel_y = 1
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
@@ -33122,8 +33104,7 @@
 /area/vtm/interior/supply)
 "tEz" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/openspace,
 /area/vtm/interior/endron_facility/restricted)
@@ -35646,8 +35627,7 @@
 /obj/structure/lattice,
 /obj/structure/railing,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/floor/wood/rough,
 /area/vtm)
@@ -36133,8 +36113,7 @@
 	pixel_y = 5
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/floor/wood/rough,
 /area/vtm)
@@ -39075,8 +39054,7 @@
 	pixel_y = 10
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
+	dir = 1
 	},
 /turf/open/floor/wood/old,
 /area/vtm/interior/chantry)
