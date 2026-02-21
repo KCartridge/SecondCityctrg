@@ -451,8 +451,8 @@
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
-/obj/structure/chair/sofa/bench/right,
 /obj/effect/landmark/start/darkpack/citizen/citizen,
+/obj/structure/chair/sofa/city_bench/wood/right,
 /turf/open/floor/plating/granite/black,
 /area/vtm/outside/park)
 "apj" = (
@@ -564,10 +564,6 @@
 /obj/item/paper_bin{
 	pixel_y = 15;
 	pixel_x = -7
-	},
-/obj/item/charcoal_stick{
-	pixel_x = 7;
-	pixel_y = 10
 	},
 /obj/item/pen/charcoal{
 	pixel_x = 6;
@@ -1718,8 +1714,8 @@
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
-/obj/structure/chair/sofa/bench/left,
 /obj/effect/landmark/start/darkpack/citizen/citizen,
+/obj/structure/chair/sofa/city_bench/wood/left,
 /turf/open/floor/plating/granite/black,
 /area/vtm/outside/park)
 "bch" = (
@@ -3455,10 +3451,6 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 16
-	},
 /obj/structure/flora/bush/leavy/style_random{
 	pixel_y = 13
 	},
@@ -4224,10 +4216,10 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/chair/sofa/bench/left{
+/obj/effect/landmark/start/darkpack/citizen/citizen,
+/obj/structure/chair/sofa/city_bench/wood/left{
 	dir = 4
 	},
-/obj/effect/landmark/start/darkpack/citizen/citizen,
 /turf/open/floor/plating/granite/black,
 /area/vtm/outside/park)
 "czf" = (
@@ -7785,11 +7777,10 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "eMc" = (
-/obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
-	},
 /obj/effect/turf_decal/siding/white{
+	dir = 1
+	},
+/obj/structure/railing{
 	dir = 1
 	},
 /turf/open/floor/carpet/darkpack,
@@ -13807,7 +13798,7 @@
 /area/vtm/interior/clinic)
 "ijg" = (
 /obj/effect/turf_decal/bordur,
-/obj/structure/chair/sofa/bench/left{
+/obj/structure/chair/sofa/city_bench/wood/left{
 	dir = 1
 	},
 /turf/open/floor/plating/granite/black,
@@ -16307,6 +16298,12 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/museum)
+"jNa" = (
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
+/turf/open/space/basic,
+/area/space)
 "jNf" = (
 /obj/effect/turf_decal/siding/white,
 /obj/effect/decal/painting{
@@ -21581,10 +21578,10 @@
 /obj/effect/turf_decal/bordur{
 	dir = 8
 	},
-/obj/structure/chair/sofa/bench/right{
+/obj/effect/landmark/start/darkpack/citizen/citizen,
+/obj/structure/chair/sofa/city_bench/wood/right{
 	dir = 4
 	},
-/obj/effect/landmark/start/darkpack/citizen/citizen,
 /turf/open/floor/plating/granite/black,
 /area/vtm/outside/park)
 "mXY" = (
@@ -23283,10 +23280,10 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/obj/structure/chair/sofa/bench/right{
+/obj/effect/landmark/start/darkpack/citizen/citizen,
+/obj/structure/chair/sofa/city_bench/wood/right{
 	dir = 8
 	},
-/obj/effect/landmark/start/darkpack/citizen/citizen,
 /turf/open/floor/plating/granite/black,
 /area/vtm/outside/park)
 "och" = (
@@ -31029,10 +31026,10 @@
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
-/obj/structure/chair/sofa/bench/left{
+/obj/effect/landmark/start/darkpack/citizen/citizen,
+/obj/structure/chair/sofa/city_bench/wood/left{
 	dir = 8
 	},
-/obj/effect/landmark/start/darkpack/citizen/citizen,
 /turf/open/floor/plating/granite/black,
 /area/vtm/outside/park)
 "swG" = (
@@ -33623,7 +33620,7 @@
 /area/vtm/interior/gang)
 "tTw" = (
 /obj/effect/turf_decal/bordur,
-/obj/structure/chair/sofa/bench/right{
+/obj/structure/chair/sofa/city_bench/wood/right{
 	dir = 1
 	},
 /turf/open/floor/plating/granite/black,
@@ -33883,8 +33880,7 @@
 "tZR" = (
 /obj/structure/stairs/west,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
@@ -51781,7 +51777,7 @@ iUa
 nPE
 wrk
 oFp
-oFp
+jNa
 oFp
 wrk
 hUM
@@ -62146,7 +62142,7 @@ kfR
 kfR
 oCs
 kfR
-kfR
+nTn
 cbT
 mMJ
 kfR
