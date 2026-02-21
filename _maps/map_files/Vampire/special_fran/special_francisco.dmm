@@ -9285,7 +9285,7 @@
 /area/vtm)
 "fBs" = (
 /obj/structure/coclock,
-/obj/item/kirbyplants/darkpack/random/fullysynthetic,
+/obj/item/kirbyplants/random/fullysynthetic,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/endron_facility/restricted)
 "fCF" = (
@@ -20403,7 +20403,7 @@
 /area/vtm/interior/chantry)
 "moL" = (
 /obj/structure/dresser,
-/obj/item/kirbyplants/darkpack/random/dead{
+/obj/item/kirbyplants/random/dead{
 	pixel_y = 17;
 	anchored = 1
 	},
@@ -20612,7 +20612,7 @@
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "mwk" = (
-/obj/item/kirbyplants/darkpack/random/fullysynthetic,
+/obj/item/kirbyplants/random/fullysynthetic,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/endron_facility/restricted)
 "mwy" = (
@@ -26437,7 +26437,7 @@
 /area/vtm)
 "pQR" = (
 /obj/structure/dresser,
-/obj/item/kirbyplants/darkpack/random/dead{
+/obj/item/kirbyplants/random/dead{
 	pixel_y = 17;
 	anchored = 1
 	},
