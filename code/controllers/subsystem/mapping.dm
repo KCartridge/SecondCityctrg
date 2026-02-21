@@ -459,9 +459,9 @@ Used by the AI doomsday and the self-destruct nuke.
 	if(current_map.minetype == MINETYPE_LAVALAND)
 		LoadGroup(FailedZs, "Umbra", current_map.umbra_map_path, current_map.umbra_map_file, default_traits = ZTRAITS_UMBRA)
 		// APOC EDIT CHANGE START - Special Fran
-		LoadGroup(FailedZs, "Forest", "map_files/vampire/special_fran", "forest.dmm")
-		LoadGroup(FailedZs, "Neighborhood", "map_files/vampire/special_fran", "residential.dmm")
-		LoadGroup(FailedZs, "Facility", "map_files/vampire/special_fran", "endron_ruin.dmm", default_traits = ZTRAITS_AWAY_SECRET)
+		LoadGroup(FailedZs, "Forest", "map_files/Vampire/special_fran", "forest.dmm")
+		LoadGroup(FailedZs, "Neighborhood", "map_files/Vampire/special_fran", "residential.dmm")
+		LoadGroup(FailedZs, "Facility", "map_files/Vampire/special_fran", "endron_ruin.dmm", default_traits = ZTRAITS_AWAY_SECRET)
 		// APOC EDIT CHANGE END
 	else if (!isnull(current_map.minetype) && current_map.minetype != MINETYPE_NONE && current_map.minetype != MINETYPE_ICE)
 		INIT_ANNOUNCE("WARNING: An unknown minetype '[current_map.minetype]' was set! This is being ignored! Update the maploader code!")
