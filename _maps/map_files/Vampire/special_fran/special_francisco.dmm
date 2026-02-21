@@ -211,7 +211,7 @@
 /turf/open/openspace,
 /area/vtm/voivodate)
 "ahZ" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/machinery/light/directional/south,
 /turf/open/floor/city/plating,
 /area/vtm/interior/shop/pawnshop)
@@ -297,7 +297,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
 "aln" = (
@@ -678,7 +678,7 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/financialdistrict)
 "auS" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "auZ" = (
@@ -1586,7 +1586,7 @@
 /turf/open/floor/wood/old,
 /area/vtm/interior/sewer/nosferatu_town)
 "aYv" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/hotel)
 "aYC" = (
@@ -2263,7 +2263,7 @@
 /turf/open/misc/grass,
 /area/vtm/outside/park)
 "bsX" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/gang)
 "buL" = (
@@ -3238,7 +3238,7 @@
 	dir = 8
 	},
 /obj/structure/railing,
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_y = 6;
 	pixel_x = -3
 	},
@@ -3650,7 +3650,7 @@
 /turf/open/floor/carpet/darkpack/cyan,
 /area/vtm/interior/clinic)
 "cgP" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/radio)
 "cgQ" = (
@@ -4202,7 +4202,7 @@
 	dir = 4;
 	color = "#50331a"
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/plating,
 /area/vtm/interior/shop/pawnshop)
 "cyM" = (
@@ -4358,7 +4358,7 @@
 /turf/open/misc/grass,
 /area/vtm)
 "cEc" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
@@ -4474,7 +4474,7 @@
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "cHk" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/gang)
 "cHG" = (
@@ -5797,7 +5797,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "dyR" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/bubway)
 "dyX" = (
@@ -5853,7 +5853,7 @@
 /turf/open/floor/wood/rough,
 /area/vtm)
 "dBu" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/clinic)
 "dBA" = (
@@ -5949,7 +5949,7 @@
 /turf/open/floor/plating/stone,
 /area/vtm/interior/voivodate/sanctum)
 "dDk" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/old,
 /area/vtm/interior/chantry)
 "dDw" = (
@@ -6164,7 +6164,7 @@
 /area/vtm/interior/shop/bubway)
 "dJs" = (
 /obj/structure/table/wood,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/platform/lowwall/old,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/radio)
@@ -6445,7 +6445,7 @@
 /area/vtm/interior/gang)
 "dUg" = (
 /obj/structure/table,
-/obj/item/kirbyplants/random/fullysynthetic{
+/obj/item/kirbyplants/darkpack/random/fullysynthetic{
 	pixel_y = 17
 	},
 /turf/open/floor/city/plating_mono,
@@ -6497,7 +6497,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "dVb" = (
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_x = 1;
 	pixel_y = 6
 	},
@@ -7998,7 +7998,7 @@
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
 "eRN" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry)
 "eRY" = (
@@ -8735,7 +8735,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "fmn" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior)
 "fmw" = (
@@ -8860,7 +8860,7 @@
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "fqu" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/effect/turf_decal/trimline/red/warning{
 	dir = 1
@@ -9285,7 +9285,7 @@
 /area/vtm)
 "fBs" = (
 /obj/structure/coclock,
-/obj/item/kirbyplants/random/fullysynthetic,
+/obj/item/kirbyplants/darkpack/random/fullysynthetic,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/endron_facility/restricted)
 "fCF" = (
@@ -9598,7 +9598,7 @@
 /turf/closed/wall/vampwall/bar,
 /area/vtm/interior/anarch/basement)
 "fLv" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/vjanitor)
 "fLF" = (
@@ -10139,7 +10139,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/granite,
 /area/vtm/interior/millennium_tower)
 "gef" = (
@@ -10315,7 +10315,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "gip" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/white{
 	dir = 1
 	},
@@ -10426,7 +10426,7 @@
 /area/vtm/interior/chantry)
 "gll" = (
 /obj/machinery/light/small/directional/west,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/item/vamp/keys{
 	accesslocks = list("laundromat");
 	name = "Laundromat Keys"
@@ -10510,11 +10510,11 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop/ishu)
 "gny" = (
-/obj/effect/turf_decal/asphaltline{
+/obj/structure/vampdoor/old{
 	dir = 8
 	},
-/turf/closed/indestructible/the_matrix,
-/area/vtm)
+/turf/open/space/basic,
+/area/space)
 "gnB" = (
 /turf/closed/wall/vampwall/city,
 /area/vtm/interior)
@@ -12904,7 +12904,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/radio)
 "hIN" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 6
 	},
@@ -12985,7 +12985,7 @@
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/strip)
 "hLq" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/chantry)
 "hLw" = (
@@ -13598,7 +13598,7 @@
 /obj/structure/chair/darkpack{
 	dir = 4
 	},
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_x = 3;
 	pixel_y = 24
 	},
@@ -13674,7 +13674,7 @@
 /area/vtm/interior/clinic)
 "ifb" = (
 /obj/machinery/light/directional/east,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/supply)
 "ifo" = (
@@ -13948,7 +13948,7 @@
 /area/vtm/interior/voivodate)
 "inP" = (
 /obj/effect/turf_decal/bordur,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/supply)
 "inU" = (
@@ -14623,7 +14623,7 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/voivodate)
 "iLr" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/clinic)
 "iLv" = (
@@ -14730,7 +14730,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto)
 "iOU" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/anarch/basement)
 "iPG" = (
@@ -15310,7 +15310,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior)
 "jhH" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "jid" = (
@@ -15921,7 +15921,7 @@
 /area/vtm/interior/police)
 "jAi" = (
 /obj/effect/turf_decal/siding/wood,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/railing/highlayer,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/gang)
@@ -16298,12 +16298,6 @@
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/museum)
-"jNa" = (
-/obj/structure/vampdoor/old{
-	dir = 8
-	},
-/turf/open/space/basic,
-/area/space)
 "jNf" = (
 /obj/effect/turf_decal/siding/white,
 /obj/effect/decal/painting{
@@ -16514,7 +16508,7 @@
 	color = "#4a3925";
 	dir = 10
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/rough,
 /area/vtm/voivodate)
 "jRH" = (
@@ -16593,7 +16587,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "jUb" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/restricted)
 "jUu" = (
@@ -17083,7 +17077,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/apartment)
 "kjF" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/coclock,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/coffee)
@@ -17371,7 +17365,7 @@
 /turf/open/misc/dirt,
 /area/vtm/voivodate)
 "kto" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop/pawnshop)
 "kuc" = (
@@ -18151,7 +18145,7 @@
 /area/vtm/interior/shop)
 "kUN" = (
 /obj/structure/extinguisher_cabinet/directional/north,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/trimline/red/warning{
 	dir = 1
 	},
@@ -18774,7 +18768,7 @@
 /turf/open/floor/wood/rough,
 /area/vtm/interior/voivodate)
 "lpP" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/extinguisher_cabinet/directional/north,
 /obj/effect/turf_decal/trimline/red/warning{
 	dir = 1
@@ -18992,7 +18986,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "lxo" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop/gasstation)
 "lxK" = (
@@ -20409,7 +20403,7 @@
 /area/vtm/interior/chantry)
 "moL" = (
 /obj/structure/dresser,
-/obj/item/kirbyplants/random/dead{
+/obj/item/kirbyplants/darkpack/random/dead{
 	pixel_y = 17;
 	anchored = 1
 	},
@@ -20618,7 +20612,7 @@
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "mwk" = (
-/obj/item/kirbyplants/random/fullysynthetic,
+/obj/item/kirbyplants/darkpack/random/fullysynthetic,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/endron_facility/restricted)
 "mwy" = (
@@ -21524,7 +21518,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/voivodate)
 "mWL" = (
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_y = -15
 	},
 /turf/open/floor/carpet/red,
@@ -21981,7 +21975,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/ghetto)
 "nms" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/sign/flag/usa{
 	pixel_y = 32
 	},
@@ -22109,7 +22103,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior)
 "noH" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/plating,
 /area/vtm/interior/millennium_tower)
 "noN" = (
@@ -22176,7 +22170,7 @@
 /turf/open/floor/city/saint,
 /area/vtm/interior/church/staff)
 "nqM" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/wood{
 	dir = 4
 	},
@@ -22369,7 +22363,7 @@
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/endron_facility/restricted)
 "nwK" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop/grocery)
 "nwR" = (
@@ -23628,7 +23622,7 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/voivodate)
 "okM" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/supply)
 "okN" = (
@@ -24402,7 +24396,7 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "oHh" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/bacotell)
 "oHm" = (
@@ -26159,7 +26153,7 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/police)
 "pID" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility)
 "pIL" = (
@@ -26443,7 +26437,7 @@
 /area/vtm)
 "pQR" = (
 /obj/structure/dresser,
-/obj/item/kirbyplants/random/dead{
+/obj/item/kirbyplants/darkpack/random/dead{
 	pixel_y = 17;
 	anchored = 1
 	},
@@ -26823,7 +26817,7 @@
 	color = "#4a3925";
 	dir = 5
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/rough,
 /area/vtm/voivodate)
 "qbU" = (
@@ -27355,7 +27349,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/millennium_tower/f2)
 "qsa" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "qsg" = (
@@ -27521,7 +27515,7 @@
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/apartment)
 "qwz" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/railing{
 	dir = 5;
 	pixel_y = 3
@@ -28130,7 +28124,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/old,
 /area/vtm/interior/chantry)
 "qOb" = (
@@ -29573,7 +29567,7 @@
 /turf/open/floor/carpet/royalblack,
 /area/vtm/interior/apartment)
 "rCG" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/millennium_tower)
 "rCW" = (
@@ -29967,10 +29961,9 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower/f4)
 "rOj" = (
-/obj/structure/table/wood,
-/obj/item/kirbyplants/random,
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/ghetto)
+/obj/item/kirbyplants/darkpack/random,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/supply)
 "rOu" = (
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/sidewalk/rich,
@@ -30062,7 +30055,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "rQQ" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/radio)
 "rQT" = (
@@ -30516,11 +30509,11 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/gangbasement)
 "shE" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower)
 "shQ" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
 "sio" = (
@@ -30624,10 +30617,6 @@
 /obj/item/knife/kitchen,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/voivodate)
-"smq" = (
-/obj/item/kirbyplants/random,
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/interior/ghetto)
 "smE" = (
 /turf/open/floor/city/plating,
 /area/vtm/interior/mallunderground)
@@ -30795,7 +30784,7 @@
 "srf" = (
 /obj/machinery/light/small/directional/west,
 /obj/structure/ladder/manhole/down,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/black,
 /area/vtm/interior/laundromat)
 "srx" = (
@@ -33324,7 +33313,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/coffee)
 "tLJ" = (
@@ -33595,7 +33584,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/granite,
 /area/vtm/interior/millennium_tower/f2)
 "tSC" = (
@@ -34717,7 +34706,7 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/police)
 "uzL" = (
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_y = 17
 	},
 /turf/open/floor/city/bacotell,
@@ -35689,7 +35678,7 @@
 /area/vtm/interior/voivodate/sanctum)
 "vdK" = (
 /obj/structure/extinguisher_cabinet/directional/north,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/trimline/red/warning{
 	dir = 1
 	},
@@ -36288,7 +36277,7 @@
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "vuU" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/railing{
 	dir = 1;
 	pixel_y = 7
@@ -36511,7 +36500,7 @@
 	color = "#4a3925";
 	dir = 6
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/railing,
 /turf/open/floor/wood/rough,
 /area/vtm/voivodate)
@@ -36926,7 +36915,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/millennium_tower/f2)
 "vSU" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/machinery/light/directional/north,
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/police)
@@ -37047,7 +37036,7 @@
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/voivodate)
 "vWN" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/gangbasement)
 "vWU" = (
@@ -39266,7 +39255,7 @@
 /turf/open/water/beach/vamp/deep,
 /area/vtm/interior/voivodate/cave)
 "xok" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
 	},
@@ -39479,7 +39468,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "xwn" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/white/corner{
 	dir = 1;
 	color = "#636363"
@@ -39624,7 +39613,7 @@
 /area/vtm/interior/clinic)
 "xBt" = (
 /obj/structure/table/reinforced,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto)
 "xCs" = (
@@ -40095,7 +40084,7 @@
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/voivodate)
 "xOM" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/effect/turf_decal/siding/white{
 	dir = 1;
 	color = "#636363"
@@ -40168,7 +40157,7 @@
 /area/vtm/interior/sewer)
 "xQz" = (
 /obj/machinery/light/directional/north,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/radio)
 "xQB" = (
@@ -40640,7 +40629,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
 "yjk" = (
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_y = 6;
 	pixel_x = -3
 	},
@@ -45467,7 +45456,7 @@ qTM
 kzb
 hxj
 hdl
-smq
+fGG
 isA
 rFd
 hdl
@@ -46441,7 +46430,7 @@ ftc
 mAQ
 drX
 drX
-rOj
+xKQ
 hdl
 oHE
 dNM
@@ -51777,7 +51766,7 @@ iUa
 nPE
 wrk
 oFp
-jNa
+gny
 oFp
 wrk
 hUM
@@ -51966,7 +51955,7 @@ wrk
 jBE
 ndC
 ndC
-gny
+ndC
 ndC
 ndC
 jBE
@@ -60807,7 +60796,7 @@ fEr
 vti
 gFy
 tNA
-okM
+rOj
 puI
 jsq
 bqY
@@ -61127,7 +61116,7 @@ puI
 puI
 jsq
 alD
-okM
+rOj
 puI
 tER
 jsq
