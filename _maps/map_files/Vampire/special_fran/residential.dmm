@@ -271,11 +271,9 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "co" = (
-/obj/structure/hoop{
-	dir = 4
-	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/outside/fishermanswharf/ghetto)
+/obj/effect/decal/shadow,
+/turf/cordon,
+/area/misc/cordon)
 "cr" = (
 /obj/structure/table,
 /obj/machinery/reagentgrinder{
@@ -837,10 +835,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/structure/chair/sofa/bench/left,
+/obj/structure/chair/sofa/city_bench/metal/left,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
@@ -899,7 +896,6 @@
 	},
 /obj/structure/noticeboard/directional/north,
 /obj/effect/decal/wallpaper/papers/eight{
-	pixel_x = 0;
 	pixel_y = 28
 	},
 /turf/open/floor/carpet/darkpack,
@@ -1693,10 +1689,7 @@
 "nU" = (
 /obj/machinery/light/small/directional/west,
 /obj/machinery/washing_machine,
-/obj/item/clothing/under/vampire/brujah{
-	pixel_y = 0;
-	pixel_x = 0
-	},
+/obj/item/clothing/under/vampire/brujah,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/apartment)
 "nZ" = (
@@ -1727,7 +1720,6 @@
 /obj/machinery/button/door{
 	id = 81;
 	name = "Parking Shutters Control";
-	pixel_x = 0;
 	pixel_y = 5
 	},
 /obj/effect/decal/cleanable/blood/oil/slippery,
@@ -2237,7 +2229,6 @@
 /obj/machinery/light/prince/directional/north,
 /obj/structure/table/wood,
 /obj/structure/fluff/tv{
-	pixel_x = 0;
 	pixel_y = 15
 	},
 /turf/open/floor/wood/smooth/old,
@@ -2589,7 +2580,6 @@
 /obj/item/kitchen/fork,
 /obj/item/kitchen/fork,
 /obj/structure/closet{
-	pixel_x = 0;
 	anchored = 1
 	},
 /obj/item/reagent_containers/condiment/flour,
@@ -2743,11 +2733,9 @@
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
 "wm" = (
-/obj/structure/sink/directional/south{
-	icon_state = "basin"
-	},
 /obj/effect/decal/wallpaper/paper/rich/low,
 /obj/structure/platform/lowwall/rich/old,
+/obj/structure/sink/basin/directional/east,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/apartment)
 "wo" = (
@@ -3928,12 +3916,10 @@
 "FV" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/glass/mug{
-	pixel_x = -8;
-	pixel_y = 0
+	pixel_x = -8
 	},
 /obj/item/paperwork{
 	icon_state = "docs_verified";
-	pixel_x = 0;
 	pixel_y = 15
 	},
 /turf/open/floor/carpet/darkpack,
@@ -4008,10 +3994,8 @@
 /area/vtm/interior/ghetto)
 "GC" = (
 /obj/effect/decal/wallpaper/light/low,
-/obj/structure/sink/directional/west{
-	icon_state = "basin"
-	},
 /obj/structure/platform/lowwall/rich/old,
+/obj/structure/sink/basin/directional/west,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/apartment)
 "GG" = (
@@ -4422,7 +4406,9 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "JK" = (
-/obj/structure/vampdoor/wood,
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
 /obj/effect/mapping_helpers/door/access/claimable,
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925";
@@ -4952,14 +4938,12 @@
 "NK" = (
 /obj/effect/decal/carpet{
 	icon_state = "greencarpet";
-	pixel_y = 1;
-	pixel_x = 0
+	pixel_y = 1
 	},
 /turf/open/floor/carpet/darkpack/purplegold,
 /area/vtm/interior/apartment)
 "NU" = (
 /obj/structure/filingcabinet/chestdrawer{
-	pixel_x = 0;
 	pixel_y = 12
 	},
 /turf/open/floor/carpet/darkpack/redsilver,
@@ -5027,8 +5011,7 @@
 	dir = 1
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
@@ -5064,8 +5047,7 @@
 	},
 /obj/structure/lamppost/sidewalk,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
@@ -5075,7 +5057,6 @@
 	},
 /obj/structure/rack/clothing_hanger{
 	pixel_x = -12;
-	pixel_y = 0;
 	density = 0
 	},
 /turf/open/floor/carpet/darkpack,
@@ -5148,7 +5129,6 @@
 "OY" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/roadsign/parking{
-	pixel_x = 0;
 	pixel_y = 4
 	},
 /turf/open/floor/plating/sidewalk,
@@ -5256,6 +5236,10 @@
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"PJ" = (
+/obj/structure/hoop,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/fishermanswharf/ghetto)
 "PK" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/turf_decal/bordur/corner{
@@ -5366,7 +5350,6 @@
 /area/vtm/interior/shop)
 "QX" = (
 /obj/structure/bookcase/random/nonfiction{
-	pixel_x = 0;
 	pixel_y = 22;
 	density = 0
 	},
@@ -5599,10 +5582,9 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/structure/chair/sofa/bench/right,
+/obj/structure/chair/sofa/city_bench/metal/right,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
@@ -6288,7 +6270,6 @@
 /area/vtm/interior/apartment)
 "Zm" = (
 /obj/machinery/photocopier/prebuilt{
-	pixel_x = 0;
 	pixel_y = 5
 	},
 /turf/open/floor/carpet/darkpack/redsilver,
@@ -6382,114 +6363,114 @@
 /area/vtm/outside/fishermanswharf)
 
 (1,1,1) = {"
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-rV
-wv
-bq
-bq
-UG
-qh
-AI
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
-gO
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+co
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
+rk
 "}
 (2,1,1) = {"
-gO
+rk
 gO
 gO
 gO
@@ -6593,10 +6574,10 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (3,1,1) = {"
-gO
+rk
 gO
 gO
 gO
@@ -6700,10 +6681,10 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (4,1,1) = {"
-xb
+rk
 gO
 gO
 gO
@@ -6807,10 +6788,10 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (5,1,1) = {"
-xb
+rk
 xb
 xb
 gO
@@ -6914,7 +6895,7 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (6,1,1) = {"
 rk
@@ -7021,7 +7002,7 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (7,1,1) = {"
 rk
@@ -7128,7 +7109,7 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (8,1,1) = {"
 rk
@@ -7235,7 +7216,7 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (9,1,1) = {"
 rk
@@ -7342,7 +7323,7 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (10,1,1) = {"
 rk
@@ -7449,7 +7430,7 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (11,1,1) = {"
 rk
@@ -7556,7 +7537,7 @@ gO
 gO
 gO
 gO
-gO
+rk
 "}
 (12,1,1) = {"
 rk
@@ -7663,7 +7644,7 @@ gO
 gO
 gO
 gO
-tS
+rk
 "}
 (13,1,1) = {"
 wP
@@ -7770,7 +7751,7 @@ gO
 gO
 gO
 gO
-tS
+rk
 "}
 (14,1,1) = {"
 wP
@@ -7877,7 +7858,7 @@ gO
 gO
 gO
 gO
-tS
+rk
 "}
 (15,1,1) = {"
 wP
@@ -7984,7 +7965,7 @@ gO
 gO
 tS
 gO
-tS
+rk
 "}
 (16,1,1) = {"
 wP
@@ -8091,7 +8072,7 @@ gO
 gO
 tS
 gO
-tS
+rk
 "}
 (17,1,1) = {"
 wP
@@ -8198,7 +8179,7 @@ gO
 gO
 tS
 tS
-tS
+rk
 "}
 (18,1,1) = {"
 wP
@@ -8305,7 +8286,7 @@ gO
 gO
 gO
 tS
-tS
+rk
 "}
 (19,1,1) = {"
 wP
@@ -8412,7 +8393,7 @@ gO
 gO
 pb
 tS
-tS
+rk
 "}
 (20,1,1) = {"
 ll
@@ -8519,7 +8500,7 @@ gO
 gO
 pb
 tS
-tS
+rk
 "}
 (21,1,1) = {"
 ll
@@ -8626,7 +8607,7 @@ ja
 ja
 pb
 tS
-tS
+rk
 "}
 (22,1,1) = {"
 ll
@@ -8733,7 +8714,7 @@ ja
 ja
 pb
 tS
-tS
+rk
 "}
 (23,1,1) = {"
 ll
@@ -8840,7 +8821,7 @@ LE
 ZG
 pb
 pb
-tS
+rk
 "}
 (24,1,1) = {"
 ll
@@ -8947,7 +8928,7 @@ rB
 ZG
 rk
 pb
-pb
+rk
 "}
 (25,1,1) = {"
 wP
@@ -15035,7 +15016,7 @@ Zf
 Fp
 bG
 os
-co
+os
 os
 os
 os
@@ -15355,7 +15336,7 @@ Jk
 ot
 ui
 bG
-os
+PJ
 os
 os
 os

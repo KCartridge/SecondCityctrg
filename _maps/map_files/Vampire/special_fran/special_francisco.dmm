@@ -8772,7 +8772,7 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/shop/bacotell)
 "fnh" = (
-/obj/machinery/light/small/red/directional/west,
+/obj/machinery/light/small/red/directional/east,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "fno" = (
@@ -15697,8 +15697,8 @@
 	},
 /area/vtm/interior/voivodate/sanctum)
 "jtg" = (
-/obj/machinery/light/small/red/directional/south,
 /obj/item/stack/sheet/mineral/wood,
+/obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "jtD" = (
@@ -17207,7 +17207,7 @@
 "kne" = (
 /obj/structure/closet/crate/large,
 /obj/item/storage/box/lights/bulbs,
-/obj/machinery/light/small/red/directional/south,
+/obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "knl" = (
@@ -18381,7 +18381,7 @@
 "ldp" = (
 /obj/effect/decal/cleanable/garbage,
 /obj/structure/closet/crate/large,
-/obj/machinery/light/small/red/directional/south,
+/obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "ldu" = (
@@ -21885,10 +21885,6 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/voivodate)
-"niy" = (
-/obj/machinery/light/small/red/directional/south,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/sewer)
 "niO" = (
 /obj/structure/table/countertop/bubway,
 /obj/item/reagent_containers/cup/glass/shaker{
@@ -24507,7 +24503,7 @@
 /area/vtm/interior/radio)
 "oIA" = (
 /obj/effect/decal/cleanable/litter,
-/obj/machinery/light/small/red/directional/south,
+/obj/machinery/light/small/red/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "oJa" = (
@@ -35024,7 +35020,6 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/gangbasement)
 "uGc" = (
-/obj/machinery/light/dim/directional/south,
 /obj/effect/decal/cleanable/blood,
 /obj/structure/closet,
 /obj/item/clothing/under/costume/singer/blue,
@@ -35034,6 +35029,7 @@
 /obj/item/dyespray,
 /obj/item/clothing/shoes/singerr,
 /obj/item/clothing/under/costume/singer/red,
+/obj/machinery/light/dim/directional/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/sewer)
 "uGh" = (
@@ -51452,7 +51448,7 @@ mWz
 aaP
 aaP
 mWz
-niy
+oUm
 lOA
 rUP
 sYY
