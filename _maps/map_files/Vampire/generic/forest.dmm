@@ -5148,8 +5148,6 @@
 /area/vtm/interior/forest/cave)
 "Wc" = (
 /obj/structure/chair/stool/bar/darkpack/red,
-/obj/structure/chair/stool/bar/darkpack/red,
-/obj/structure/chair/stool/bar/darkpack/red,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/forest)
 "Wd" = (
