@@ -2202,7 +2202,6 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/anarch,
-/obj/effect/mapping_helpers/door/lock,
 /obj/effect/landmark/npcwall,
 /obj/effect/mapping_helpers/door/autoname,
 /turf/open/floor/city/plating_mono,
@@ -2753,8 +2752,7 @@
 	dir = 1
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/voivodate/sanctum)
@@ -3372,8 +3370,7 @@
 	pixel_x = -7
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/city/toilet,
 /area/vtm/interior/voivodate)
@@ -4497,8 +4494,7 @@
 "cHR" = (
 /obj/structure/hedge,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 9
@@ -5725,7 +5721,6 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
-/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/clinic)
 "dvz" = (
@@ -7268,8 +7263,7 @@
 	dir = 8
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/openspace,
 /area/vtm/interior/endron_facility/restricted)
@@ -10317,8 +10311,7 @@
 	dir = 8
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/structure/railing{
 	dir = 8
@@ -10627,8 +10620,7 @@
 /area/vtm/interior/pizza)
 "gqE" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry)
@@ -12414,8 +12406,7 @@
 /area/vtm/interior/strip)
 "hrn" = (
 /obj/structure/vampdoor/reinf,
-/obj/effect/mapping_helpers/door/access/cleaning,
-/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/clinic,
 /turf/open/floor/city/plating,
 /area/vtm/interior/clinic)
 "hrr" = (
@@ -13383,8 +13374,7 @@
 /area/vtm/interior/radio)
 "hWp" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/openspace,
 /area/vtm/interior/shop/bacotell)
@@ -13753,11 +13743,11 @@
 /obj/structure/vampdoor/reinf{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/door/access/cleaning,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/siding/thinplating/dark/end{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/clinic,
 /turf/open/floor/iron/showroomfloor,
 /area/vtm/interior/clinic)
 "igH" = (
@@ -15882,8 +15872,7 @@
 /area/vtm/interior/chantry)
 "jye" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/structure/vampstatue,
 /turf/open/floor/plating/sidewalk/old,
@@ -15992,8 +15981,7 @@
 	dir = 8
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/misc/grass/random/bushes,
 /area/vtm/outside/park)
@@ -16246,8 +16234,7 @@
 	dir = 1
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/voivodate)
@@ -16323,8 +16310,7 @@
 /area/vtm/interior/chantry)
 "jMQ" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/museum)
@@ -19108,8 +19094,7 @@
 /obj/structure/vampdoor/reinf{
 	dir = 4
 	},
-/obj/effect/mapping_helpers/door/access/cleaning,
-/obj/effect/mapping_helpers/door/lock,
+/obj/effect/mapping_helpers/door/access/clinic,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/clinic)
 "lzX" = (
@@ -19927,8 +19912,7 @@
 /area/vtm/interior/endron_facility/restricted)
 "lZW" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/structure/hedge,
 /turf/open/floor/plating/sidewalk/old,
@@ -21477,8 +21461,7 @@
 /area/vtm/outside/financialdistrict)
 "mVx" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925";
@@ -23276,7 +23259,6 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/clinic,
-/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/clinic)
 "obr" = (
@@ -23817,8 +23799,7 @@
 /area/vtm/interior)
 "opv" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm)
@@ -24162,8 +24143,7 @@
 	dir = 8
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925";
@@ -27763,8 +27743,7 @@
 /area/vtm/interior/chantry)
 "qDu" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#9a704a";
@@ -29080,6 +29059,17 @@
 /obj/structure/vampdoor/simple,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/interior/ghetto)
+"rnp" = (
+/obj/structure/vampdoor/reinf{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/lock,
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/clinic,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/clinic)
 "rnq" = (
 /obj/effect/turf_decal/trimline/purple/warning{
 	dir = 8
@@ -29675,8 +29665,7 @@
 /area/vtm/interior/voivodate/cave)
 "rDt" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/openspace,
 /area/vtm/interior/endron_facility/restricted)
@@ -30147,8 +30136,7 @@
 	dir = 1
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/misc/grass/random/bushes,
 /area/vtm/outside/park)
@@ -30647,8 +30635,7 @@
 	dir = 1
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/wood/herring,
 /area/vtm/interior/apartment)
@@ -32583,8 +32570,7 @@
 	dir = 8
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/wood/herring,
 /area/vtm/interior/apartment)
@@ -33046,7 +33032,6 @@
 	dir = 4
 	},
 /obj/effect/mapping_helpers/door/access/laundromat,
-/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/interior/laundromat)
 "tCc" = (
@@ -34809,8 +34794,7 @@
 /area/vtm/interior/ghetto)
 "uAB" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/structure/railing{
 	dir = 8
@@ -37173,8 +37157,7 @@
 /area/vtm/interior/endron_facility)
 "vYM" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925";
@@ -38577,8 +38560,7 @@
 /area/vtm/interior/clinic)
 "wRM" = (
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm)
@@ -40154,8 +40136,7 @@
 	dir = 4
 	},
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 12
+	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/voivodate)
@@ -53368,7 +53349,7 @@ nlL
 nlL
 nlL
 nlL
-dPR
+rnp
 nlL
 nlL
 nlL
