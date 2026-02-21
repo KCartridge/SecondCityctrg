@@ -87,7 +87,7 @@
 			"total_positions": 0
 		}
 	},
-	"max_npcs": 120,
+	"max_npcs": 60,
 	"umbra_map_path": "map_files/Vampire/westfield_mall",
 	"umbra_map_file": "westfield_umbra.dmm"
 }
