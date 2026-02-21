@@ -14234,8 +14234,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/anarch/basement)
 "ixH" = (
-/obj/structure/table/wood/shuttle_bar,
 /obj/structure/platform/lowwall/old,
+/obj/structure/table/wood,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/voivodate)
 "ixJ" = (
@@ -14379,6 +14379,7 @@
 "iBu" = (
 /obj/structure/vampdoor/glass,
 /obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/police)
 "iBS" = (
@@ -27797,7 +27798,6 @@
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/shop/bacotell)
 "qEH" = (
-/obj/structure/table/wood/shuttle_bar,
 /obj/item/rag{
 	pixel_y = 8;
 	pixel_x = 6
@@ -27813,6 +27813,7 @@
 	name = "Upper Curtains"
 	},
 /obj/structure/platform/lowwall/old,
+/obj/structure/table/wood,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/voivodate)
 "qEI" = (
@@ -31534,8 +31535,7 @@
 /area/vtm/interior/voivodate)
 "sKi" = (
 /obj/structure/railing{
-	dir = 6;
-	pixel_y = -1
+	dir = 6
 	},
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/voivodate)
@@ -33103,11 +33103,16 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "tEz" = (
-/obj/structure/railing{
-	dir = 1
+/obj/structure/vampdoor/simple{
+	dir = 4
 	},
-/turf/open/openspace,
-/area/vtm/interior/endron_facility/restricted)
+/obj/effect/turf_decal/siding/white{
+	dir = 8
+	},
+/obj/effect/mapping_helpers/door/access/police,
+/obj/effect/mapping_helpers/door/lock,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/police)
 "tEK" = (
 /obj/structure/table/wood,
 /obj/item/reagent_containers/blood/vitae,
@@ -38814,9 +38819,7 @@
 	pixel_y = 14
 	},
 /obj/structure/railing{
-	dir = 10;
-	pixel_x = 1;
-	pixel_y = 2
+	dir = 10
 	},
 /obj/machinery/light/prince/directional/north,
 /turf/open/floor/city/plating,
@@ -60321,7 +60324,7 @@ bVY
 (79,1,2) = {"
 wcy
 wcy
-ncN
+tEz
 wcy
 anY
 paL
@@ -63988,7 +63991,7 @@ iXo
 cAb
 cAb
 eeP
-tEz
+rDt
 jvX
 pGM
 eeP
