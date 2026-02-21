@@ -3825,8 +3825,8 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/forest/cave)
 "IP" = (
-/obj/structure/werewolf_totem/generic,
 /obj/effect/realistic_fog/dense,
+/obj/structure/werewolf_totem/children_of_gaia,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/outside/forest/sept)
 "IR" = (
