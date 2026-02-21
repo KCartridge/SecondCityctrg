@@ -15,7 +15,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/apartment)
 "ai" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood,
 /area/vtm)
 "ak" = (
@@ -83,7 +83,7 @@
 	pixel_y = 19;
 	pixel_x = -9
 	},
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_x = 5;
 	pixel_y = 17
 	},
@@ -1142,7 +1142,7 @@
 /area/vtm/interior/apartment)
 "jH" = (
 /obj/machinery/light/small/directional/east,
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_x = 4
 	},
 /turf/open/floor/wood/smooth/old,
@@ -1710,7 +1710,7 @@
 /turf/open/water/beach/vamp,
 /area/vtm/outside/northbeach)
 "od" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/apartment)
 "og" = (
@@ -1819,7 +1819,7 @@
 /area/vtm)
 "pc" = (
 /obj/machinery/light/small/directional/north,
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_x = 3;
 	pixel_y = 8
 	},
@@ -2011,7 +2011,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 1
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/machinery/light/small/directional/east,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
@@ -2103,7 +2103,7 @@
 /area/vtm/outside/northbeach)
 "rq" = (
 /obj/machinery/light/prince/directional/west,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/cyan,
 /area/vtm/interior/apartment)
 "rs" = (
@@ -3205,7 +3205,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "Aj" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "Ak" = (
@@ -3584,7 +3584,7 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/northbeach)
 "Dh" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "Di" = (
@@ -3842,7 +3842,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm)
 "Fu" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/ghetto)
 "Fv" = (
@@ -3883,7 +3883,7 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/ghetto)
 "FL" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/apartment)
 "FM" = (
@@ -3973,7 +3973,7 @@
 	color = "#4a3925";
 	dir = 8
 	},
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_x = 6;
 	pixel_y = -1
 	},
@@ -4067,7 +4067,7 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/fishermanswharf/ghetto)
 "GZ" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /obj/structure/railing{
 	dir = 4
 	},
@@ -4094,7 +4094,7 @@
 /area/vtm/interior/ghetto)
 "Hj" = (
 /obj/machinery/light/small/directional/north,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "Hk" = (
@@ -4928,7 +4928,7 @@
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
 	},
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "Nw" = (
@@ -5055,7 +5055,7 @@
 /area/vtm/interior/shop)
 "On" = (
 /obj/machinery/light/prince/directional/north,
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/apartment)
 "Os" = (
@@ -5704,7 +5704,7 @@
 /area/vtm/interior/ghetto)
 "Ue" = (
 /obj/machinery/light/small/directional/south,
-/obj/item/kirbyplants/random{
+/obj/item/kirbyplants/darkpack/random{
 	pixel_x = -5
 	},
 /turf/open/floor/wood/smooth/old,
@@ -6294,7 +6294,7 @@
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/apartment)
 "Zn" = (
-/obj/item/kirbyplants/random,
+/obj/item/kirbyplants/darkpack/random,
 /turf/open/floor/carpet/darkpack/greengold,
 /area/vtm/interior/apartment)
 "Zo" = (
