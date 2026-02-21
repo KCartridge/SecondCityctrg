@@ -23,3 +23,14 @@
 /obj/vampire_computer/box
 	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "oldcomp"
+
+#warn THIS IS 9/11 BUT THE PLAYTEST IS TODAY GRAAAAH.
+
+/obj/item/storage/box/baggie
+	name = "baggie box"
+	desc = "WIP! Sorry!"
+
+/obj/item/clothing/shoes/vampire/pumped
+	name = "knee-high sneakers"
+	desc = "these are the pumped up kicks you are looking for"
+	icon_state = "pumped_up_kicks"
