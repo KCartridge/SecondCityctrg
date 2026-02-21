@@ -984,10 +984,7 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/forest)
 "jk" = (
-/obj/structure/bonfire/prelit{
-	burn_icon = "campfire_on";
-	icon = 'code/modules/wod13/props.dmi';
-	icon_state = "campfire_off";
+/obj/structure/bonfire/prelit/alt{
 	density = 1
 	},
 /obj/effect/realistic_fog/dense,
@@ -2927,7 +2924,6 @@
 "AL" = (
 /obj/machinery/light/small/directional/north,
 /obj/machinery/vending/cola{
-	pixel_x = 0;
 	pixel_y = 20
 	},
 /obj/effect/turf_decal/darkpack/sand{
@@ -3180,7 +3176,7 @@
 /area/vtm/outside/forest)
 "CH" = (
 /obj/structure/dresser{
-	icon = 'icons/obj/crates.dmi';
+	icon = 'icons/obj/storage/crates.dmi';
 	icon_state = "crate";
 	pixel_y = 11;
 	name = "swimwear crate";
@@ -3303,9 +3299,7 @@
 	dir = 9
 	},
 /obj/structure/water_source/puddle{
-	icon = 'code/modules/wod13/tiles.dmi';
 	base_icon_state = "ocean";
-	icon_state = "ocean";
 	alpha = 1
 	},
 /turf/open/water/beach/vamp,
@@ -3423,7 +3417,6 @@
 /area/vtm/outside/forest)
 "ET" = (
 /obj/structure/closet/crate/bin/undense{
-	pixel_x = 0;
 	pixel_y = 21
 	},
 /turf/open/misc/beach/vamp,
@@ -4540,12 +4533,7 @@
 /turf/open/floor/plating/rough,
 /area/vtm/outside/forest/sept)
 "Qk" = (
-/obj/structure/bonfire/prelit{
-	burn_icon = "campfire_on";
-	icon = 'code/modules/wod13/props.dmi';
-	icon_state = "campfire_off";
-	density = 1
-	},
+/obj/structure/bonfire/prelit,
 /turf/open/misc/grass,
 /area/vtm/outside/forest/sept)
 "Ql" = (
@@ -4756,7 +4744,6 @@
 "Sh" = (
 /obj/agility_shortcut/cave/gaia{
 	id = "caern";
-	pixel_x = 0;
 	pixel_y = 30
 	},
 /turf/open/floor/plating/rough,
@@ -4770,7 +4757,6 @@
 "Sj" = (
 /obj/machinery/light/small/directional/north,
 /obj/machinery/vending/snack{
-	pixel_x = 0;
 	pixel_y = 20
 	},
 /obj/effect/turf_decal/darkpack/sand{
@@ -4920,9 +4906,6 @@
 /obj/structure/table/wood,
 /obj/item/reagent_containers/cup/mortar,
 /obj/item/pestle,
-/obj/item/charcoal_stick,
-/obj/item/charcoal_stick,
-/obj/item/charcoal_stick,
 /obj/effect/turf_decal/darkpack/grass{
 	dir = 9
 	},
@@ -5394,7 +5377,6 @@
 /obj/structure/glowshroom/glowcap,
 /obj/agility_shortcut/cave/gaia{
 	id = "caern";
-	pixel_x = 0;
 	pixel_y = 30
 	},
 /turf/open/floor/plating/rough/cave,
@@ -5515,7 +5497,6 @@
 /area/vtm/outside/forest)
 "ZA" = (
 /obj/item/toy/plush/goatplushie{
-	icon_state = "goat_splat";
 	name = "horribly shredded goat plushie";
 	desc = "It's barely holding together. Won't someone save the poor goat?"
 	},
