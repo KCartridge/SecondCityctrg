@@ -7101,9 +7101,8 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/voivodate/cave)
 "eny" = (
-/turf/open/floor/iron/stairs{
-	dir = 8;
-	color = "#838383"
+/turf/open/floor/iron/stairs/black{
+	dir = 8
 	},
 /area/vtm/interior/voivodate)
 "enV" = (
@@ -19475,9 +19474,9 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/voivodate)
 "lNF" = (
-/obj/structure/werewolf_totem/spiral{
-	pixel_y = 1;
-	pixel_x = -15
+/obj/structure/werewolf_totem/generic/wyrm{
+	pixel_x = -17;
+	pixel_y = 1
 	},
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/wyrm_corrupted)

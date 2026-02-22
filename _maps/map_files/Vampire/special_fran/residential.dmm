@@ -513,10 +513,8 @@
 /area/vtm/interior/shop)
 "eA" = (
 /obj/structure/table/countertop/bubway,
-/obj/structure/sink/directional/east{
-	icon_state = "basin"
-	},
 /obj/machinery/light/small/directional/west,
+/obj/structure/sink/basin/directional/east,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/ghetto)
 "eB" = (
@@ -704,11 +702,7 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/fishermanswharf)
 "gl" = (
-/obj/structure/bonfire/prelit{
-	burn_icon = "campfire_on";
-	icon = 'code/modules/wod13/props.dmi';
-	icon_state = "campfire_off"
-	},
+/obj/structure/bonfire/prelit/alt,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/northbeach)
 "gm" = (
@@ -1688,10 +1682,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "nP" = (
-/obj/structure/sink/directional/west{
-	icon_state = "basin"
-	},
 /obj/structure/table,
+/obj/structure/sink/basin/directional/west,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/ghetto)
 "nR" = (
@@ -1884,11 +1876,9 @@
 /area/vtm)
 "pp" = (
 /obj/structure/table/countertop/bubway,
-/obj/structure/sink/directional/south{
-	icon_state = "basin"
-	},
 /obj/structure/coclock,
 /obj/machinery/light/small/directional/north,
+/obj/structure/sink/basin/directional/south,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/ghetto)
 "pt" = (
@@ -1954,10 +1944,8 @@
 /area/vtm/outside/northbeach)
 "pY" = (
 /obj/structure/table/countertop/bubway,
-/obj/structure/sink/directional/south{
-	icon_state = "basin"
-	},
 /obj/structure/coclock,
+/obj/structure/sink/basin/directional/south,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/ghetto)
 "qc" = (
@@ -2682,7 +2670,8 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/northbeach)
 "vH" = (
-/turf/open/floor/iron/stairs,
+/obj/structure/barrels/rand,
+/turf/open/misc/beach/vamp,
 /area/vtm/outside/northbeach)
 "vJ" = (
 /obj/structure/curtain/bounty,
@@ -3119,10 +3108,8 @@
 /area/vtm/outside/fishermanswharf/ghetto)
 "ze" = (
 /obj/structure/table,
-/obj/structure/sink/directional/east{
-	icon_state = "basin"
-	},
 /obj/structure/platform/lowwall/rich/old,
+/obj/structure/sink/basin/directional/east,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/apartment)
 "zm" = (
@@ -3517,7 +3504,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "CF" = (
-/obj/structure/chair/sofa/corp/left{
+/obj/structure/chair/sofa/corp/right{
 	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/orangesilver,
@@ -3660,10 +3647,10 @@
 /turf/closed/wall/vampwall/rock,
 /area/vtm/outside/fishermanswharf/ghetto)
 "DB" = (
-/obj/structure/chair/sofa/corp/right{
+/obj/machinery/light/small/directional/south,
+/obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
-/obj/machinery/light/small/directional/south,
 /turf/open/floor/carpet/darkpack/orangesilver,
 /area/vtm/interior/ghetto)
 "DE" = (
@@ -4258,9 +4245,6 @@
 "IB" = (
 /obj/structure/table/wood,
 /obj/effect/decal/wallpaper/stone/low,
-/obj/structure/sink/directional/south{
-	icon_state = "basin"
-	},
 /obj/underplate/stuff{
 	pixel_y = 14;
 	pixel_x = -6
@@ -4274,6 +4258,7 @@
 	pixel_y = 11
 	},
 /obj/structure/platform/lowwall/rich/old,
+/obj/structure/sink/basin/directional/south,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/apartment)
 "IH" = (
@@ -5904,10 +5889,8 @@
 "Vz" = (
 /obj/effect/decal/wallpaper/paper/darkred/low,
 /obj/structure/table,
-/obj/structure/sink/directional/north{
-	icon_state = "basin"
-	},
 /obj/structure/platform/lowwall/rich,
+/obj/structure/sink/basin/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/apartment)
 "VB" = (
@@ -6401,6 +6384,13 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/fishermanswharf)
+"ZZ" = (
+/obj/effect/decal/wallpaper/light/low,
+/obj/structure/mirror/directional/north,
+/obj/structure/platform/lowwall/rich,
+/obj/structure/sink/basin/directional/south,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/apartment)
 
 (1,1,1) = {"
 rk
@@ -8964,7 +8954,7 @@ Sh
 Sh
 Sh
 Sh
-rB
+vH
 ZG
 rk
 pb
@@ -9070,7 +9060,7 @@ Sh
 Sh
 Sh
 Sh
-rB
+vH
 rB
 ZG
 rk
@@ -10131,9 +10121,9 @@ vC
 vC
 vC
 vC
-vH
-vH
-vH
+eb
+eb
+eb
 LN
 LN
 LN
@@ -14658,7 +14648,7 @@ DO
 Wh
 Oh
 Qu
-kC
+ZZ
 Qb
 cM
 YV
@@ -16584,7 +16574,7 @@ th
 th
 et
 Qu
-kC
+ZZ
 Rx
 mq
 HR
