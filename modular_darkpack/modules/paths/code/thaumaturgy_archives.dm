@@ -1,5 +1,5 @@
 /obj/structure/retail/occult
-	icon_state = "menu"
+	icon_state = "menu" // APOC EDIT ADD
 	owner_needed = FALSE
 	desc = "Use your occult research to reap the benefits of safeguarded knowledge and artifacts."
 
