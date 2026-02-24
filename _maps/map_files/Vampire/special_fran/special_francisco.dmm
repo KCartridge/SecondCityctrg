@@ -6550,7 +6550,9 @@
 /area/vtm/interior)
 "dVT" = (
 /obj/structure/table/modern,
-/obj/structure/retail/smoke_menu,
+/obj/structure/retail/smoke_menu{
+	dir = 4
+	},
 /turf/open/floor/carpet/green,
 /area/vtm/interior/anarch)
 "dVX" = (
@@ -9790,7 +9792,9 @@
 /area/vtm/interior/sewer)
 "fRo" = (
 /obj/structure/table/wood,
-/obj/structure/retail/hardware_store,
+/obj/structure/retail/hardware_store{
+	dir = 1
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/pawnshop)
 "fRq" = (
@@ -12647,6 +12651,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
+/obj/effect/mapping_helpers/door/access/ocean,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/gangbasement)
 "hyT" = (
@@ -16291,7 +16296,9 @@
 /area/vtm)
 "jLY" = (
 /obj/structure/table/wood,
-/obj/structure/retail/costume_store,
+/obj/structure/retail/costume_store{
+	dir = 4
+	},
 /obj/machinery/light/directional/north,
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/shop/ishu)
@@ -17760,9 +17767,9 @@
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/gangbasement)
 "kGz" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 1;
-	color = "#c268fe"
+/obj/structure/chair/sofa/corp/left{
+	color = "#c268fe";
+	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/strip)
@@ -21620,11 +21627,11 @@
 /turf/open/floor/city/toilet,
 /area/vtm/interior/shop/bubway)
 "mYZ" = (
-/obj/structure/chair/sofa/corp/right{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/white{
 	color = "#636363"
+	},
+/obj/structure/chair/sofa/corp/left{
+	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
@@ -22823,7 +22830,9 @@
 /area/vtm)
 "nMJ" = (
 /obj/structure/table/wood/fancy/red,
-/obj/structure/retail/library,
+/obj/structure/retail/library{
+	dir = 1
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/chantry)
 "nMK" = (
@@ -29323,12 +29332,12 @@
 /turf/open/water/vamp_sewer,
 /area/vtm/interior/sewer)
 "rtP" = (
-/obj/structure/chair/sofa/corp/left{
-	dir = 1
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 6;
 	color = "#636363"
+	},
+/obj/structure/chair/sofa/corp/right{
+	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/bluesilver,
 /area/vtm/interior/radio)
@@ -40644,7 +40653,9 @@
 /area/vtm/interior/anarch/basement)
 "ygW" = (
 /obj/structure/table/wood,
-/obj/structure/retail/hot_ishu,
+/obj/structure/retail/hot_ishu{
+	dir = 4
+	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/shop/ishu)
 "yhz" = (
@@ -55839,7 +55850,7 @@ idZ
 ahd
 ahd
 ahd
-jpR
+cSQ
 pOG
 wrk
 wrk
@@ -55946,7 +55957,7 @@ ovu
 ahd
 ahd
 ahd
-cSQ
+jpR
 pOG
 wrk
 wrk
