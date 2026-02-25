@@ -1699,7 +1699,6 @@
 /obj/structure/table/wood/fancy/red,
 /obj/item/blood_hunt,
 /obj/effect/turf_decal/bot_red,
-/obj/effect/turf_decal/bot_red,
 /obj/structure/window/spawner/directional/west{
 	name = "BREAK IN CASE OF EMERGENCY"
 	},
@@ -2391,8 +2390,7 @@
 "byl" = (
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/railing{
-	dir = 9;
-	pixel_y = 3
+	dir = 9
 	},
 /obj/effect/turf_decal/siding/wood{
 	dir = 8
@@ -4038,7 +4036,7 @@
 /obj/structure/hedge,
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/millennium_tower/f4)
 "cuz" = (
 /obj/structure/closet/crate/bin{
@@ -12101,8 +12099,7 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/table/wood/fancy/black,
 /obj/structure/railing{
-	dir = 1;
-	pixel_y = 3
+	dir = 1
 	},
 /obj/item/flashlight/flare/candle/infinite{
 	pixel_y = 6
@@ -13826,6 +13823,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 8
 	},
+/obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower/f4)
 "iiR" = (
@@ -15480,7 +15478,7 @@
 /obj/effect/turf_decal/siding/wood,
 /obj/structure/hedge,
 /obj/structure/flora/bush/flowers_pp/style_random,
-/turf/open/misc/grass,
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/millennium_tower/f4)
 "jlj" = (
 /obj/structure/noticeboard/directional/north,
@@ -16211,6 +16209,7 @@
 /obj/structure/vampdoor/prison{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/camarilla,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/millennium_tower/f4)
 "jJx" = (
@@ -20885,7 +20884,7 @@
 /turf/open/floor/plating/sidewalkalt,
 /area/vtm/outside/financialdistrict)
 "mDK" = (
-/obj/structure/chair/sofa/corp/right{
+/obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
 /turf/open/floor/plating/granite/black,
@@ -28023,7 +28022,7 @@
 /obj/structure/flora/bush/lavendergrass/style_random,
 /obj/structure/flora/bush/flowers_pp/style_random,
 /obj/structure/hedge,
-/turf/open/misc/grass,
+/turf/open/misc/grass/nosmooth,
 /area/vtm/interior/millennium_tower/f4)
 "qKY" = (
 /turf/closed/wall/vampwall/old,
@@ -36177,6 +36176,7 @@
 /obj/structure/vampdoor/prison{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/door/access/camarilla,
 /turf/open/floor/city/plating,
 /area/vtm/interior/millennium_tower/f4)
 "vqI" = (
@@ -39372,10 +39372,9 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/millennium_tower)
 "xod" = (
-/obj/structure/extinguisher_cabinet/directional/north,
-/obj/effect/decal/wallpaper/paper/darkgreen,
-/turf/closed/wall/vampwall/rich,
-/area/vtm/interior/millennium_tower/f4)
+/obj/machinery/photocopier/gratis/prebuilt,
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/millennium_tower)
 "xoj" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 4
@@ -40668,7 +40667,7 @@
 /area/vtm/interior/voivodate/cave)
 "yeL" = (
 /obj/effect/landmark/start/darkpack/camarilla/harpy,
-/obj/structure/chair/sofa/corp/right{
+/obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
 /turf/open/floor/carpet/darkpack/blackgold,
@@ -57024,7 +57023,7 @@ hxE
 jWc
 nOy
 hlW
-sTd
+xod
 sTd
 vhR
 geb
@@ -69237,7 +69236,7 @@ tTK
 wGt
 bdJ
 bdJ
-bYD
+imR
 oQG
 jDB
 rdj
@@ -69558,7 +69557,7 @@ hbr
 wGt
 bdJ
 wsB
-imR
+bYD
 oQG
 xCG
 rdj
@@ -80894,7 +80893,7 @@ jGT
 uwK
 ojC
 uXm
-xod
+wYE
 iiO
 gQu
 gQu
