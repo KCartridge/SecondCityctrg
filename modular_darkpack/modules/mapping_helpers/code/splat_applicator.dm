@@ -32,7 +32,7 @@
 		if(SPLAT_GHOUL)
 			return guy.make_ghoul()
 		if(SPLAT_GAROU)
-			return FALSE // TODO: Fera rework
+			return guy.add_splat(/datum/splat/werewolf/shifter/garou) // TODO: make this randomize tribe/auspice/breed/etc.
 
 /obj/effect/mapping_helpers/splat_applicator/kindred
 	name = "kindred splat applicator"
