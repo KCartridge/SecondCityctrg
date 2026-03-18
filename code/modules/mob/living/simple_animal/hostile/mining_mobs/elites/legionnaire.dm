@@ -53,7 +53,7 @@
 	/// Whether or not the legionnaire is currently charging, used to deny movement input if he is
 	var/charging = FALSE
 
-	var/bonfire_type = /obj/structure/legionnaire_bonfire // APOC EDIT ADD - (Gray masses)
+	var/bonfire_type = /obj/structure/legionnaire_bonfire // APOC EDIT ADD - Gray masses support
 
 /datum/action/innate/elite_attack/legionnaire_charge
 	name = "Legionnaire Charge"
@@ -200,6 +200,7 @@
 /mob/living/simple_animal/hostile/asteroid/elite/legionnaire/proc/bonfire_teleport()
 	ranged_cooldown = world.time + 5
 	if(mypile == null)
+		var/obj/structure/legionnaire_bonfire/newpile = new bonfire_type(loc)
 		var/obj/structure/legionnaire_bonfire/newpile = new bonfire_type(loc)
 		mypile = newpile
 		mypile.myowner = src
