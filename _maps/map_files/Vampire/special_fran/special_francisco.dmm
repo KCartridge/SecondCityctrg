@@ -1697,11 +1697,11 @@
 /area/vtm/interior/endron_facility/restricted)
 "bbN" = (
 /obj/structure/table/wood/fancy/red,
-/obj/item/blood_hunt,
 /obj/effect/turf_decal/bot_red,
 /obj/structure/window/spawner/directional/west{
 	name = "BREAK IN CASE OF EMERGENCY"
 	},
+/obj/item/lighter,
 /turf/open/floor/iron/dark,
 /area/vtm/interior/millennium_tower/f4)
 "bbP" = (
