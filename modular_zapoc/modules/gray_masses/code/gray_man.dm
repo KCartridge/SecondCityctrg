@@ -5,6 +5,7 @@
 	icon = 'modular_zapoc/modules/gray_masses/icons/gray_masses.dmi'
 	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
 	corpse_type = /obj/effect/mob_spawn/corpse/human/gray_masses
+	brood_type = /mob/living/basic/mining/legion_brood/gray_masses
 
 /// Create what we want to drop on death, in proc form so we can always return a static list
 /mob/living/basic/mining/legion/gray_masses/get_loot_list()
@@ -32,6 +33,12 @@
 	var/static/list/death_loot = list(/obj/item/organ/monster_core/regenerative_core/legion/gray_masses = 3, /obj/effect/mob_spawn/corpse/human/gray_masses = 4)
 	return death_loot
 
+/mob/living/basic/mining/legion_brood/gray_masses
+	name = "spore"
+	desc = "A mass of spores shaped like a charred skull vomiting fungus. Yuck."
+	icon = 'modular_zapoc/modules/gray_masses/icons/gray_masses.dmi'
+	mob_biotypes = MOB_ORGANIC|MOB_HUMANOID
+
 /obj/effect/spawner/random/lavaland_mob/legion/gray_masses
 	name = "random gray man"
 	desc = "Chance to spawn a rare shiny version."
@@ -41,6 +48,3 @@
 		/mob/living/basic/mining/legion/gray_masses = 19,
 		/mob/living/basic/mining/legion/dwarf/gray_masses = 1,
 	)
-
-#warn todo: ultraspore
-#warn todo: hivelord brood legion thing skull tiny guy spore blob guy fuck

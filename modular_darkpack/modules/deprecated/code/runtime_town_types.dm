@@ -24,7 +24,7 @@
 	icon = 'icons/obj/machines/computer.dmi'
 	icon_state = "oldcomp"
 
-#warn THIS IS 9/11 BUT THE PLAYTEST IS TODAY GRAAAAH.
+// TODO: reimplement these types. the shoes, at least, baggies might be obsolete now.
 
 /obj/item/storage/box/baggie
 	name = "baggie box"

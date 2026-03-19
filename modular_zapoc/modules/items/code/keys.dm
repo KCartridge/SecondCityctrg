@@ -90,3 +90,12 @@
 
 /obj/effect/mapping_helpers/door/access/pentex_poi
 	lock_id = "pentex_poi"
+
+#undef LOCKACCESS_VET
+#undef LOCKACCESS_COFFEE
+#undef LOCKACCESS_PIZZA
+#undef LOCKACCESS_TATTOO
+#undef LOCKACCESS_OCEAN
+
+#undef LOCKACCESS_VOIVODATE
+#undef LOCKACCESS_VOIVODATE_MASTER
