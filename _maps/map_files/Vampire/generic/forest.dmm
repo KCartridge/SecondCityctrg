@@ -442,7 +442,7 @@
 "dB" = (
 /obj/effect/decal/pallet,
 /obj/structure/table/wood,
-/obj/item/stack/medical/gauze/twelve,
+/obj/item/stack/medical/wrap/gauze/twelve,
 /turf/open/floor/plating/rough/cave,
 /area/vtm/outside/forest/sept)
 "dD" = (
