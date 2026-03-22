@@ -609,7 +609,7 @@
 /area/vtm/interior/endron_facility/forest)
 "jl" = (
 /obj/structure/table,
-/obj/item/stack/medical/gauze/twelve,
+/obj/item/stack/medical/wrap/gauze/twelve,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "jm" = (
@@ -773,7 +773,7 @@
 /obj/structure/table,
 /obj/item/stack/medical/bone_gel,
 /obj/item/stack/medical/bone_gel,
-/obj/item/stack/sticky_tape/surgical,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
 /turf/open/floor/city/circled,
 /area/vtm/interior/endron_facility/forest)
 "lA" = (
@@ -826,7 +826,7 @@
 /area/vtm/outside/forest)
 "mk" = (
 /obj/structure/table,
-/obj/item/charcoal_stick{
+/obj/item/pen/charcoal{
 	pixel_x = 2;
 	pixel_y = 4
 	},
@@ -1551,19 +1551,19 @@
 	pixel_y = 11;
 	pixel_x = 3
 	},
-/obj/item/stack/sticky_tape/surgical{
+/obj/item/stack/medical/wrap/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},
-/obj/item/stack/sticky_tape/surgical{
+/obj/item/stack/medical/wrap/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},
-/obj/item/stack/sticky_tape/surgical{
+/obj/item/stack/medical/wrap/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},
-/obj/item/stack/sticky_tape/surgical{
+/obj/item/stack/medical/wrap/sticky_tape/surgical{
 	pixel_y = 12;
 	pixel_x = -5
 	},

@@ -13319,7 +13319,7 @@
 /area/vtm/interior/millennium_tower/f2)
 "hUb" = (
 /obj/structure/table,
-/obj/item/stack/medical/gauze/twelve{
+/obj/item/stack/medical/wrap/gauze/twelve{
 	pixel_x = 1;
 	pixel_y = 6
 	},
@@ -14390,7 +14390,7 @@
 /area/vtm/interior/chantry)
 "iAI" = (
 /obj/structure/table,
-/obj/item/stack/sticky_tape/surgical,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
 /turf/open/floor/city/circled,
 /area/vtm/interior/vet)
 "iBi" = (
@@ -25790,8 +25790,8 @@
 /area/vtm/interior/clinic)
 "puL" = (
 /obj/structure/table/reinforced,
-/obj/item/stack/medical/gauze,
-/obj/item/stack/medical/gauze,
+/obj/item/stack/medical/wrap/gauze,
+/obj/item/stack/medical/wrap/gauze,
 /obj/machinery/light/small/directional/north,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
@@ -27165,7 +27165,7 @@
 /area/vtm/interior/anarch/basement)
 "qko" = (
 /obj/structure/table/reinforced,
-/obj/item/stack/sticky_tape/surgical,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "qkr" = (
@@ -29058,8 +29058,8 @@
 /obj/item/storage/medkit/darkpack/standard{
 	pixel_y = 11
 	},
-/obj/item/stack/medical/gauze/twelve,
-/obj/item/stack/sticky_tape/surgical,
+/obj/item/stack/medical/wrap/gauze/twelve,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
 /obj/item/stack/medical/bone_gel,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
