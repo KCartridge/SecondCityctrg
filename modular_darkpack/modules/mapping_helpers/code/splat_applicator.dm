@@ -19,7 +19,7 @@
 
 /obj/effect/mapping_helpers/splat_applicator/Initialize(mapload)
 	. = ..()
-	if(istype(src, abstract_type))
+	if(findtext(name, "abstract")) // inelegant. ugly.
 		CRASH("[name] ([x],[y],[z]) says, \"We're using the abstract splat applicator! Use a subtype, darnit!\"")
 
 	for(var/mob/living/guy in range(range, src))
