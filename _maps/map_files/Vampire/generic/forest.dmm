@@ -127,10 +127,10 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/interior/forest/cave)
 "aW" = (
-/obj/machinery/light/small/broken/directional/south,
 /obj/effect/turf_decal/darkpack/grass{
 	dir = 9
 	},
+/obj/machinery/light/small/broken/directional/north,
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "aX" = (
@@ -364,9 +364,7 @@
 /turf/open/floor/plating/rough/cave,
 /area/vtm/outside/forest/sept)
 "cQ" = (
-/obj/machinery/light/small/pink{
-	pixel_y = 32
-	},
+/obj/machinery/light/small/pink/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/forest/cabin)
 "cS" = (
@@ -1956,11 +1954,11 @@
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/forest)
 "su" = (
-/obj/machinery/light/small/directional/north,
 /obj/structure/flora/bush/flowers_br/style_random,
 /obj/effect/turf_decal/darkpack/grass{
 	dir = 5
 	},
+/obj/machinery/light/small/directional/north,
 /turf/open/misc/dirt,
 /area/vtm/outside/forest)
 "sx" = (
