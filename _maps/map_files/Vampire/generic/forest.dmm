@@ -2049,10 +2049,6 @@
 	chance_to_del = 66;
 	name = "Delete Pentex POI and Garou Glyph 66 chance"
 	},
-/obj/effect/decal/garou_glyph/toxic{
-	pixel_x = -32;
-	pixel_y = -32
-	},
 /turf/open/misc/grass,
 /area/vtm/outside/forest)
 "sX" = (
@@ -2833,6 +2829,13 @@
 	},
 /turf/open/genturf,
 /area/vtm/planetgeneration)
+"zI" = (
+/obj/effect/decal/garou_glyph/toxic{
+	pixel_x = 0;
+	pixel_y = -1
+	},
+/turf/open/misc/grass/random,
+/area/vtm/outside/forest)
 "zN" = (
 /obj/effect/turf_decal/darkpack/dirt{
 	dir = 8
@@ -19317,7 +19320,7 @@ sm
 Vj
 EH
 EH
-dy
+zI
 Pc
 PW
 tV
