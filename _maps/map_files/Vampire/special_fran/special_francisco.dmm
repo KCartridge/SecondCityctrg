@@ -26817,19 +26817,6 @@
 /obj/structure/table/modern,
 /turf/open/floor/plating/granite/black,
 /area/vtm/interior/museum)
-"pZr" = (
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 8
-	},
-/obj/effect/turf_decal/siding/white{
-	color = "#636363";
-	dir = 4
-	},
-/obj/machinery/light/small/red/directional/west,
-/obj/machinery/light/small/red/directional/west,
-/obj/machinery/light/small/red/directional/west,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/endron_facility/restricted)
 "pZz" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/ghetto)
@@ -41265,7 +41252,7 @@ hki
 hki
 hki
 hki
-pZr
+mQH
 hki
 bco
 wrk
