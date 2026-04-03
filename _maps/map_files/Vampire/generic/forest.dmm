@@ -3935,13 +3935,11 @@
 /turf/open/misc/grass,
 /area/vtm/outside/forest)
 "Kd" = (
-/obj/structure/bonfire/prelit{
-	pixel_y = 8;
-	density = 1
+/obj/transfer_point_vamp/umbral/exit{
+	id = "umb_forest"
 	},
-/obj/structure/platform/lowwall/wood,
-/turf/open/floor/plating/rough,
-/area/vtm/outside/forest/sept)
+/turf/open/misc/grass/random/grass,
+/area/vtm/outside/forest)
 "Kg" = (
 /obj/effect/turf_decal/darkpack/rough{
 	dir = 1
@@ -4787,6 +4785,14 @@
 /obj/effect/realistic_fog/dense,
 /turf/open/water/beach/vamp,
 /area/vtm/interior/forest/cave)
+"Sz" = (
+/obj/structure/bonfire/prelit{
+	pixel_y = -24;
+	density = 1;
+	pixel_x = 0
+	},
+/turf/open/misc/grass/random/grass,
+/area/vtm/outside/forest/sept)
 "SF" = (
 /obj/structure/bed,
 /obj/item/bedsheet/medical,
@@ -10349,8 +10355,8 @@ LP
 Me
 NI
 LP
-LP
-Kd
+Sz
+XR
 jd
 Pc
 ze
@@ -11141,8 +11147,8 @@ LP
 sT
 LP
 LP
-LP
-Kd
+Sz
+XR
 je
 Vy
 zN
@@ -16185,7 +16191,7 @@ NT
 NT
 ar
 Pc
-Pc
+Kd
 Bk
 pi
 je
