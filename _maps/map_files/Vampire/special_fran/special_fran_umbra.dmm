@@ -32,11 +32,6 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/penumbra)
-"aU" = (
-/obj/structure/table/countertop/bubway,
-/obj/structure/table/countertop/bubway,
-/turf/open/floor/wood/smooth/old,
-/area/vtm/outside/penumbra)
 "bj" = (
 /obj/structure/bookcase,
 /turf/open/floor/wood/smooth/old,
@@ -5664,7 +5659,7 @@ Yv
 Vz
 Vz
 Vz
-qT
+Vz
 Vz
 Yv
 Yv
@@ -6938,7 +6933,7 @@ Yv
 ie
 ie
 ie
-qT
+Vz
 Vz
 Yv
 Yv
@@ -7264,7 +7259,7 @@ Yv
 Yv
 Vz
 Vz
-qT
+Vz
 Vz
 Vz
 ie
@@ -9069,7 +9064,7 @@ OZ
 OZ
 Ja
 lW
-aU
+Re
 Yv
 Yv
 Yv
