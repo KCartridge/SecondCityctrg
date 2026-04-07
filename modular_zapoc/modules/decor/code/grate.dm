@@ -13,3 +13,11 @@
 
 /obj/structure/fluff/grate/rusty/round
 	icon_state = "grate_round-rust"
+
+/obj/structure/fluff/grate/drain
+	name = "drain"
+	icon_state = "grate_small"
+
+/obj/structure/fluff/grate/drain/rusty
+	desc = "Rusty. Is that a hairball?"
+	icon_state = "grate_small-rust"

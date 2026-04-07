@@ -7794,6 +7794,7 @@
 #include "modular_zapoc\modules\clothing\code\turtleskirt_loadout.dm"
 #include "modular_zapoc\modules\decor\code\agility_shortcut.dm"
 #include "modular_zapoc\modules\decor\code\fancy_grave.dm"
+#include "modular_zapoc\modules\decor\code\grate.dm"
 #include "modular_zapoc\modules\decor\code\man_crystal.dm"
 #include "modular_zapoc\modules\decor\code\superhigh_railing.dm"
 #include "modular_zapoc\modules\decor\code\torch.dm"
