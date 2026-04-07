@@ -1,14 +1,8 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
-"aa" = (
-/obj/structure/guncase,
-/obj/item/gun/ballistic/shotgun/vampire,
-/obj/item/flashlight/lantern/on{
-	pixel_x = -7;
-	pixel_y = 19
+"an" = (
+/obj/structure/vampfence/corner/rich{
+	dir = 8
 	},
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
-"ag" = (
 /turf/open/misc/dirt,
 /area/vtm/graveyard)
 "av" = (
@@ -19,6 +13,19 @@
 /obj/item/gun/ballistic/automatic/pistol/darkpack/m1911,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
+"aw" = (
+/obj/machinery/light/directional/north,
+/obj/structure/rack/tall/store_shelf_metal{
+	dir = 4
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
+"aH" = (
+/obj/structure/chair/darkpack{
+	dir = 8
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "aM" = (
 /obj/effect/spawner/random/trash/rat,
 /turf/open/misc/beach/vamp,
@@ -29,14 +36,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"aQ" = (
-/obj/structure/table,
-/obj/structure/retail/gummaguts_menu{
-	dir = 8
-	},
-/obj/structure/platform/lowwall/market,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/shop)
 "bj" = (
 /obj/structure/closet/secure_closet/freezer,
 /turf/open/floor/city/toilet,
@@ -52,10 +51,6 @@
 /obj/structure/roadsign/crosswalk,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
-"bA" = (
-/obj/structure/werewolf_totem/generic/weaver,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/techshop)
 "bB" = (
 /obj/structure/chair/wood/darkpack/red,
 /turf/open/floor/plating/rough,
@@ -71,14 +66,10 @@
 /obj/structure/closet/secure_closet/medical2,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
-"bD" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/engineering/toolbox{
-	pixel_x = 2;
-	pixel_y = 2
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
+"bJ" = (
+/obj/structure/sign/flag/pride/lesbian/directional/north,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "bK" = (
 /obj/machinery/fax/admin/camarilla,
 /obj/structure/table/wood,
@@ -143,12 +134,6 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"cz" = (
-/obj/structure/table,
-/obj/lombard/blackmarket,
-/obj/structure/platform/lowwall/rich/old,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/cog)
 "cQ" = (
 /obj/structure/table,
 /obj/item/storage/medkit/darkpack/ifak,
@@ -177,9 +162,8 @@
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"dE" = (
-/obj/structure/railing,
-/turf/open/floor/plating/canal,
+"dK" = (
+/turf/closed/wall/vampwall/brick_old,
 /area/vtm/interior/techshop)
 "dN" = (
 /obj/item/clothing/head/cone,
@@ -204,12 +188,13 @@
 /obj/item/vamp/keys/camarilla,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"ew" = (
-/obj/structure/vampfence/corner/rich{
+"et" = (
+/obj/structure/retail/library{
 	dir = 8
 	},
-/turf/open/misc/dirt,
-/area/vtm/graveyard)
+/obj/structure/table/countertop/red,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "eG" = (
 /obj/machinery/light/directional/north,
 /turf/open/floor/plating/rough,
@@ -220,6 +205,11 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"eL" = (
+/obj/structure/table/wood,
+/obj/item/scythe/vamp,
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "eQ" = (
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
@@ -327,10 +317,6 @@
 /obj/machinery/sprinkler/area_managed,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"hp" = (
-/obj/structure/tzijelly,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
 "hu" = (
 /obj/effect/decal/pallet,
 /obj/item/ammo_box/darkpack/arrows,
@@ -345,9 +331,28 @@
 /obj/structure/table/countertop/beige,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"hD" = (
+/obj/structure/table,
+/obj/lombard/blackmarket,
+/obj/structure/platform/lowwall/rich/old,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/cog)
 "hF" = (
-/turf/open/openspace,
-/area/vtm/interior/techshop)
+/obj/structure/table,
+/obj/structure/platform/lowwall/brick,
+/obj/structure/retail/costume_store{
+	pixel_x = 2;
+	pixel_y = -4;
+	dir = 8;
+	icon_state = "menu"
+	},
+/obj/structure/retail/hot_ishu{
+	pixel_y = 10;
+	dir = 8;
+	icon_state = "menu"
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop)
 "hH" = (
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash5"
@@ -417,6 +422,10 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
+"iU" = (
+/obj/structure/tzijelly,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "iV" = (
 /obj/darkpack_car/track{
 	access = "supply";
@@ -450,6 +459,9 @@
 /obj/structure/platform/lowwall/brick,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
+"jr" = (
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/techshop)
 "jw" = (
 /obj/effect/decal/cleanable/trash{
 	icon_state = "trash7"
@@ -467,12 +479,21 @@
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
+"jH" = (
+/turf/closed/wall/vampwall/brick,
+/area/vtm/graveyard/interior)
 "jK" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
+"jQ" = (
+/obj/structure/vampfence/rich{
+	dir = 4
+	},
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
 "jR" = (
 /obj/machinery/button/elevator/directional/north{
 	id = "DebugElevator2";
@@ -503,6 +524,12 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
+"kg" = (
+/obj/structure/vampfence/rich{
+	dir = 4
+	},
+/turf/open/misc/grass,
+/area/vtm/graveyard)
 "ki" = (
 /obj/structure/fluff/tv/order/three{
 	pixel_x = -10;
@@ -518,6 +545,14 @@
 /obj/effect/turf_decal/stripes/line,
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
+"kl" = (
+/obj/structure/table/wood,
+/obj/item/storage/toolbox/mechanical{
+	pixel_x = -4;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "kn" = (
 /obj/structure/table,
 /obj/item/molotov,
@@ -525,16 +560,6 @@
 /obj/item/molotov,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"kx" = (
-/obj/structure/vampfence/corner/rich{
-	dir = 4
-	},
-/turf/open/misc/dirt,
-/area/vtm/graveyard)
-"kO" = (
-/obj/structure/toiletbong,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "kS" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/interior/shop)
@@ -561,9 +586,14 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"lx" = (
-/turf/open/floor/plating/sidewalk,
+"lv" = (
+/turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/cog)
+"lC" = (
+/obj/structure/railing,
+/obj/structure/lattice/grate,
+/turf/open/openspace,
+/area/vtm/interior/techshop)
 "lM" = (
 /obj/effect/decal/cleanable/trash,
 /obj/effect/spawner/random/occult/artifact,
@@ -586,42 +616,30 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
-"mb" = (
-/obj/effect/landmark/teleport_mark/alltribes,
-/turf/open/floor/plating/rough/cave,
+"md" = (
+/obj/structure/vampdoor{
+	dir = 4
+	},
+/turf/open/floor/plating/canal,
 /area/vtm/interior/techshop)
-"mf" = (
-/obj/structure/table/wood,
-/obj/item/scythe/vamp,
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
 "mn" = (
 /obj/structure/barrels/rand,
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
-"mr" = (
-/turf/open/floor/plating/canal,
-/area/vtm/interior/techshop)
 "mw" = (
 /obj/structure/ladder/manhole/up,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"mS" = (
+"mG" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
+"mL" = (
 /obj/structure/rack/tall/store_shelf_metal{
 	dir = 8
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"mT" = (
-/obj/structure/table/wood,
-/obj/item/seeds/cannabis,
-/obj/item/seeds/cannabis,
-/obj/item/seeds/cannabis,
-/obj/item/seeds/cannabis,
-/obj/item/seeds/cannabis,
-/obj/item/seeds/cannabis,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "mW" = (
 /obj/item/storage/box/syringes,
 /obj/item/storage/box/masks,
@@ -636,6 +654,9 @@
 /obj/structure/table/wood,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"nj" = (
+/turf/open/openspace,
+/area/vtm/interior/techshop)
 "nm" = (
 /obj/effect/decal/pallet,
 /obj/item/ammo_box/darkpack/c9mm/silver,
@@ -656,6 +677,13 @@
 /obj/effect/decal/cleanable/cardboard,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"nC" = (
+/obj/structure/table/wood,
+/obj/structure/retail/flower_shop{
+	dir = 4
+	},
+/turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
 "nD" = (
 /obj/structure/fluff/tv/order/one{
 	pixel_y = 12;
@@ -668,14 +696,10 @@
 /obj/structure/sign/city/store/bacotell/directional/north,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"nZ" = (
-/obj/structure/vampfence/corner/rich,
-/turf/open/misc/dirt,
+"nT" = (
+/obj/structure/vampfence/rich,
+/turf/open/misc/grass,
 /area/vtm/graveyard)
-"od" = (
-/obj/structure/sign/flag/pride/trans/directional/north,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
 "of" = (
 /obj/item/storage/medkit/darkpack/standard,
 /obj/item/storage/medkit/darkpack/standard,
@@ -710,6 +734,20 @@
 "oM" = (
 /turf/open/floor/plating/sidewalk,
 /area/vtm/interior/supply)
+"oN" = (
+/obj/machinery/light/directional/east,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
+"oP" = (
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/techshop)
+"oT" = (
+/obj/structure/vampfence/corner/rich{
+	dir = 4
+	},
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
 "oV" = (
 /obj/weapon_showcase,
 /obj/structure/sign/flag/usa/directional/north,
@@ -724,6 +762,22 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"oZ" = (
+/obj/structure/table/wood,
+/obj/item/shovel/vamp{
+	pixel_x = 2;
+	pixel_y = 1
+	},
+/obj/item/shovel/vamp{
+	pixel_x = -4;
+	pixel_y = 7
+	},
+/obj/item/melee/vamp/tire{
+	pixel_x = 1;
+	pixel_y = 14
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "pg" = (
 /obj/structure/vampfence/rich{
 	dir = 4;
@@ -732,24 +786,11 @@
 /obj/structure/platform/lowwall/brick_old,
 /turf/open/floor/plating/rough,
 /area/vtm/outside/pacificheights)
-"ph" = (
-/obj/structure/table/countertop/bubway,
-/obj/structure/retail/bubway_menu{
-	dir = 1
-	},
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
 "pm" = (
-/obj/effect/decal/cleanable/litter,
-/obj/structure/rack/tall/store_shelf_metal{
-	dir = 8
-	},
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
-"pv" = (
-/obj/machinery/light/directional/west,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
+/obj/machinery/light/dim/directional/east,
+/obj/effect/spawner/random/decoration/flower,
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
 "pz" = (
 /obj/darkpack_car/rand{
 	locked = 0;
@@ -764,10 +805,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"pI" = (
-/obj/structure/lattice/grate,
-/turf/open/openspace,
-/area/vtm/interior/techshop)
 "pN" = (
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
@@ -823,6 +860,10 @@
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
+"qF" = (
+/obj/item/clothing/head/collectable/pirate,
+/turf/open/floor/wood/rough,
+/area/vtm/interior/techshop)
 "qN" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/plating/rough,
@@ -844,6 +885,14 @@
 /obj/structure/table/countertop/purple,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"rn" = (
+/obj/structure/retail/clothing_store{
+	dir = 8
+	},
+/obj/structure/table,
+/obj/structure/platform/lowwall/brick,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop)
 "rs" = (
 /obj/machinery/fax/camarilla,
 /obj/structure/table/wood,
@@ -853,6 +902,16 @@
 /obj/effect/landmark/observer_start,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"rx" = (
+/obj/structure/table/wood,
+/obj/item/soil_sack,
+/obj/item/soil_sack/coir,
+/obj/item/soil_sack/gel,
+/obj/item/soil_sack/rich,
+/obj/item/soil_sack/vermaculite,
+/obj/item/soil_sack/worm,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "rB" = (
 /turf/closed/indestructible/the_matrix,
 /area/vtm)
@@ -862,20 +921,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"rG" = (
-/obj/structure/retail/clothing_store{
-	dir = 8
-	},
-/obj/structure/table,
-/obj/structure/platform/lowwall/brick,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/shop)
-"rI" = (
-/obj/effect/vip_barrier/endron/endron_lab{
-	dir = 8
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/interior/techshop)
 "rK" = (
 /obj/item/storage/pill_bottle/ephedrine,
 /obj/item/storage/pill_bottle/ephedrine,
@@ -956,13 +1001,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"sz" = (
-/obj/structure/retail/bacotell_menu{
-	dir = 1
-	},
-/obj/structure/table/countertop/bacotell,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
 "sR" = (
 /obj/effect/decal/pallet,
 /turf/open/misc/dirt,
@@ -995,6 +1033,11 @@
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"tc" = (
+/obj/machinery/light/directional/north,
+/obj/structure/lattice/grate,
+/turf/open/openspace,
+/area/vtm/interior/techshop)
 "tf" = (
 /obj/effect/turf_decal/bordur{
 	dir = 10
@@ -1002,10 +1045,15 @@
 /obj/structure/lamppost/four,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"to" = (
-/obj/structure/vampgate,
-/turf/open/misc/dirt,
-/area/vtm/graveyard)
+"tg" = (
+/obj/structure/vampdoor,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
+"ti" = (
+/obj/machinery/smartfridge/drying/rack,
+/obj/machinery/light/directional/north,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "tu" = (
 /obj/darkpack_car/track/volkswagen{
 	dir = 4;
@@ -1023,15 +1071,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"tJ" = (
-/obj/machinery/smartfridge/drying/rack,
-/obj/machinery/light/directional/north,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
-"tL" = (
-/obj/structure/vampfence/rich,
-/turf/open/misc/grass,
-/area/vtm/graveyard)
 "tO" = (
 /obj/effect/gibspawner/human,
 /obj/structure/sign/city/store/gummaguts/directional/north,
@@ -1045,9 +1084,13 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"tR" = (
-/turf/closed/wall/vampwall/rich/old,
-/area/vtm/interior/cog)
+"tU" = (
+/obj/structure/retail/bacotell_menu{
+	dir = 1
+	},
+/obj/structure/table/countertop/bacotell,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "tW" = (
 /obj/darkpack_car/police/ranger,
 /turf/open/floor/plating/asphalt,
@@ -1062,10 +1105,6 @@
 	},
 /turf/open/floor/iron/smooth_large,
 /area/vtm/outside/pacificheights)
-"uh" = (
-/obj/structure/vampfence/corner/rich,
-/turf/open/misc/grass,
-/area/vtm/graveyard)
 "ut" = (
 /obj/structure/chair/comfy/darkpack/green{
 	dir = 1
@@ -1112,19 +1151,25 @@
 /obj/effect/landmark/navigate_destination,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
+"uZ" = (
+/obj/vampgrave{
+	spawn_interval = 300;
+	max_zombies_per_grave = 1;
+	name = "upturned grave"
+	},
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
 "va" = (
 /obj/structure/table/wood,
 /obj/item/vtm_artifact/fae_charm,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer)
-"vf" = (
-/turf/open/floor/wood/rough,
-/area/vtm/interior/techshop)
 "vi" = (
-/obj/structure/vampdoor/wood{
-	dir = 4
+/obj/structure/table/wood,
+/obj/effect/spawner/random/engineering/toolbox{
+	pixel_x = 2;
+	pixel_y = 2
 	},
-/obj/effect/mapping_helpers/door/access/graveyard,
 /turf/open/floor/plating/rough,
 /area/vtm/graveyard/interior)
 "vl" = (
@@ -1136,34 +1181,44 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
+"vm" = (
+/obj/machinery/hydroponics/simple/wooden,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "vs" = (
 /obj/effect/landmark/npcbeacon,
 /obj/effect/turf_decal/bordur/corner,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
+"vu" = (
+/obj/structure/table/wood,
+/obj/effect/spawner/random/bureaucracy/paper{
+	pixel_x = 7;
+	pixel_y = -2
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "vD" = (
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/city/toilet,
 /area/vtm/interior/shop)
-"vG" = (
-/obj/machinery/smartfridge/drying/rack,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "vH" = (
 /obj/structure/sign/city/police_department/directional/north{
 	icon_state = "police3"
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"vK" = (
+"vJ" = (
+/obj/effect/decal/cleanable/litter,
 /obj/structure/rack/tall/store_shelf_metal{
-	dir = 4
+	dir = 8
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"vT" = (
+/obj/machinery/hydroponics/soil,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "wb" = (
 /obj/structure/table,
 /obj/item/storage/medkit/darkpack/brute,
@@ -1171,24 +1226,6 @@
 /obj/item/storage/medkit/darkpack/brute,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
-"wh" = (
-/obj/structure/table/wood,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis,
-/obj/item/food/grown/cannabis,
-/obj/item/bong{
-	pixel_y = 10;
-	pixel_x = 10
-	},
-/obj/item/bong{
-	pixel_y = 2;
-	pixel_x = 10
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "wj" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 4
@@ -1204,10 +1241,24 @@
 /obj/effect/decal/cleanable/trash,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"wT" = (
+/obj/structure/chair/office/darkpack/green{
+	dir = 8
+	},
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/supply)
+"wX" = (
+/obj/structure/bonfire/prelit/fire_barrel,
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/ghetto)
 "xc" = (
 /obj/weapon_showcase,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop)
+"xd" = (
+/obj/structure/closet/crate/wooden/communitygardens/tools,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "xh" = (
 /obj/effect/turf_decal/bordur{
 	dir = 1
@@ -1227,20 +1278,19 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"xt" = (
-/obj/machinery/hydroponics/soil,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
-"xz" = (
-/obj/structure/bonfire/prelit/fire_barrel,
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/outside/ghetto)
 "xE" = (
 /obj/structure/table,
 /obj/item/storage/medkit/darkpack/advanced,
 /obj/item/storage/medkit/darkpack/advanced,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
+"xF" = (
+/obj/structure/vampdoor/wood{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/door/access/graveyard,
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "xH" = (
 /obj/lombard,
 /obj/structure/table/countertop/beige,
@@ -1254,16 +1304,6 @@
 /obj/item/gun/ballistic/automatic/darkpack/thompson,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
-"xY" = (
-/obj/structure/table/wood,
-/obj/item/soil_sack,
-/obj/item/soil_sack/coir,
-/obj/item/soil_sack/gel,
-/obj/item/soil_sack/rich,
-/obj/item/soil_sack/vermaculite,
-/obj/item/soil_sack/worm,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "xZ" = (
 /obj/machinery/light/floor,
 /turf/open/floor/plating/rough,
@@ -1275,10 +1315,6 @@
 "yk" = (
 /turf/closed/wall/vampwall/brick,
 /area/vtm/interior/supply)
-"yo" = (
-/obj/structure/table/wood,
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
 "yq" = (
 /obj/structure/barrels/rand,
 /obj/structure/sign/city/chinese/alt2/directional/west,
@@ -1290,65 +1326,10 @@
 /obj/item/storage/medkit/darkpack/doctor,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
-"yu" = (
-/obj/structure/table/wood,
-/obj/item/kirbyplants/darkpack/random{
-	pixel_x = 10;
-	pixel_y = 17
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_x = -11;
-	pixel_y = -21
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_x = 4;
-	pixel_y = -14
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_y = 18
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_x = 12;
-	pixel_y = 9
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_x = 10;
-	pixel_y = -16
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_x = -5;
-	pixel_y = -13
-	},
-/obj/item/kirbyplants/darkpack/random{
-	pixel_x = -9;
-	pixel_y = 16
-	},
-/obj/structure/retail/hardware_store{
-	dir = 4;
-	icon_state = "menu"
-	},
-/turf/open/misc/beach/vamp,
-/area/vtm/outside/pacificheights)
 "yw" = (
 /obj/machinery/sprinkler,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"yA" = (
-/obj/structure/table,
-/obj/structure/platform/lowwall/brick,
-/obj/structure/retail/costume_store{
-	pixel_x = 2;
-	pixel_y = -4;
-	dir = 8;
-	icon_state = "menu"
-	},
-/obj/structure/retail/hot_ishu{
-	pixel_y = 10;
-	dir = 8;
-	icon_state = "menu"
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/interior/shop)
 "yD" = (
 /obj/structure/table,
 /obj/item/storage/medkit/darkpack/burn,
@@ -1369,6 +1350,24 @@
 	},
 /turf/open/misc/grass,
 /area/vtm/outside/pacificheights)
+"yX" = (
+/obj/structure/table/wood,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/bong{
+	pixel_y = 10;
+	pixel_x = 10
+	},
+/obj/item/bong{
+	pixel_y = 2;
+	pixel_x = 10
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "zd" = (
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer)
@@ -1399,9 +1398,6 @@
 /obj/effect/spawner/random/stray_animal,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"zD" = (
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
 "zF" = (
 /obj/structure/table/wood,
 /obj/item/vtm_artifact/weekapaug_thistle,
@@ -1412,6 +1408,9 @@
 /obj/structure/table/wood,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer)
+"zQ" = (
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "zX" = (
 /obj/effect/decal/wallpaper/red,
 /turf/closed/wall/vampwall/market,
@@ -1427,20 +1426,14 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
-"Ay" = (
-/obj/structure/vampdoor/wood{
-	dir = 1
-	},
-/obj/effect/mapping_helpers/door/access/graveyard,
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
-"AC" = (
-/obj/structure/retail/black_market{
-	dir = 8
-	},
-/obj/structure/table/countertop/black,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/shop)
+"Aq" = (
+/obj/structure/vampfence/corner/rich,
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
+"Au" = (
+/obj/structure/lattice/grate,
+/turf/open/openspace,
+/area/vtm/interior/techshop)
 "AE" = (
 /obj/structure/bookcase/random/adult,
 /turf/open/floor/plating/concrete,
@@ -1454,12 +1447,6 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"Bb" = (
-/obj/structure/vampfence/rich{
-	dir = 4
-	},
-/turf/open/misc/grass,
-/area/vtm/graveyard)
 "Be" = (
 /obj/structure/vampdoor/simple,
 /obj/effect/mapping_helpers/door/access/supply,
@@ -1505,18 +1492,6 @@
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
-"BH" = (
-/obj/structure/table/wood,
-/obj/item/ammo_box/darkpack/c12g{
-	pixel_x = 6;
-	pixel_y = 8
-	},
-/obj/item/ammo_box/darkpack/c12g{
-	pixel_x = -6;
-	pixel_y = 11
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
 "BL" = (
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/plating/concrete,
@@ -1525,13 +1500,6 @@
 /obj/structure/closet/crate/bin,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"BW" = (
-/obj/machinery/light/directional/north,
-/obj/structure/rack/tall/store_shelf_metal{
-	dir = 4
-	},
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
 "BX" = (
 /obj/structure/table,
 /obj/structure/platform/lowwall/market,
@@ -1561,16 +1529,27 @@
 /obj/structure/extinguisher_cabinet/directional/north,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
-"CO" = (
-/obj/structure/platform/lowwall/brick/window/reinforced,
+"CF" = (
+/obj/structure/guncase,
+/obj/item/gun/ballistic/shotgun/vampire,
+/obj/item/flashlight/lantern/on{
+	pixel_x = -7;
+	pixel_y = 19
+	},
 /turf/open/floor/plating/rough,
 /area/vtm/graveyard/interior)
-"CW" = (
-/obj/structure/chair/office/darkpack/green{
-	dir = 8
+"CP" = (
+/obj/structure/table/wood,
+/obj/item/ammo_box/darkpack/c12g{
+	pixel_x = 6;
+	pixel_y = 8
 	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/outside/supply)
+/obj/item/ammo_box/darkpack/c12g{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "Df" = (
 /obj/structure/closet/crate/freezer/blood{
 	name = "vampire blood freezer"
@@ -1592,8 +1571,11 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
 "Dj" = (
+/obj/effect/vip_barrier/endron/endron_lab{
+	dir = 8
+	},
 /turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
+/area/vtm/interior/techshop)
 "Dp" = (
 /obj/structure/table,
 /obj/item/storage/medkit/darkpack/oxy,
@@ -1644,11 +1626,17 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"DS" = (
-/obj/machinery/light/dim/directional/east,
-/obj/effect/spawner/random/decoration/flower,
-/turf/open/misc/dirt,
-/area/vtm/graveyard)
+"DP" = (
+/obj/structure/table/wood,
+/obj/item/storage/fancy/rollingpapers{
+	pixel_x = -6
+	},
+/obj/item/storage/box/matches{
+	pixel_x = 6;
+	pixel_y = 10
+	},
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "DT" = (
 /obj/machinery/fax/endron,
 /obj/structure/table/wood,
@@ -1666,27 +1654,25 @@
 /obj/structure/lamppost/one,
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
+"Eb" = (
+/obj/structure/retail/gun_store{
+	dir = 1
+	},
+/obj/structure/table,
+/obj/structure/platform/lowwall/market,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop)
 "Ef" = (
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/sewer)
-"Eg" = (
-/obj/structure/table/wood,
-/obj/item/storage/fancy/rollingpapers{
-	pixel_x = -6
-	},
-/obj/item/storage/box/matches{
-	pixel_x = 6;
-	pixel_y = 10
-	},
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "Em" = (
 /obj/structure/cargo_put,
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
-"Eq" = (
-/obj/structure/vampfence/rich{
-	dir = 4
+"Ep" = (
+/obj/item/flashlight/lantern/on{
+	pixel_x = -8;
+	pixel_y = 8
 	},
 /turf/open/misc/dirt,
 /area/vtm/graveyard)
@@ -1713,24 +1699,29 @@
 /obj/machinery/light/directional/west,
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
-"EI" = (
-/obj/structure/vampfence/rich,
-/turf/open/misc/dirt,
-/area/vtm/graveyard)
 "EL" = (
 /obj/structure/platform/lowwall/rich/old/window,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
-"EP" = (
-/obj/structure/retail/junkfood_menu{
-	dir = 4
-	},
-/obj/structure/table/countertop/teal,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
 "EY" = (
 /turf/closed/wall/vampwall/rich,
 /area/vtm/outside/pacificheights)
+"Fa" = (
+/obj/structure/table/wood,
+/obj/item/seeds/cannabis,
+/obj/item/seeds/cannabis,
+/obj/item/seeds/cannabis,
+/obj/item/seeds/cannabis,
+/obj/item/seeds/cannabis,
+/obj/item/seeds/cannabis,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
+"Fe" = (
+/obj/structure/table,
+/obj/lombard,
+/obj/structure/platform/lowwall/rich/old,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/cog)
 "Ff" = (
 /obj/effect/spawner/random/trash/grime{
 	spawn_loot_count = 30;
@@ -1747,6 +1738,10 @@
 	},
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
+"Fz" = (
+/obj/structure/sign/flag/pride/directional/north,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "FB" = (
 /obj/effect/turf_decal/stock{
 	dir = 1
@@ -1757,6 +1752,12 @@
 /obj/machinery/vending/boozeomat,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"FE" = (
+/obj/structure/railing,
+/obj/structure/lattice/grate,
+/obj/structure/ladder/manhole,
+/turf/open/openspace,
+/area/vtm/interior/techshop)
 "FG" = (
 /obj/effect/decal/cleanable/cardboard,
 /obj/effect/decal/graffiti/large,
@@ -1782,6 +1783,10 @@
 /obj/cargocrate,
 /turf/open/misc/dirt/rails,
 /area/vtm/outside/supply)
+"Gf" = (
+/obj/machinery/hydroponics/simple/plastic,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "Gj" = (
 /obj/effect/gibspawner/human,
 /turf/open/floor/city/toilet,
@@ -1840,6 +1845,10 @@
 	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
+"GV" = (
+/obj/structure/vampfence/rich,
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
 "GX" = (
 /obj/structure/barrels/rand,
 /obj/machinery/light/directional/north,
@@ -1894,14 +1903,6 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Hv" = (
-/obj/structure/table/wood,
-/obj/effect/spawner/random/bureaucracy/paper{
-	pixel_x = 7;
-	pixel_y = -2
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
 "Hy" = (
 /obj/machinery/atm{
 	dir = 8;
@@ -1917,6 +1918,10 @@
 /obj/effect/turf_decal/stock,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
+"HK" = (
+/obj/structure/vampgate,
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
 "HO" = (
 /obj/effect/landmark/npcbeacon,
 /obj/effect/turf_decal/bordur{
@@ -1937,11 +1942,24 @@
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
+"If" = (
+/obj/structure/toilet{
+	dir = 8
+	},
+/turf/open/floor/plating/rough,
+/area/vtm/interior/techshop)
 "Ig" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/roadblock,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
+"Ii" = (
+/obj/machinery/smartfridge/drying/rack,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/obj/item/food/grown/cannabis,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "IA" = (
 /obj/structure/railing{
 	dir = 10
@@ -1949,41 +1967,22 @@
 /obj/structure/transport/linear/public,
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
+"IC" = (
+/obj/structure/table/wood,
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "ID" = (
 /turf/closed/wall/vampwall/market,
 /area/vtm/outside/pacificheights)
-"IE" = (
-/obj/structure/sign/flag/pride/lesbian/directional/north,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
 "IL" = (
 /obj/structure/ladder/manhole/up,
 /turf/open/floor/plating/rough,
-/area/vtm/interior/techshop)
-"IM" = (
-/obj/structure/railing,
-/obj/structure/lattice/grate,
-/obj/structure/ladder/manhole,
-/turf/open/openspace,
-/area/vtm/interior/techshop)
-"IQ" = (
-/obj/machinery/light/dim/directional/east,
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
-"IU" = (
-/obj/machinery/light/directional/north,
-/turf/open/floor/plating/canal,
 /area/vtm/interior/techshop)
 "IZ" = (
 /obj/machinery/fax/aasimites,
 /obj/structure/table/wood,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Je" = (
-/obj/machinery/light/directional/north,
-/obj/structure/werewolf_totem/children_of_gaia,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "Jf" = (
 /obj/machinery/door/airlock/elevator/left{
 	dir = 8;
@@ -2023,6 +2022,10 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop)
+"JE" = (
+/obj/structure/closet/crate/wooden/communitygardens/seeds,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "JG" = (
 /obj/structure/table,
 /obj/item/ammo_box/magazine/glock9mm,
@@ -2047,9 +2050,6 @@
 /obj/effect/spawner/random/trash/rat,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"JX" = (
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/techshop)
 "Kc" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/landmark/npc_spawn_point,
@@ -2065,25 +2065,19 @@
 "Kk" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/outside/ghetto)
-"Kn" = (
-/obj/structure/table,
-/obj/lombard,
-/obj/structure/platform/lowwall/rich/old,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/cog)
 "Ko" = (
 /obj/effect/landmark/npcbeacon/directed{
 	dir = 8
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"Kq" = (
-/obj/item/flashlight/lantern/on{
-	pixel_x = -8;
-	pixel_y = 8
+"Kp" = (
+/obj/structure/retail/junkfood_menu{
+	dir = 4
 	},
-/turf/open/misc/dirt,
-/area/vtm/graveyard)
+/obj/structure/table/countertop/teal,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "Kr" = (
 /obj/structure/table,
 /obj/item/stack/dollar/thousand,
@@ -2106,10 +2100,10 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
 "KD" = (
-/obj/structure/retail/smoke_menu{
-	dir = 4
+/obj/structure/retail/pharmacy{
+	dir = 8
 	},
-/obj/structure/table/countertop/teal,
+/obj/structure/table/countertop/purple,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "KF" = (
@@ -2174,12 +2168,16 @@
 /obj/item/vtm_artifact/daimonori,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer)
+"LL" = (
+/obj/structure/vampfence/corner/rich,
+/turf/open/misc/grass,
+/area/vtm/graveyard)
 "LN" = (
-/obj/structure/toilet{
-	dir = 8
+/obj/structure/chair/wood/darkpack/red{
+	dir = 1
 	},
 /turf/open/floor/plating/rough,
-/area/vtm/interior/techshop)
+/area/vtm/graveyard/interior)
 "LP" = (
 /obj/structure/vampdoor/simple,
 /obj/effect/mapping_helpers/door/access/police,
@@ -2207,6 +2205,45 @@
 /obj/structure/table/wood,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"LZ" = (
+/obj/structure/table/wood,
+/obj/item/kirbyplants/darkpack/random{
+	pixel_x = 10;
+	pixel_y = 17
+	},
+/obj/item/kirbyplants/darkpack/random{
+	pixel_x = -11;
+	pixel_y = -21
+	},
+/obj/item/kirbyplants/darkpack/random{
+	pixel_x = 4;
+	pixel_y = -14
+	},
+/obj/item/kirbyplants/darkpack/random{
+	pixel_y = 18
+	},
+/obj/item/kirbyplants/darkpack/random{
+	pixel_x = 12;
+	pixel_y = 9
+	},
+/obj/item/kirbyplants/darkpack/random{
+	pixel_x = 10;
+	pixel_y = -16
+	},
+/obj/item/kirbyplants/darkpack/random{
+	pixel_x = -5;
+	pixel_y = -13
+	},
+/obj/item/kirbyplants/darkpack/random{
+	pixel_x = -9;
+	pixel_y = 16
+	},
+/obj/structure/retail/hardware_store{
+	dir = 4;
+	icon_state = "menu"
+	},
+/turf/open/misc/beach/vamp,
+/area/vtm/outside/pacificheights)
 "Mf" = (
 /obj/structure/vampdoor{
 	dir = 4
@@ -2231,25 +2268,11 @@
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
-"Mz" = (
-/obj/structure/retail/gun_store{
-	dir = 1
-	},
-/obj/structure/table,
-/obj/structure/platform/lowwall/market,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/shop)
-"MB" = (
-/obj/structure/retail/library{
-	dir = 8
-	},
-/obj/structure/table/countertop/red,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
-"MD" = (
-/obj/machinery/light/directional/east,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
+"Mr" = (
+/obj/structure/table/wood,
+/obj/machinery/light/directional/south,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "MF" = (
 /obj/structure/table/wood,
 /obj/machinery/radio_tranceiver/camarilla,
@@ -2305,6 +2328,10 @@
 /obj/structure/chair/darkpack/red,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/techshop)
+"NM" = (
+/obj/structure/railing/corner,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/techshop)
 "NO" = (
 /obj/structure/table/wood/fancy/red,
 /obj/item/storage/bag/books,
@@ -2323,10 +2350,6 @@
 "NR" = (
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"NW" = (
-/obj/structure/sign/flag/pride/directional/north,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
 "NX" = (
 /obj/effect/decal/pallet,
 /obj/machinery/light/directional/west,
@@ -2355,14 +2378,20 @@
 /mob/living/carbon/human/npc/shop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
+"Op" = (
+/turf/open/misc/dirt,
+/area/vtm/graveyard)
 "Oq" = (
 /obj/structure/extinguisher_cabinet/directional/east,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Oz" = (
-/obj/structure/sink/directional/east,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
+"Ov" = (
+/obj/structure/vampdoor/wood{
+	dir = 1
+	},
+/obj/effect/mapping_helpers/door/access/graveyard,
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "OB" = (
 /obj/darkpack_car/police{
 	locked = 0
@@ -2422,6 +2451,10 @@
 /obj/item/kirbyplants/random,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop)
+"Po" = (
+/obj/structure/platform/lowwall/brick/window/reinforced,
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "Pr" = (
 /obj/structure/roofstuff/vent_end,
 /turf/open/misc/grass,
@@ -2430,10 +2463,6 @@
 /obj/machinery/computer/operating,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
-"Pw" = (
-/obj/structure/closet/crate/wooden/communitygardens/tools,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "Pz" = (
 /obj/structure/transport/linear/public,
 /obj/machinery/elevator_control_panel/directional/north{
@@ -2445,20 +2474,10 @@
 	},
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
-"PA" = (
-/mob/living/carbon/human/npc/bouncer/endron/endron_lab,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/clinic)
 "PC" = (
 /obj/structure/roofstuff/vent,
 /turf/open/misc/grass,
 /area/vtm/outside/pacificheights)
-"PK" = (
-/obj/structure/vampdoor{
-	dir = 4
-	},
-/turf/open/floor/plating/canal,
-/area/vtm/interior/techshop)
 "PL" = (
 /obj/effect/landmark/latejoin,
 /turf/open/misc/beach/vamp,
@@ -2485,6 +2504,17 @@
 /obj/effect/turf_decal/asphaltline/alt,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
+"Qj" = (
+/obj/structure/table/countertop/bubway,
+/obj/structure/retail/bubway_menu{
+	dir = 1
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
+"Qk" = (
+/obj/effect/landmark/teleport_mark/alltribes,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "Ql" = (
 /obj/item/kirbyplants/darkpack/random{
 	pixel_x = -6;
@@ -2496,11 +2526,22 @@
 	},
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"Qr" = (
+/obj/structure/retail/black_market{
+	dir = 8
+	},
+/obj/structure/table/countertop/black,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop)
 "QD" = (
 /obj/machinery/light/directional/north,
 /obj/effect/decal/cleanable/trash,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer)
+"QJ" = (
+/obj/structure/sign/flag/pride/trans/directional/north,
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "QK" = (
 /obj/effect/turf_decal/bordur,
 /obj/effect/turf_decal/bordur{
@@ -2544,10 +2585,14 @@
 	},
 /turf/open/misc/dirt/rails,
 /area/vtm/outside/supply)
-"Rf" = (
-/obj/item/clothing/head/collectable/pirate,
-/turf/open/floor/wood/rough,
-/area/vtm/interior/techshop)
+"Rh" = (
+/obj/structure/table,
+/obj/structure/retail/gummaguts_menu{
+	dir = 8
+	},
+/obj/structure/platform/lowwall/market,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/shop)
 "Ri" = (
 /obj/structure/table,
 /obj/item/surgery_tray/full,
@@ -2561,33 +2606,12 @@
 /obj/machinery/radio_tranceiver/clinic,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Rs" = (
-/turf/closed/wall/vampwall/brick,
-/area/vtm/graveyard/interior)
-"Rv" = (
-/obj/structure/table/wood,
-/obj/machinery/light/directional/south,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "Rx" = (
 /obj/effect/landmark/npcbeacon,
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
 	},
 /turf/open/floor/plating/sidewalk/rich,
-/area/vtm/outside/pacificheights)
-"RG" = (
-/obj/structure/chair/darkpack{
-	dir = 8
-	},
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
-"RH" = (
-/obj/structure/table/wood,
-/obj/structure/retail/flower_shop{
-	dir = 4
-	},
-/turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
 "RP" = (
 /obj/effect/decal/cleanable/trash{
@@ -2596,6 +2620,10 @@
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer)
+"RV" = (
+/obj/structure/werewolf_totem/generic/weaver,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/techshop)
 "Sf" = (
 /obj/structure/sign/city/police_department/directional/north{
 	icon_state = "police4"
@@ -2650,6 +2678,10 @@
 /obj/machinery/iv_drip,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
+"Td" = (
+/mob/living/carbon/human/npc/bouncer/endron/endron_lab,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/clinic)
 "Ti" = (
 /obj/structure/transport/linear/public,
 /obj/effect/landmark/transport/transport_id{
@@ -2688,20 +2720,11 @@
 /obj/item/gun/ballistic/automatic/pistol/darkpack/deagle,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
-"TT" = (
-/obj/structure/railing/corner,
-/turf/open/floor/plating/canal,
-/area/vtm/interior/techshop)
 "Uq" = (
 /obj/machinery/fax/admin/anarch,
 /obj/structure/table/wood,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Us" = (
-/obj/machinery/light/directional/north,
-/obj/structure/lattice/grate,
-/turf/open/openspace,
-/area/vtm/interior/techshop)
 "Ut" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 9
@@ -2716,6 +2739,10 @@
 /obj/item/gun/ballistic/automatic/darkpack/mp5,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch)
+"Uw" = (
+/obj/structure/sink/directional/east,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "UC" = (
 /obj/item/paper_bin,
 /obj/item/pen/fourcolor,
@@ -2740,13 +2767,6 @@
 /obj/structure/transport/linear/public,
 /turf/open/floor/plating/elevatorshaft,
 /area/vtm/outside/pacificheights)
-"UM" = (
-/obj/structure/retail/pharmacy{
-	dir = 8
-	},
-/obj/structure/table/countertop/purple,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
 "Vg" = (
 /obj/structure/table,
 /obj/item/melee/vamp/tire,
@@ -2814,29 +2834,22 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/pacificheights)
+"VW" = (
+/obj/structure/toiletbong,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "Wa" = (
 /turf/open/misc/dirt,
 /area/vtm/outside/supply)
+"Wb" = (
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "We" = (
 /obj/effect/turf_decal/bordur{
 	dir = 4
 	},
 /turf/open/floor/plating/sidewalk/rich,
 /area/vtm/outside/pacificheights)
-"Wh" = (
-/obj/vampgrave{
-	spawn_interval = 300;
-	max_zombies_per_grave = 1;
-	name = "upturned grave"
-	},
-/turf/open/misc/dirt,
-/area/vtm/graveyard)
-"Wk" = (
-/obj/structure/chair/wood/darkpack/red{
-	dir = 1
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
 "Wl" = (
 /obj/structure/table,
 /obj/item/ammo_box/magazine/darkpack556,
@@ -2870,9 +2883,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/sewer)
 "WH" = (
-/obj/structure/vampdoor,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "WJ" = (
 /obj/structure/transport/linear/public,
 /turf/open/floor/plating/elevatorshaft,
@@ -2881,6 +2893,9 @@
 /obj/structure/lamppost/one,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"WW" = (
+/turf/open/floor/plating/canal,
+/area/vtm/interior/techshop)
 "WZ" = (
 /obj/structure/lamppost/one{
 	dir = 8
@@ -2943,6 +2958,13 @@
 /obj/structure/fence/door,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
+"XG" = (
+/obj/structure/retail/smoke_menu{
+	dir = 4
+	},
+/obj/structure/table/countertop/teal,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "XJ" = (
 /obj/effect/turf_decal/bordur,
 /turf/open/floor/plating/sidewalk,
@@ -2960,6 +2982,10 @@
 /mob/living/carbon/human/npc/hobo,
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
+"XX" = (
+/obj/machinery/light/dim/directional/east,
+/turf/open/floor/plating/rough,
+/area/vtm/graveyard/interior)
 "XY" = (
 /obj/structure/lamppost/three,
 /turf/open/floor/plating/sidewalk,
@@ -2969,25 +2995,15 @@
 /mob/living/carbon/human/npc/incel,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"Yb" = (
-/obj/structure/table/wood,
-/obj/item/storage/toolbox/mechanical{
-	pixel_x = -4;
-	pixel_y = 14
+"Yk" = (
+/obj/structure/rack/tall/store_shelf_metal{
+	dir = 4
 	},
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "Ys" = (
 /turf/open/openspace,
 /area/vtm/outside/pacificheights)
-"Yw" = (
-/obj/structure/railing,
-/obj/structure/lattice/grate,
-/turf/open/openspace,
-/area/vtm/interior/techshop)
-"YA" = (
-/turf/closed/wall/vampwall/brick_old,
-/area/vtm/interior/techshop)
 "YB" = (
 /obj/machinery/fax/admin/endron,
 /obj/structure/table/wood,
@@ -3007,10 +3023,6 @@
 /obj/structure/roadsign/speedlimit,
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/pacificheights)
-"YM" = (
-/obj/machinery/hydroponics/simple/wooden,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "YY" = (
 /obj/structure/table/reinforced,
 /obj/item/ritual_tome/arcane,
@@ -3022,36 +3034,24 @@
 	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/pacificheights)
-"Zk" = (
-/obj/structure/table/wood,
-/obj/item/shovel/vamp{
-	pixel_x = 2;
-	pixel_y = 1
-	},
-/obj/item/shovel/vamp{
-	pixel_x = -4;
-	pixel_y = 7
-	},
-/obj/item/melee/vamp/tire{
-	pixel_x = 1;
-	pixel_y = 14
-	},
-/turf/open/floor/plating/rough,
-/area/vtm/graveyard/interior)
+"Zi" = (
+/turf/open/floor/wood/rough,
+/area/vtm/interior/techshop)
+"Zj" = (
+/obj/machinery/light/directional/north,
+/obj/structure/werewolf_totem/children_of_gaia,
+/turf/open/floor/plating/sidewalk,
+/area/vtm/interior/cog)
 "Zs" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/outside/pacificheights)
-"Zt" = (
-/obj/structure/closet/crate/wooden/communitygardens/seeds,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
 "Zz" = (
 /turf/open/misc/grass/random/grass,
 /area/vtm/outside/pacificheights)
-"ZH" = (
-/obj/machinery/hydroponics/simple/plastic,
-/turf/open/floor/plating/sidewalk,
-/area/vtm/interior/cog)
+"ZF" = (
+/obj/structure/railing,
+/turf/open/floor/plating/canal,
+/area/vtm/interior/techshop)
 "ZS" = (
 /obj/structure/table,
 /obj/item/gun/ballistic/shotgun/toy/crossbow/vampire{
@@ -4441,7 +4441,7 @@ Tb
 pN
 pN
 pN
-PA
+Td
 Id
 sw
 Id
@@ -4510,7 +4510,7 @@ SG
 pN
 pN
 SK
-rI
+Dj
 ZU
 rN
 Id
@@ -4578,7 +4578,7 @@ Tb
 pN
 pN
 SK
-LN
+If
 ZU
 rN
 Id
@@ -4985,15 +4985,15 @@ zA
 NR
 iD
 bo
-MB
+et
 iD
 ri
-UM
+KD
 iD
 NR
 Fg
 sY
-AC
+Qr
 Fg
 xH
 hz
@@ -5255,13 +5255,13 @@ GF
 zX
 nD
 BL
-sz
+tU
 NR
 NR
 NR
 Fg
-KD
-EP
+XG
+Kp
 Fg
 GH
 GH
@@ -5396,8 +5396,8 @@ eg
 NR
 NR
 Wy
-pm
-mS
+vJ
+mL
 Fg
 dA
 oW
@@ -5464,8 +5464,8 @@ NR
 NR
 NR
 Fg
-BW
-vK
+aw
+Yk
 Fg
 kS
 kS
@@ -5527,7 +5527,7 @@ GF
 Hp
 Vv
 BL
-ph
+Qj
 NR
 NR
 NR
@@ -5668,12 +5668,12 @@ NR
 NR
 NR
 Fg
-yA
-rG
+hF
+rn
 Gu
 kS
 BX
-aQ
+Rh
 zx
 kS
 kS
@@ -5799,7 +5799,7 @@ GF
 jW
 xc
 eU
-Mz
+Eb
 NR
 NR
 NR
@@ -5820,7 +5820,7 @@ ik
 VQ
 ik
 Fs
-CW
+wT
 Kr
 Wa
 Lb
@@ -6014,8 +6014,8 @@ Nd
 FH
 Nd
 NR
-yu
-RH
+LZ
+nC
 sU
 NR
 NR
@@ -6762,11 +6762,11 @@ oD
 oD
 oD
 NR
-nZ
-EI
-EI
-EI
-ew
+Aq
+GV
+GV
+GV
+an
 cj
 ik
 VQ
@@ -6827,14 +6827,14 @@ Zz
 oD
 oD
 Zz
-uh
-tL
-EI
-kx
-ag
-ag
-ag
-Eq
+LL
+nT
+GV
+oT
+Op
+Op
+Op
+jQ
 cj
 ik
 VQ
@@ -6895,14 +6895,14 @@ Oi
 Zz
 oD
 Oi
-Bb
-Wh
-ag
-ag
-ag
-ag
-ag
-ag
+kg
+uZ
+Op
+Op
+Op
+Op
+Op
+Op
 cj
 FB
 VQ
@@ -6963,14 +6963,14 @@ Oi
 oD
 oD
 Oi
-Eq
-ag
-ag
-Wh
-ag
-ag
-ag
-to
+jQ
+Op
+Op
+uZ
+Op
+Op
+Op
+HK
 cj
 ik
 VQ
@@ -7031,14 +7031,14 @@ Oi
 oD
 oD
 Oi
-Eq
-Wh
-DS
-ag
-ag
-ag
-ag
-ag
+jQ
+uZ
+pm
+Op
+Op
+Op
+Op
+Op
 Bq
 ik
 VQ
@@ -7098,15 +7098,15 @@ oD
 Oi
 oD
 oD
-Rs
-CO
-CO
-Rs
-Kq
-ag
-ag
-ag
-Eq
+jH
+Po
+Po
+jH
+Ep
+Op
+Op
+Op
+jQ
 cj
 ik
 VQ
@@ -7166,15 +7166,15 @@ oD
 Oi
 oD
 Zz
-Rs
-Hv
-mf
-Rs
-ag
-ag
-ag
-ag
-Eq
+jH
+vu
+eL
+jH
+Op
+Op
+Op
+Op
+jQ
 Ig
 ik
 VQ
@@ -7234,15 +7234,15 @@ oD
 Zs
 yW
 oD
-Rs
-Zk
-Dj
-Rs
-CO
-vi
-Rs
-Rs
-kx
+jH
+oZ
+WH
+jH
+Po
+xF
+jH
+jH
+oT
 cj
 kc
 Cz
@@ -7302,15 +7302,15 @@ oD
 Zs
 XD
 Jf
-Rs
-BH
-Wk
-Dj
-Dj
-Dj
-Dj
-Ay
-ag
+jH
+CP
+LN
+WH
+WH
+WH
+WH
+Ov
+Op
 cj
 ik
 VQ
@@ -7370,14 +7370,14 @@ oD
 Zs
 Pz
 WJ
-Rs
-aa
-Dj
-IQ
-Dj
-Dj
-Dj
-Rs
+jH
+CF
+WH
+XX
+WH
+WH
+WH
+jH
 Ny
 Ny
 rB
@@ -7438,14 +7438,14 @@ Ny
 Ny
 Ny
 Ny
-Rs
-Rs
-Rs
-Rs
-bD
-Yb
-yo
-Rs
+jH
+jH
+jH
+jH
+vi
+kl
+IC
+jH
 GF
 Ny
 rB
@@ -7702,10 +7702,10 @@ GJ
 (3,1,2) = {"
 GJ
 ZU
-IE
-pv
-zD
-zD
+bJ
+mG
+Wb
+Wb
 ZU
 Mm
 Ys
@@ -7770,10 +7770,10 @@ GJ
 (4,1,2) = {"
 GJ
 ZU
-od
-hp
-mb
-zD
+QJ
+iU
+Qk
+Wb
 ZU
 tY
 Ys
@@ -7838,11 +7838,11 @@ GJ
 (5,1,2) = {"
 GJ
 ZU
-NW
-MD
-RG
-zD
-WH
+Fz
+oN
+aH
+Wb
+tg
 tY
 Ys
 Ys
@@ -7911,7 +7911,7 @@ ZU
 ZU
 ZU
 ZU
-PK
+md
 ZU
 ZU
 ZU
@@ -7974,19 +7974,19 @@ GJ
 (7,1,2) = {"
 GJ
 ZU
-JX
-JX
-JX
-JX
+jr
+jr
+jr
+jr
 ZU
-mr
-dE
-hF
-hF
-hF
-hF
-hF
-pI
+WW
+ZF
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8042,19 +8042,19 @@ GJ
 (8,1,2) = {"
 GJ
 ZU
-JX
-bA
-JX
-JX
+jr
+RV
+jr
+jr
 ZU
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8110,19 +8110,19 @@ GJ
 (9,1,2) = {"
 GJ
 ZU
-JX
-JX
-JX
-JX
+jr
+jr
+jr
+jr
 ZU
-Us
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+tc
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8178,19 +8178,19 @@ GJ
 (10,1,2) = {"
 GJ
 ZU
-JX
-JX
-JX
-JX
-JX
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+jr
+jr
+jr
+jr
+jr
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8245,20 +8245,20 @@ GJ
 "}
 (11,1,2) = {"
 GJ
-tR
-tR
-tR
-tR
-tR
-tR
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+lv
+lv
+lv
+lv
+lv
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8313,20 +8313,20 @@ GJ
 "}
 (12,1,2) = {"
 GJ
-tR
-kO
-Oz
-Oz
-xY
-tR
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+VW
+Uw
+Uw
+rx
+lv
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8381,20 +8381,20 @@ GJ
 "}
 (13,1,2) = {"
 GJ
-tR
-YM
-lx
-lx
-xt
-tR
-mr
-dE
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+vm
+zQ
+zQ
+vT
+lv
+WW
+ZF
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8449,20 +8449,20 @@ GJ
 "}
 (14,1,2) = {"
 GJ
-tR
-YM
-lx
-lx
-xt
-tR
-mr
-TT
-vf
-Rf
-hF
-hF
-hF
-pI
+lv
+vm
+zQ
+zQ
+vT
+lv
+WW
+NM
+Zi
+qF
+nj
+nj
+nj
+Au
 LU
 lX
 lX
@@ -8517,20 +8517,20 @@ GJ
 "}
 (15,1,2) = {"
 GJ
-tR
-Je
-lx
-lx
-Rv
-tR
-IU
-dE
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+Zj
+zQ
+zQ
+Mr
+lv
+oP
+ZF
+nj
+nj
+nj
+nj
+nj
+Au
 LU
 lX
 lX
@@ -8585,20 +8585,20 @@ GJ
 "}
 (16,1,2) = {"
 GJ
-tR
-YM
-lx
-lx
-ZH
-tR
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+vm
+zQ
+zQ
+Gf
+lv
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8653,20 +8653,20 @@ GJ
 "}
 (17,1,2) = {"
 GJ
-tR
-YM
-lx
-lx
-ZH
-tR
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+vm
+zQ
+zQ
+Gf
+lv
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8721,20 +8721,20 @@ GJ
 "}
 (18,1,2) = {"
 GJ
-tR
-mT
-lx
-lx
-Zt
-tR
-pI
-IM
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+Fa
+zQ
+zQ
+JE
+lv
+Au
+FE
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -8789,26 +8789,26 @@ GJ
 "}
 (19,1,2) = {"
 GJ
-tR
-mT
-lx
-lx
-Zt
-tR
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+Fa
+zQ
+zQ
+JE
+lv
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
 lX
 lX
-xz
+wX
 lX
 ca
 eQ
@@ -8857,20 +8857,20 @@ GJ
 "}
 (20,1,2) = {"
 GJ
-tR
-vG
-lx
-lx
-Pw
-tR
-pI
-Yw
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+Ii
+zQ
+zQ
+xd
+lv
+Au
+lC
+nj
+nj
+nj
+nj
+nj
+Au
 LU
 lX
 lX
@@ -8925,20 +8925,20 @@ GJ
 "}
 (21,1,2) = {"
 GJ
-tR
-tJ
-lx
-lx
-Pw
-tR
-IU
-dE
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+ti
+zQ
+zQ
+xd
+lv
+oP
+ZF
+nj
+nj
+nj
+nj
+nj
+Au
 LU
 lX
 lX
@@ -8993,20 +8993,20 @@ GJ
 "}
 (22,1,2) = {"
 GJ
-tR
-wh
-lx
-lx
-lx
-lx
-mr
-mr
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+yX
+zQ
+zQ
+zQ
+zQ
+WW
+WW
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -9061,20 +9061,20 @@ GJ
 "}
 (23,1,2) = {"
 GJ
-tR
-Eg
-lx
-lx
-lx
-lx
-mr
-mr
-hF
-hF
-hF
-hF
-hF
-pI
+lv
+DP
+zQ
+zQ
+zQ
+zQ
+WW
+WW
+nj
+nj
+nj
+nj
+nj
+Au
 GN
 lX
 lX
@@ -9129,20 +9129,20 @@ GJ
 "}
 (24,1,2) = {"
 GJ
-tR
-Kn
-cz
-tR
-tR
-tR
-PK
-PK
+lv
+Fe
+hD
+lv
+lv
+lv
+md
+md
 ZU
 ZU
-YA
-YA
-YA
-YA
+dK
+dK
+dK
+dK
 Kk
 Mg
 SJ
