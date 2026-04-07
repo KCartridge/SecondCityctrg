@@ -1828,7 +1828,7 @@
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/admin/storage)
 "ia" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 8
 	},
 /turf/open/floor/iron/grimy,
@@ -2522,7 +2522,7 @@
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "kA" = (
-/obj/structure/chair/comfy/brown,
+/obj/structure/chair/comfy/darkpack,
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "kB" = (
@@ -2546,7 +2546,7 @@
 /turf/open/floor/iron/grimy,
 /area/centcom/central_command_areas/courtroom)
 "kG" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#596479"
 	},
 /turf/open/floor/iron/grimy,
@@ -2738,7 +2738,7 @@
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/prison)
 "lw" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	buildstackamount = 0;
 	dir = 1
 	},
@@ -2931,7 +2931,7 @@
 /turf/closed/indestructible/riveted,
 /area/centcom/central_command_areas/ferry)
 "mE" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#66b266";
 	dir = 1
 	},
@@ -3527,7 +3527,7 @@
 /turf/open/misc/asteroid,
 /area/centcom/central_command_areas/control)
 "oX" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#596479"
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -3643,7 +3643,7 @@
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supplypod/loading/ert)
 "pE" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 8
 	},
 /turf/open/floor/iron/grimy,
@@ -3773,7 +3773,7 @@
 /turf/open/floor/grass,
 /area/centcom/central_command_areas/evacuation/ship)
 "qf" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 4
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -4522,7 +4522,7 @@
 /turf/open/floor/wood,
 /area/centcom/central_command_areas/admin)
 "tm" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/dirt,
@@ -4726,7 +4726,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/evacuation)
 "uh" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
 	},
 /turf/open/floor/iron/grimy,
@@ -5041,7 +5041,7 @@
 /area/centcom/central_command_areas/admin)
 "vq" = (
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/structure/chair/comfy/brown,
+/obj/structure/chair/comfy/darkpack,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/evacuation/ship)
 "vr" = (
@@ -5286,7 +5286,7 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/movie_theatre/screening)
 "wq" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
 	},
 /obj/machinery/computer/security/telescreen/entertainment/directional/west,
@@ -5888,7 +5888,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/control)
 "zc" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -6423,7 +6423,7 @@
 /turf/open/floor/iron,
 /area/centcom/tdome/administration)
 "Br" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -7073,7 +7073,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/admin)
 "En" = (
-/obj/structure/chair/comfy/black,
+/obj/structure/chair/comfy/darkpack/dark,
 /obj/machinery/computer/security/telescreen/entertainment/directional/west,
 /obj/machinery/atmospherics/components/unary/vent_pump/on{
 	dir = 4
@@ -7177,7 +7177,7 @@
 /turf/open/floor/iron,
 /area/centcom/tdome/arena)
 "EJ" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#596479";
 	dir = 1
 	},
@@ -7742,7 +7742,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/supply)
 "HW" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 1
 	},
 /obj/effect/turf_decal/tile/neutral/fourcorners,
@@ -8039,7 +8039,7 @@
 /turf/open/floor/iron/dark/textured_large,
 /area/centcom/central_command_areas/evacuation/ship)
 "JG" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
 	},
 /turf/open/floor/carpet/darkpack,
@@ -9376,7 +9376,7 @@
 /area/centcom/central_command_areas/prison)
 "Pr" = (
 /obj/effect/landmark/thunderdome/admin,
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
 	},
 /turf/open/floor/iron/grimy,
@@ -9819,7 +9819,7 @@
 /turf/open/floor/catwalk_floor,
 /area/centcom/central_command_areas/evacuation/ship)
 "Rl" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 4
 	},
 /turf/open/floor/iron/grimy,
@@ -9935,7 +9935,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/briefing)
 "RG" = (
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
 	},
 /obj/machinery/light/directional/south,
@@ -10359,7 +10359,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/observation)
 "TE" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	color = "#596479";
 	dir = 4
 	},
@@ -11259,7 +11259,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/supply)
 "XL" = (
-/obj/structure/chair/comfy/brown{
+/obj/structure/chair/comfy/darkpack{
 	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
@@ -11310,7 +11310,7 @@
 /turf/open/floor/iron/dark/herringbone,
 /area/centcom/central_command_areas/evacuation/ship)
 "Yj" = (
-/obj/structure/chair/comfy/black,
+/obj/structure/chair/comfy/darkpack/dark,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/structure/cable,
 /turf/open/floor/iron/grimy,
@@ -11694,7 +11694,7 @@
 /area/centcom/central_command_areas/control)
 "ZU" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/chair/comfy/black{
+/obj/structure/chair/comfy/darkpack/dark{
 	dir = 1
 	},
 /turf/open/floor/wood/smooth/old,
@@ -11710,10 +11710,6 @@
 /obj/effect/mapping_helpers/airlock/access/all/admin/storage,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/supply)
-"ZZ" = (
-/obj/transfer_point_vamp/backrooms/map,
-/turf/open/floor/carpet,
-/area/awaymission/errorroom)
 
 (1,1,1) = {"
 TJ
@@ -14683,7 +14679,7 @@ aa
 LW
 ik
 LV
-ZZ
+LV
 LV
 LV
 LV

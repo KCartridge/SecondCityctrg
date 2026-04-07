@@ -164,12 +164,13 @@
 	pixel_x = -16
 	sentience_type = SENTIENCE_BOSS
 	has_emissive = FALSE
+	var/spawn_type = /mob/living/basic/mining/legion
 
 /mob/living/basic/mining/legion/large/Initialize(mapload)
 	. = ..()
 	AddComponent(\
 		/datum/component/spawner,\
-		spawn_types = list(/mob/living/basic/mining/legion),\
+		spawn_types = list(spawn_type),\
 		spawn_time = 20 SECONDS,\
 		max_spawned = 3,\
 		spawn_text = "peels itself off from",\
