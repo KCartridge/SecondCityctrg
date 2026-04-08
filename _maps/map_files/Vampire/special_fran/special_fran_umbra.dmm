@@ -458,11 +458,6 @@
 /obj/structure/table,
 /turf/open/umbra,
 /area/vtm/outside/penumbra)
-"qT" = (
-/obj/minespot,
-/obj/minespot,
-/turf/open/umbra,
-/area/vtm/outside/penumbra)
 "qX" = (
 /obj/transfer_point_vamp/umbral{
 	id = "umb_cam"
@@ -8218,7 +8213,7 @@ Yv
 Yv
 Yv
 Vz
-qT
+Vz
 Vz
 Vz
 Yv
