@@ -1,4 +1,4 @@
-/obj/structure/fluff/grate
+/obj/structure/fluff/grate // TODO: make the floor dry faster? Or maybe stop wetting all-together
 	name = "large grate"
 	desc = "Shiny. Is that a hairball?"
 	icon = 'modular_zapoc/modules/decor/icons/grate.dmi'
