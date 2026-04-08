@@ -15172,9 +15172,9 @@
 	linked_elevator_id = "DwtnApts"
 	},
 /obj/machinery/button/elevator/directional/north{
-	id = s;
 	pixel_y = 35;
 	pixel_x = 9
+    linked_elevator_id = "DwtnApts"
 	},
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/interior)
