@@ -50,7 +50,11 @@
 /turf/open/floor/wood/old,
 /area/vtm/outside/northbeach)
 "av" = (
-/obj/structure/city_map,
+/obj/structure/city_map{
+	pixel_x = 0;
+	pixel_y = 22;
+	density = 0
+	},
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/ghetto)
 "aw" = (
@@ -144,7 +148,6 @@
 /turf/open/floor/iron/stairs/right,
 /area/vtm)
 "bl" = (
-/obj/effect/decal/cleanable/cardboard,
 /obj/structure/lamppost/one{
 	dir = 4
 	},
@@ -532,7 +535,6 @@
 /area/vtm/outside/fishermanswharf)
 "ex" = (
 /obj/machinery/light/directional/west,
-/obj/structure/rack/food/rand,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "eA" = (
@@ -592,6 +594,14 @@
 	},
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/apartment)
+"fi" = (
+/obj/structure/table/countertop/bubway,
+/obj/underplate/stuff{
+	pixel_y = 12;
+	pixel_x = -2
+	},
+/turf/open/floor/stone,
+/area/vtm/interior/shop/gummaguts)
 "fj" = (
 /obj/effect/turf_decal/bordur{
 	dir = 5
@@ -921,11 +931,8 @@
 /obj/effect/decal/wallpaper/paper/rich,
 /turf/closed/wall/vampwall/rich,
 /area/vtm/interior/apartment)
-"hH" = (
-/obj/structure/rack/food/rand,
-/turf/open/floor/plating/concrete,
-/area/vtm/interior/shop)
 "hM" = (
+/obj/machinery/light/small/directional/west,
 /obj/structure/closet/crate/bin{
 	pixel_x = -8
 	},
@@ -1135,6 +1142,14 @@
 	},
 /turf/open/misc/grass,
 /area/vtm)
+"jn" = (
+/obj/structure/rack/food/rand{
+	dir = 4;
+	pixel_x = -10;
+	pixel_y = -1
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "jr" = (
 /obj/structure/coclock,
 /turf/open/floor/wood/smooth/old,
@@ -1191,6 +1206,7 @@
 "jI" = (
 /obj/effect/turf_decal/bordur,
 /obj/structure/vampdoor/glass,
+/obj/effect/mapping_helpers/door/access/npc,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
 "jO" = (
@@ -1789,7 +1805,9 @@
 /turf/open/floor/plating/sidewalk,
 /area/vtm/outside/fishermanswharf/ghetto)
 "oy" = (
-/obj/structure/retail/gas_station,
+/obj/structure/retail/gas_station{
+	dir = 1
+	},
 /obj/structure/table/countertop/teal,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/shop)
@@ -2520,7 +2538,6 @@
 	dir = 4;
 	pixel_y = 17
 	},
-/obj/machinery/light/small/directional/west,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/shop)
 "ug" = (
@@ -2941,6 +2958,14 @@
 /obj/effect/turf_decal/bordur/inverse,
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/fishermanswharf)
+"xN" = (
+/obj/structure/rack/food/rand{
+	dir = 4;
+	pixel_x = -16;
+	pixel_y = 0
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "xO" = (
 /obj/effect/turf_decal/siding/wood{
 	color = "#4a3925";
@@ -3780,9 +3805,13 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/fishermanswharf/ghetto)
 "El" = (
-/obj/structure/chair/plastic/darkpack,
-/turf/open/misc/beach/vamp,
-/area/vtm/outside/northbeach)
+/obj/structure/rack/food{
+	dir = 4;
+	pixel_x = -16;
+	pixel_y = 0
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/shop)
 "Ep" = (
 /obj/structure/chair/office/darkpack/red{
 	dir = 1
@@ -5011,9 +5040,6 @@
 /obj/machinery/light/prince/directional/west,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/apartment)
-"Ny" = (
-/turf/open/misc/grass/random/bushes,
-/area/vtm)
 "NC" = (
 /obj/effect/decal/wallpaper/paper/darkred/low,
 /obj/structure/curtain/bounty,
@@ -5623,8 +5649,13 @@
 /turf/open/floor/wood/old,
 /area/vtm/interior/shop)
 "RD" = (
-/turf/open/space/basic,
-/area/vtm)
+/obj/structure/table/countertop/bubway,
+/obj/machinery/chem_dispenser/drinks{
+	pixel_x = 0;
+	pixel_y = 11
+	},
+/turf/open/floor/stone,
+/area/vtm/interior/shop/gummaguts)
 "RH" = (
 /obj/structure/table,
 /obj/machinery/button/door{
@@ -6686,12 +6717,12 @@ rk
 rk
 rk
 rk
-rk
-rk
-rk
-rk
-rk
-rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (2,1,1) = {"
 OY
@@ -6792,13 +6823,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (3,1,1) = {"
 OY
@@ -6899,13 +6930,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (4,1,1) = {"
 OY
@@ -7006,13 +7037,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (5,1,1) = {"
 OY
@@ -7113,13 +7144,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (6,1,1) = {"
 OY
@@ -7220,13 +7251,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (7,1,1) = {"
 OY
@@ -7327,13 +7358,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (8,1,1) = {"
 OY
@@ -7434,13 +7465,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (9,1,1) = {"
 OY
@@ -7541,13 +7572,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (10,1,1) = {"
 OY
@@ -7648,13 +7679,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (11,1,1) = {"
 OY
@@ -7755,13 +7786,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (12,1,1) = {"
 OY
@@ -7862,13 +7893,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (13,1,1) = {"
 OY
@@ -7969,13 +8000,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (14,1,1) = {"
 OY
@@ -8076,13 +8107,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (15,1,1) = {"
 OY
@@ -8183,13 +8214,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (16,1,1) = {"
 OY
@@ -8290,13 +8321,13 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (17,1,1) = {"
 OY
@@ -8395,15 +8426,15 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 tS
 gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (18,1,1) = {"
 OY
@@ -8502,15 +8533,15 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 tS
 gO
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (19,1,1) = {"
 OY
@@ -8609,15 +8640,15 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 tS
 tS
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (20,1,1) = {"
 OY
@@ -8717,14 +8748,14 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 tS
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (21,1,1) = {"
 OY
@@ -8809,12 +8840,6 @@ gO
 gO
 gO
 gO
-gO
-gO
-gO
-gO
-gO
-gO
 ja
 ja
 ja
@@ -8832,6 +8857,12 @@ gO
 pb
 tS
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (22,1,1) = {"
 OY
@@ -8915,12 +8946,6 @@ FT
 gO
 gO
 gO
-gO
-gO
-ja
-ja
-ja
-ja
 ja
 ja
 ja
@@ -8939,6 +8964,12 @@ gO
 pb
 tS
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (23,1,1) = {"
 OY
@@ -9024,13 +9055,7 @@ gO
 ja
 ja
 ja
-ja
-ja
-ja
-ja
-ja
 cL
-LE
 LE
 LE
 LE
@@ -9046,6 +9071,12 @@ ja
 pb
 tS
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (24,1,1) = {"
 OY
@@ -9130,14 +9161,8 @@ ja
 ja
 ja
 ja
-ja
 cL
-LE
-LE
-LE
-LE
 Cb
-Sh
 Sh
 Sh
 Sh
@@ -9153,6 +9178,12 @@ ja
 pb
 tS
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (25,1,1) = {"
 OY
@@ -9179,7 +9210,7 @@ gO
 gO
 gO
 gO
-gO
+ja
 ja
 ja
 ja
@@ -9237,13 +9268,7 @@ ja
 ja
 cL
 LE
-LE
 Cb
-Sh
-Sh
-Sh
-Sh
-Sh
 Sh
 Sh
 Sh
@@ -9260,6 +9285,12 @@ ZG
 pb
 pb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (26,1,1) = {"
 OY
@@ -9356,17 +9387,17 @@ Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
 vH
 ZG
 rk
 pb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (27,1,1) = {"
 OY
@@ -9453,12 +9484,6 @@ Da
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
 zA
 Sh
 Sh
@@ -9474,6 +9499,12 @@ ZG
 rk
 rk
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (28,1,1) = {"
 OY
@@ -9559,12 +9590,6 @@ CT
 Da
 Sh
 Sh
-Qc
-Sh
-Sh
-Sh
-Sh
-Sh
 uv
 Sh
 Sh
@@ -9581,6 +9606,12 @@ ll
 ll
 rk
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (29,1,1) = {"
 OY
@@ -9667,12 +9698,6 @@ Sh
 Sh
 mo
 Sh
-Sh
-Sh
-Sh
-Sh
-El
-Sh
 Xf
 Sh
 Sh
@@ -9688,6 +9713,12 @@ Rq
 ll
 rk
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (30,1,1) = {"
 OY
@@ -9777,12 +9808,6 @@ Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
 vD
 vD
 vD
@@ -9795,6 +9820,12 @@ Gw
 wP
 rk
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (31,1,1) = {"
 OY
@@ -9880,12 +9911,6 @@ pL
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
 mo
 Sh
 mo
@@ -9902,6 +9927,12 @@ IH
 ll
 cd
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (32,1,1) = {"
 OY
@@ -9991,12 +10022,6 @@ Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
 vD
 vD
 Sh
@@ -10009,6 +10034,12 @@ tc
 Fh
 cd
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (33,1,1) = {"
 OY
@@ -10097,12 +10128,6 @@ Sh
 Sh
 Sh
 Sh
-Qc
-Sh
-Sh
-Sh
-Sh
-Sh
 Sh
 vD
 vD
@@ -10116,6 +10141,12 @@ Pd
 iw
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (34,1,1) = {"
 OY
@@ -10205,12 +10236,6 @@ Sh
 Sh
 Sh
 Sh
-mo
-Sh
-Sh
-Sh
-Sh
-Sh
 vD
 vD
 Sh
@@ -10223,6 +10248,12 @@ ie
 iw
 cd
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (35,1,1) = {"
 OY
@@ -10312,12 +10343,6 @@ Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
 vD
 vD
 Sh
@@ -10330,6 +10355,12 @@ FQ
 iw
 cd
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (36,1,1) = {"
 OY
@@ -10419,12 +10450,6 @@ Sh
 Sh
 Sh
 Sh
-Sh
-Sh
-Sh
-Sh
-Sh
-Sh
 vD
 vD
 Sh
@@ -10437,6 +10462,12 @@ Lj
 cd
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (37,1,1) = {"
 OY
@@ -10523,12 +10554,6 @@ vC
 vC
 vC
 vC
-vC
-vC
-vC
-vC
-vC
-vC
 eb
 aY
 uz
@@ -10544,6 +10569,12 @@ LN
 xb
 rk
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (38,1,1) = {"
 OY
@@ -10633,12 +10664,6 @@ Eq
 Eq
 Eq
 Eq
-Eq
-ic
-Eq
-Eq
-Eq
-Eq
 Qs
 DE
 Qs
@@ -10651,6 +10676,12 @@ Qs
 xb
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (39,1,1) = {"
 OY
@@ -10737,12 +10768,6 @@ Eq
 Eq
 Eq
 Eq
-Eq
-Eq
-Eq
-Eq
-Eq
-Eq
 gk
 Ri
 Eq
@@ -10758,6 +10783,12 @@ Eq
 xb
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (40,1,1) = {"
 OY
@@ -10844,12 +10875,6 @@ ck
 ck
 ck
 ck
-ck
-ck
-ck
-ck
-ck
-ck
 dn
 gk
 WX
@@ -10862,9 +10887,15 @@ ck
 ck
 ck
 ck
-ZG
+xb
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (41,1,1) = {"
 OY
@@ -10951,12 +10982,6 @@ MY
 MY
 MY
 MY
-MY
-MY
-MY
-MY
-MY
-MY
 Pl
 Eq
 AU
@@ -10972,6 +10997,12 @@ MY
 MY
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (42,1,1) = {"
 OY
@@ -11057,12 +11088,6 @@ WZ
 WZ
 WZ
 WZ
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
 MY
 Pl
 Eq
@@ -11079,6 +11104,12 @@ WZ
 WZ
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (43,1,1) = {"
 OY
@@ -11161,15 +11192,9 @@ Eq
 AU
 MY
 WZ
-jy
-jy
 pP
-WZ
-WZ
-WZ
-WZ
-WZ
-WZ
+jy
+jy
 MY
 Pl
 Eq
@@ -11180,12 +11205,18 @@ pP
 WZ
 jy
 WZ
+pP
 WZ
 WZ
-WZ
-xE
+xb
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (44,1,1) = {"
 OY
@@ -11270,12 +11301,6 @@ MY
 WZ
 WZ
 jy
-MY
-WZ
-jy
-jy
-WZ
-jy
 jy
 MY
 Pl
@@ -11293,6 +11318,12 @@ WZ
 xb
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (45,1,1) = {"
 OY
@@ -11379,12 +11410,6 @@ MY
 MY
 MY
 MY
-MY
-MY
-MY
-MY
-MY
-MY
 Pl
 Eq
 AU
@@ -11397,9 +11422,15 @@ MY
 MY
 MY
 MY
-xE
+xb
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (46,1,1) = {"
 OY
@@ -11484,17 +11515,11 @@ Zq
 Rz
 Rz
 Rz
-Dw
-Rz
-Rz
-Rz
-Rz
-Rz
 Rz
 Dw
-xm
+cA
 Is
-xm
+zv
 Rz
 Rz
 Rz
@@ -11504,9 +11529,15 @@ Rz
 Rz
 Rz
 Rz
-xE
+xb
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (47,1,1) = {"
 OY
@@ -11593,12 +11624,6 @@ xm
 tj
 UE
 IX
-IX
-IX
-IX
-IX
-IX
-IX
 jg
 EB
 IX
@@ -11614,6 +11639,12 @@ xm
 HR
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (48,1,1) = {"
 OY
@@ -11707,12 +11738,6 @@ he
 pG
 he
 he
-pG
-he
-he
-pG
-he
-he
 aW
 xm
 xm
@@ -11721,6 +11746,12 @@ xm
 gm
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (49,1,1) = {"
 OY
@@ -11814,12 +11845,6 @@ he
 he
 he
 he
-he
-he
-he
-he
-he
-he
 nl
 nl
 nl
@@ -11828,6 +11853,12 @@ nl
 gm
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (50,1,1) = {"
 OY
@@ -11926,15 +11957,15 @@ he
 he
 he
 he
-he
-he
-he
-he
-he
-he
 gm
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (51,1,1) = {"
 OY
@@ -12033,15 +12064,15 @@ he
 he
 he
 he
-he
-he
-he
-he
-he
-he
 gm
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (52,1,1) = {"
 OY
@@ -12140,15 +12171,15 @@ rR
 rR
 rR
 rR
-rR
-rR
-rR
-rR
-rR
-rR
 gm
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (53,1,1) = {"
 OY
@@ -12247,15 +12278,15 @@ xm
 xm
 xm
 xm
-xm
-xm
-xm
-xm
-xm
-xm
 gm
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (54,1,1) = {"
 OY
@@ -12346,23 +12377,23 @@ IX
 IX
 IX
 IX
-IX
-IX
-IX
-IX
-IX
-IX
-IX
-IX
-IX
-IX
-jg
+Is
 EB
-IX
+xm
+xm
+xm
+xm
+xm
 IX
 HR
 HR
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (55,1,1) = {"
 OY
@@ -12457,19 +12488,19 @@ MY
 MY
 MY
 MY
-MY
-MY
-MY
-MY
 Ry
 Ry
 Ry
-MY
-Ny
-Ny
-Ny
+jy
+jy
 xb
 rk
+OY
+OY
+OY
+OY
+OY
+OY
 "}
 (56,1,1) = {"
 OY
@@ -12485,7 +12516,7 @@ rk
 xb
 xb
 xb
-RD
+ij
 tp
 tp
 tp
@@ -12527,7 +12558,7 @@ UT
 UT
 UT
 UT
-sp
+wP
 sp
 sp
 sp
@@ -12555,28 +12586,28 @@ MY
 MY
 WZ
 WZ
+xb
+WZ
 WZ
 WZ
 xb
 xb
 xb
-xb
-xb
-WZ
-WZ
-WZ
-WZ
-WZ
-wP
-Ay
-Ay
-Ay
-wP
-xb
-xb
+MY
+MY
+Ry
+Ry
+Ry
+gY
 xb
 xb
 rk
+rk
+OY
+OY
+OY
+OY
+OY
 "}
 (57,1,1) = {"
 OY
@@ -12634,19 +12665,19 @@ Fv
 Vy
 ll
 ll
+wP
 sp
 Hh
-UP
+oZ
 sp
-mi
 wQ
 Om
 gb
-hH
+gb
 gb
 ex
 gb
-hH
+gb
 yY
 yY
 xm
@@ -12665,19 +12696,19 @@ WZ
 xb
 xb
 xb
+xb
+xb
 rk
-rk
-rk
 xb
 xb
 xb
-xb
-xb
-xb
-wP
-wP
 gY
 gY
+gY
+gY
+Vy
+wP
+wP
 wP
 rk
 rk
@@ -12741,19 +12772,19 @@ ll
 Vy
 ll
 uT
+wP
 sp
-oZ
+UP
 oZ
 Iz
 mi
-mi
 re
 gb
+El
 gb
+xN
 gb
-gb
-gb
-gb
+QK
 gb
 yY
 xm
@@ -12778,11 +12809,11 @@ rk
 rk
 rk
 rk
-rk
-rk
-rk
-rk
+wP
 ll
+Vy
+Vy
+gY
 gY
 gY
 wP
@@ -12848,11 +12879,11 @@ wP
 gY
 gY
 gY
+wP
 sp
 Ct
-Ct
+oZ
 sp
-mi
 uW
 oy
 gb
@@ -12886,10 +12917,10 @@ bG
 rk
 rk
 rk
-rk
-rk
+wP
 ll
-ll
+gY
+gY
 gY
 gY
 gY
@@ -12955,7 +12986,7 @@ ll
 wP
 wP
 wP
-sp
+wP
 sp
 sp
 sp
@@ -12964,8 +12995,8 @@ re
 re
 gb
 gb
-hH
-hH
+gb
+gb
 gb
 gb
 gb
@@ -12994,8 +13025,8 @@ bG
 bG
 bG
 bG
-rk
 ll
+gY
 gY
 gY
 gY
@@ -13062,17 +13093,17 @@ eo
 eo
 eo
 wP
+wP
 xL
-oZ
 uf
 hM
 sp
 PG
 gb
 gb
+jn
 gb
-hH
-hH
+QK
 gb
 gb
 gb
@@ -13101,8 +13132,8 @@ qX
 JA
 Xz
 bG
-rk
 wP
+ll
 gY
 gY
 gY
@@ -13169,9 +13200,9 @@ KY
 VC
 eo
 rk
+wP
 xL
 OS
-oZ
 oZ
 Cz
 gb
@@ -13389,9 +13420,9 @@ uG
 uG
 KR
 Lt
-Jh
-TS
-Oi
+Vo
+RD
+Vo
 Vo
 Ox
 Vo
@@ -13496,9 +13527,9 @@ uG
 uG
 KR
 Lt
-Jh
-TS
-Oi
+Vo
+fi
+Vo
 Vo
 TS
 Vo
