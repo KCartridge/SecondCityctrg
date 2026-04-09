@@ -1,5 +1,5 @@
 /obj/structure/carwash
-	name "carwash organizational subtype"
+	name = "carwash organizational subtype"
 	icon = 'modular_zapoc/modules/decor/icons/carwash.dmi'
 	abstract_type = /obj/structure/carwash
 
