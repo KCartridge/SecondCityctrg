@@ -15211,7 +15211,7 @@
 	linked_elevator_id = "DwtnApts"
 	},
 /obj/machinery/button/elevator/directional/north{
-	id = s;
+	id = "DwtnApts";
 	pixel_y = 35;
 	pixel_x = 9
 	},
