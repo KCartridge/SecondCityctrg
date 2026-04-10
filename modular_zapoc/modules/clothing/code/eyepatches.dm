@@ -6,7 +6,7 @@
 	ONFLOOR_ICON_HELPER('modular_zapoc/modules/clothing/icons/eyepatches_onfloor.dmi')
 	icon_state = "eyepatch"
 	base_icon_state = "eyepatch"
-	inhand_icon_state = "nothing"
+	inhand_icon_state = "blindfold"
 	var/wornunder = TRUE
 	var/flipped = FALSE
 
