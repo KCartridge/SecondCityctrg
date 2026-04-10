@@ -1747,7 +1747,7 @@
 "zW" = (
 /obj/structure/fence/door{
 	icon_state = "door_opened";
-	density = FALSE
+	density = 0
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
