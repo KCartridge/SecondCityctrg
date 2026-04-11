@@ -2238,7 +2238,7 @@
 /area/vtm/westfield_mall/interior/chantry)
 "ahI" = (
 /obj/machinery/light/dim/directional/west,
-/obj/structure/chair/comfy/darkpack{
+/obj/structure/chair/comfy/brown{
 	color = "#50C878";
 	dir = 4
 	},
@@ -8479,7 +8479,7 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/mansion)
 "aCf" = (
-/obj/structure/chair/comfy/darkpack,
+/obj/structure/chair/comfy/brown,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/mansion)
 "aCg" = (
@@ -11722,7 +11722,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/westfield_mall/interior/underground_parking)
 "aMI" = (
-/obj/structure/chair/comfy/darkpack,
+/obj/structure/chair/comfy/brown,
 /mob/living/basic/zombie/darkpack,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/mansion)
