@@ -20,12 +20,6 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
-"aH" = (
-/obj/structure/chair/darkpack{
-	dir = 8
-	},
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/techshop)
 "aM" = (
 /obj/effect/spawner/random/trash/rat,
 /turf/open/misc/beach/vamp,
@@ -1215,6 +1209,12 @@
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
+"vO" = (
+/obj/structure/chair/darkpack{
+	dir = 8
+	},
+/turf/open/floor/plating/rough/cave,
+/area/vtm/interior/techshop)
 "vT" = (
 /obj/machinery/hydroponics/soil,
 /turf/open/floor/plating/sidewalk,
@@ -1241,12 +1241,6 @@
 /obj/effect/decal/cleanable/trash,
 /turf/open/misc/beach/vamp,
 /area/vtm/outside/pacificheights)
-"wT" = (
-/obj/structure/chair/office/darkpack/green{
-	dir = 8
-	},
-/turf/open/floor/plating/sidewalk/poor,
-/area/vtm/outside/supply)
 "wX" = (
 /obj/structure/bonfire/prelit/fire_barrel,
 /turf/open/floor/plating/sidewalk/poor,
@@ -3004,6 +2998,12 @@
 "Ys" = (
 /turf/open/openspace,
 /area/vtm/outside/pacificheights)
+"Yz" = (
+/obj/structure/chair/office/darkpack/green{
+	dir = 8
+	},
+/turf/open/floor/plating/sidewalk/poor,
+/area/vtm/outside/supply)
 "YB" = (
 /obj/machinery/fax/admin/endron,
 /obj/structure/table/wood,
@@ -5820,7 +5820,7 @@ ik
 VQ
 ik
 Fs
-wT
+Yz
 Kr
 Wa
 Lb
@@ -7840,7 +7840,7 @@ GJ
 ZU
 Fz
 oN
-aH
+vO
 Wb
 tg
 tY
