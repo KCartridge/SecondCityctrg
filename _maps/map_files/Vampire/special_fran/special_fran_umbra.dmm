@@ -191,9 +191,8 @@
 /turf/open/misc/grass,
 /area/vtm/outside/penumbra)
 "gr" = (
-/obj/effect/decal/support,
-/turf/open/water/beach/vamp/deep,
-/area/vtm/outside/penumbra)
+/turf/cordon,
+/area/misc/cordon)
 "gH" = (
 /obj/structure/chair/stool/bar/darkpack/red{
 	anchored = 0;
@@ -348,10 +347,6 @@
 /obj/effect/decal/cleanable/blood/old,
 /turf/open/floor/plating/concrete,
 /area/vtm/outside/penumbra)
-"kF" = (
-/obj/structure/flora/rock/darkpack_big,
-/turf/open/umbra,
-/area/vtm/outside/penumbra)
 "kR" = (
 /obj/machinery/light/small/red/directional/south,
 /turf/open/indestructible/necropolis/air,
@@ -461,11 +456,6 @@
 /area/vtm/outside/penumbra)
 "qR" = (
 /obj/structure/table,
-/turf/open/umbra,
-/area/vtm/outside/penumbra)
-"qT" = (
-/obj/minespot,
-/obj/minespot,
 /turf/open/umbra,
 /area/vtm/outside/penumbra)
 "qX" = (
@@ -1344,10 +1334,6 @@
 /obj/minespot,
 /turf/open/umbra,
 /area/vtm/outside/penumbra)
-"VD" = (
-/obj/minespot,
-/turf/open/space/basic,
-/area/vtm/outside/penumbra)
 "VK" = (
 /obj/structure/barrels/rand{
 	pixel_x = -3;
@@ -1506,114 +1492,221 @@
 /area/vtm/outside/penumbra)
 
 (1,1,1) = {"
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Ex
-Ex
-Ex
-Ex
-Ex
-Yv
-Yv
-Ex
-Ex
-Iv
-Iv
-Iv
-Iv
-Iv
-Iv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
 "}
 (2,1,1) = {"
+gr
 Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Ex
+Ex
+Ex
+Ex
+Ex
+Yv
+Yv
+Ex
+Ex
+Iv
+Iv
+Iv
+Iv
+Iv
+Iv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+gr
+"}
+(3,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -1717,10 +1810,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
-(3,1,1) = {"
-Yv
+(4,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -1824,10 +1917,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
-(4,1,1) = {"
-Yv
+(5,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -1869,113 +1962,6 @@ Vz
 Vz
 Yv
 Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-"}
-(5,1,1) = {"
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Ex
-Ex
-Ex
-Ex
-Si
-oD
-Jr
-Jr
-dP
-dP
-En
-Eq
-ep
-lN
-pe
-cU
-cU
-cU
-cU
-Jr
-Jr
-Vz
-Vz
-Vz
-Vz
-Vz
-Vz
-Vz
 Yv
 Yv
 Yv
@@ -2038,9 +2024,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (6,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -2055,30 +2042,29 @@ Yv
 Yv
 Yv
 Ex
-Jr
-oD
-Qh
-Qh
-Si
+Ex
+Ex
+Ex
 Si
 oD
 Jr
-cU
-cU
+Jr
+dP
 dP
 En
+Eq
 ep
-ep
-ep
-Uy
-Jr
-Jr
+lN
+pe
 cU
-SU
-kY
-Yv
-Yv
-Yv
+cU
+cU
+cU
+Jr
+Jr
+Vz
+Vz
+Vz
 Vz
 Vz
 Vz
@@ -2145,10 +2131,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (7,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -2162,31 +2148,31 @@ Yv
 Yv
 Yv
 Ex
-PT
+Jr
 oD
+Qh
+Qh
 Si
 Si
 oD
-PT
-oD
-Jr
 Jr
 cU
 cU
-cU
-cU
+dP
+En
+ep
+ep
+ep
+Uy
+Jr
+Jr
 cU
 SU
 kY
-kY
-kY
-kY
-VM
-iQ
 Yv
 Yv
 Yv
-Yv
+Vz
 Vz
 Vz
 Vz
@@ -2252,9 +2238,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (8,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -2267,29 +2254,28 @@ Yv
 Yv
 Yv
 Yv
-Yv
-Yv
-iQ
+Ex
+PT
 oD
-Qh
-Qh
+Si
+Si
 oD
+PT
 oD
-oD
-kY
-kY
-kY
+Jr
+Jr
+cU
+cU
+cU
+cU
+cU
+SU
 kY
 kY
 kY
 kY
 VM
 iQ
-iQ
-iQ
-iQ
-iQ
-Qh
 Yv
 Yv
 Yv
@@ -2297,7 +2283,7 @@ Yv
 Vz
 Vz
 Vz
-Vz
+Yv
 Yv
 Yv
 Yv
@@ -2359,10 +2345,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (9,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -2381,27 +2367,27 @@ oD
 Qh
 Qh
 oD
-iQ
-iQ
-iQ
-iQ
-iQ
+oD
+oD
+kY
+kY
+kY
+kY
+kY
+kY
+kY
+VM
 iQ
 iQ
 iQ
 iQ
 iQ
 Qh
-Qh
-Qh
-Qh
 Yv
 Yv
 Yv
 Yv
-Yv
-Yv
-Yv
+Vz
 Vz
 Vz
 Vz
@@ -2466,42 +2452,42 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (10,1,1) = {"
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Jt
-Rj
-Mm
-Mm
-aQ
-AR
 gr
-Qh
-Qh
-Qh
-Qh
-Qh
-Qh
-Qh
-Qh
-Qh
 Yv
 Yv
-kF
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+Yv
+iQ
+oD
+Qh
+Qh
+oD
+iQ
+iQ
+iQ
+iQ
+iQ
+iQ
+iQ
+iQ
+iQ
+iQ
+Qh
+Qh
+Qh
+Qh
 Yv
 Yv
 Yv
@@ -2573,10 +2559,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (11,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -2680,10 +2666,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (12,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -2787,10 +2773,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (13,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -2894,10 +2880,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (14,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3001,10 +2987,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (15,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3108,10 +3094,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (16,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3215,10 +3201,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (17,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3322,10 +3308,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (18,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3429,10 +3415,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (19,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3536,10 +3522,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (20,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3643,10 +3629,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (21,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3750,10 +3736,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (22,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3857,10 +3843,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (23,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -3964,10 +3950,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (24,1,1) = {"
-Yv
+gr
 Yv
 Jr
 Yv
@@ -4071,10 +4057,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (25,1,1) = {"
-Yv
+gr
 dd
 Jr
 Jr
@@ -4178,10 +4164,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (26,1,1) = {"
-dd
+gr
 dd
 Jr
 Jr
@@ -4285,12 +4271,12 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (27,1,1) = {"
+gr
 dd
-dd
-uc
+Jr
 Jr
 dd
 Yv
@@ -4392,10 +4378,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (28,1,1) = {"
-dd
+gr
 dd
 Jr
 Jr
@@ -4499,13 +4485,13 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (29,1,1) = {"
-dd
+gr
 Oa
 Jr
-Jr
+uc
 dd
 dd
 dd
@@ -4606,10 +4592,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (30,1,1) = {"
-dd
+gr
 Jr
 Jr
 Jr
@@ -4626,8 +4612,8 @@ Yv
 rD
 rD
 rD
-VD
-VD
+Vz
+Vz
 rD
 Yv
 Ja
@@ -4713,10 +4699,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (31,1,1) = {"
-dd
+gr
 dd
 Jr
 aw
@@ -4820,10 +4806,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (32,1,1) = {"
-dd
+gr
 dd
 dd
 TQ
@@ -4927,10 +4913,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (33,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5034,10 +5020,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (34,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5141,10 +5127,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (35,1,1) = {"
-dd
+gr
 TQ
 dd
 dd
@@ -5248,10 +5234,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (36,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5355,10 +5341,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (37,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5462,10 +5448,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (38,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5569,10 +5555,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (39,1,1) = {"
-dd
+gr
 dd
 TQ
 dd
@@ -5676,10 +5662,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (40,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5783,10 +5769,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (41,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5890,10 +5876,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (42,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -5997,10 +5983,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (43,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -6104,10 +6090,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (44,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -6211,10 +6197,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (45,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -6318,10 +6304,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (46,1,1) = {"
-dd
+gr
 dd
 dd
 Jr
@@ -6425,10 +6411,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (47,1,1) = {"
-dd
+gr
 dd
 TQ
 dd
@@ -6532,10 +6518,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (48,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -6639,10 +6625,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (49,1,1) = {"
-dd
+gr
 dd
 dd
 Jr
@@ -6746,10 +6732,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (50,1,1) = {"
-dd
+gr
 dd
 Jr
 Jr
@@ -6853,10 +6839,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (51,1,1) = {"
-dd
+gr
 gi
 Jr
 Jr
@@ -6960,10 +6946,10 @@ wT
 wT
 Yv
 Yv
-Yv
+gr
 "}
 (52,1,1) = {"
-dd
+gr
 TQ
 Jr
 Jr
@@ -7067,10 +7053,10 @@ jC
 wT
 wT
 Yv
-Yv
+gr
 "}
 (53,1,1) = {"
-dd
+gr
 dd
 Jr
 Jr
@@ -7174,10 +7160,10 @@ jD
 Fn
 wT
 wT
-Yv
+gr
 "}
 (54,1,1) = {"
-dd
+gr
 Jr
 Jr
 Jr
@@ -7276,15 +7262,15 @@ Kn
 Kn
 jC
 jD
-jD
+hp
 jD
 jD
 jC
 wT
-wT
+gr
 "}
 (55,1,1) = {"
-dd
+gr
 Jr
 Jr
 Jr
@@ -7307,7 +7293,7 @@ OZ
 OZ
 OZ
 Vz
-qT
+Vz
 Yv
 Yv
 Yv
@@ -7384,22 +7370,22 @@ Kn
 jo
 jD
 jD
-hp
-jD
+RA
 jD
 jC
 wT
+gr
 "}
 (56,1,1) = {"
+gr
 dd
-dd
 Jr
 Jr
 Jr
 Vz
 Vz
 Vz
-qT
+Vz
 Yv
 Vz
 JA
@@ -7492,13 +7478,13 @@ Yv
 jC
 jD
 jD
-RA
 jD
 jo
 wT
+gr
 "}
 (57,1,1) = {"
-dd
+gr
 dd
 Jr
 Jr
@@ -7598,14 +7584,14 @@ Yv
 Yv
 Yv
 jC
-jD
-jD
-jD
+jC
 jC
 wT
+wT
+gr
 "}
 (58,1,1) = {"
-dd
+gr
 TQ
 dd
 gi
@@ -7706,13 +7692,13 @@ wT
 Yv
 Yv
 Fn
-jC
-jC
 Yv
-wT
+Yv
+Yv
+gr
 "}
 (59,1,1) = {"
-dd
+gr
 dd
 dd
 dd
@@ -7816,10 +7802,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (60,1,1) = {"
-dd
+gr
 dd
 dd
 Yv
@@ -7923,10 +7909,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (61,1,1) = {"
-dd
+gr
 dd
 dd
 Yv
@@ -8012,7 +7998,7 @@ Yv
 Yv
 Yv
 Yv
-qT
+Vz
 Mm
 Vz
 Vz
@@ -8030,10 +8016,10 @@ wT
 wT
 Yv
 Yv
-Yv
+gr
 "}
 (62,1,1) = {"
-dd
+gr
 dd
 dd
 Yv
@@ -8137,10 +8123,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (63,1,1) = {"
-dd
+gr
 dd
 TQ
 Yv
@@ -8227,9 +8213,9 @@ Yv
 Yv
 Yv
 Vz
-qT
 Vz
 Vz
+Vz
 Yv
 Yv
 Yv
@@ -8244,10 +8230,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (64,1,1) = {"
-Yv
+gr
 Yv
 dd
 Yv
@@ -8351,10 +8337,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (65,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -8458,10 +8444,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (66,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -8565,10 +8551,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (67,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -8672,10 +8658,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (68,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -8779,10 +8765,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (69,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -8886,10 +8872,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (70,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -8993,10 +8979,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (71,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9100,10 +9086,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (72,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9207,10 +9193,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (73,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9314,10 +9300,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (74,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9421,10 +9407,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (75,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9528,10 +9514,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (76,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9635,10 +9621,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (77,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9742,10 +9728,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (78,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9849,10 +9835,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (79,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -9956,10 +9942,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (80,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10063,10 +10049,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (81,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10170,10 +10156,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (82,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10277,10 +10263,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (83,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10384,10 +10370,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (84,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10491,10 +10477,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (85,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10598,10 +10584,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (86,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10705,10 +10691,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (87,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10812,10 +10798,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (88,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -10919,10 +10905,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (89,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11026,10 +11012,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (90,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11133,10 +11119,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (91,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11240,10 +11226,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (92,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11347,10 +11333,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (93,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11454,10 +11440,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (94,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11561,10 +11547,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (95,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11668,10 +11654,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (96,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11775,10 +11761,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (97,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11882,10 +11868,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (98,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -11989,10 +11975,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (99,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -12096,10 +12082,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (100,1,1) = {"
-Yv
+gr
 Yv
 Yv
 Yv
@@ -12203,9 +12189,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
+gr
 "}
 (101,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -12309,10 +12296,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
-Yv
+gr
 "}
 (102,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -12416,10 +12403,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
-Yv
+gr
 "}
 (103,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -12523,10 +12510,10 @@ Yv
 Yv
 Yv
 Yv
-Yv
-Yv
+gr
 "}
 (104,1,1) = {"
+gr
 Yv
 Yv
 Yv
@@ -12630,113 +12617,112 @@ Yv
 Yv
 Yv
 Yv
-Yv
-Yv
+gr
 "}
 (105,1,1) = {"
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
-Yv
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
+gr
 "}

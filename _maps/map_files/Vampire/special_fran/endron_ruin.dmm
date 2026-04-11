@@ -661,11 +661,6 @@
 	},
 /turf/open/water/acid,
 /area/vtm/interior/forest/cave)
-"jS" = (
-/obj/structure/lattice/catwalk,
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/turf/open/water/acid,
-/area/vtm/interior/endron_facility/forest)
 "jX" = (
 /obj/effect/turf_decal/darkpack/dirt,
 /obj/effect/turf_decal/darkpack/dirt{
@@ -729,10 +724,6 @@
 /area/vtm/interior/endron_facility/forest)
 "kK" = (
 /turf/open/floor/plating/rough,
-/area/vtm/interior/forest/cave)
-"kL" = (
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/turf/open/floor/plating/rough/cave,
 /area/vtm/interior/forest/cave)
 "kP" = (
 /obj/machinery/light/floor,
@@ -982,7 +973,6 @@
 /area/vtm/interior/endron_facility/forest)
 "ov" = (
 /obj/effect/gibspawner/human/bodypartless,
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
 /obj/effect/decal/cleanable/gasoline,
 /obj/effect/mob_spawn/corpse/human/gray_masses,
 /turf/open/floor/plating/rough/cave,
@@ -1081,14 +1071,6 @@
 "pL" = (
 /obj/effect/spawner/random/trash/mess,
 /obj/effect/turf_decal/darkpack/cave/corner,
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
-/turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
-"pP" = (
-/obj/effect/turf_decal/darkpack/cave{
-	dir = 9
-	},
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/forest/cave/bane)
 "pT" = (
@@ -1378,10 +1360,6 @@
 	},
 /turf/open/genturf,
 /area/vtm/planetgeneration)
-"tM" = (
-/obj/effect/spawner/random/trash/mess,
-/turf/open/water/bloodwave,
-/area/vtm/interior/forest/cave/bane)
 "tQ" = (
 /obj/structure/vampdoor/reinf,
 /obj/effect/mapping_helpers/door/access/pentex_poi,
@@ -1486,12 +1464,6 @@
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
-"vC" = (
-/obj/structure/glowshroom,
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/obj/effect/decal/cleanable/gasoline,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
 "vF" = (
 /obj/structure/lattice/catwalk,
 /mob/living/basic/mining/legion/gray_masses,
@@ -1774,7 +1746,8 @@
 /area/vtm/interior/endron_facility/forest)
 "zW" = (
 /obj/structure/fence/door{
-	open = 1
+	icon_state = "door_opened";
+	density = 0
 	},
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
@@ -2375,9 +2348,12 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "HB" = (
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
-/turf/open/indestructible/necropolis/air,
-/area/vtm/interior/forest/cave/bane)
+/obj/effect/decal/garou_glyph/wyrm{
+	pixel_x = 0;
+	pixel_y = 31
+	},
+/turf/open/misc/dirt,
+/area/vtm/outside/forest)
 "HO" = (
 /obj/effect/turf_decal/trimline/red/line{
 	dir = 1
@@ -2629,7 +2605,7 @@
 "Ld" = (
 /obj/machinery/shower/directional/west{
 	name = "safety shower";
-	on = 1
+	actually_on = 1
 	},
 /obj/effect/turf_decal/stock{
 	dir = 8
@@ -2677,13 +2653,6 @@
 "LD" = (
 /turf/closed/wall/vampwall/green,
 /area/vtm/outside/forest)
-"LE" = (
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/obj/effect/turf_decal/trimline/red/line{
-	dir = 1
-	},
-/turf/open/floor/city/plating,
-/area/vtm/interior/endron_facility/forest)
 "LF" = (
 /obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
 /turf/open/floor/city/plating_mono,
@@ -2911,7 +2880,7 @@
 /obj/structure/lattice/grate,
 /obj/machinery/shower/directional/south{
 	name = "safety shower";
-	on = 1
+	actually_on = 1
 	},
 /turf/open/water/vamp_sewer/border,
 /area/vtm/interior/endron_facility/forest)
@@ -2949,7 +2918,7 @@
 /area/vtm/interior/forest/cave/bane)
 "Ph" = (
 /obj/warehouse_generator{
-	init_on = 0
+	on = 0
 	},
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/forest)
@@ -2993,11 +2962,10 @@
 /turf/open/water/acid,
 /area/vtm/outside/forest)
 "PQ" = (
-/obj/structure/flora/bush/style_random,
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/obj/effect/decal/cleanable/gasoline,
+/obj/structure/stone_tile/slab,
+/obj/effect/spawner/random/trash/mess,
 /turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
+/area/vtm/interior/forest/cave/bane)
 "PU" = (
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 1
@@ -3010,15 +2978,6 @@
 	},
 /turf/open/genturf,
 /area/vtm/planetgeneration)
-"Qe" = (
-/obj/effect/decal/graffiti/large,
-/turf/closed/wall/vampwall/metal/reinforced,
-/area/vtm/interior/endron_facility/forest)
-"Qh" = (
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/obj/effect/decal/cleanable/gasoline,
-/turf/open/floor/plating/rough/cave,
-/area/vtm/interior/forest/cave)
 "Qr" = (
 /obj/structure/closet/crate/bin,
 /turf/open/floor/city/plating,
@@ -3208,6 +3167,7 @@
 /area/vtm/interior/endron_facility/forest)
 "SR" = (
 /obj/effect/decal/cleanable/garbage,
+/obj/effect/decal/graffiti/large,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior/endron_facility/forest)
 "SS" = (
@@ -3277,10 +3237,6 @@
 	},
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
-"TD" = (
-/obj/effect/decal/garou_glyph/wyrm,
-/turf/closed/wall/vampwall/rock,
-/area/vtm/outside/forest)
 "TE" = (
 /obj/machinery/light/directional/south,
 /obj/effect/turf_decal/trimline/red/line,
@@ -3353,18 +3309,9 @@
 /obj/effect/spawner/random/occult/artifact,
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
-"Vi" = (
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/turf/open/floor/city/plating_mono,
-/area/vtm/interior/endron_facility/forest)
 "Vk" = (
 /obj/effect/decal/cleanable/glass,
 /turf/open/floor/plating/asphalt,
-/area/vtm/interior/endron_facility/forest)
-"Vm" = (
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion,
-/obj/effect/turf_decal/trimline/red/line,
-/turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/forest)
 "Vp" = (
 /obj/effect/spawner/random/lavaland_mob/legion/gray_masses,
@@ -3426,7 +3373,6 @@
 /area/vtm/interior/endron_facility/forest)
 "Wx" = (
 /obj/effect/spawner/random/trash/garbage,
-/mob/living/simple_animal/hostile/asteroid/hivelordbrood/legion/advanced,
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/forest/cave/bane)
 "Wy" = (
@@ -5415,7 +5361,7 @@ NT
 cU
 XA
 HO
-jS
+tw
 sL
 Pw
 Ul
@@ -5630,9 +5576,9 @@ Mf
 wD
 lu
 NT
-Vi
+NT
 zF
-LE
+HO
 tw
 Ky
 wD
@@ -5959,7 +5905,7 @@ xG
 Li
 Ju
 mm
-LE
+HO
 tw
 aD
 uB
@@ -6285,7 +6231,7 @@ mK
 mK
 Mf
 wD
-LE
+HO
 eJ
 Ul
 Ox
@@ -6396,7 +6342,7 @@ Mf
 wD
 HO
 tw
-Vm
+sL
 wD
 wD
 wD
@@ -6531,7 +6477,7 @@ XM
 Nm
 qf
 FX
-Qh
+FX
 Xu
 XM
 Mf
@@ -6747,10 +6693,10 @@ kK
 fS
 FX
 Rb
-vC
+PJ
 FX
-Qh
-Qh
+FX
+FX
 XM
 XM
 Mf
@@ -6855,10 +6801,10 @@ dr
 ww
 FX
 FX
-Qh
+FX
 FX
 FV
-PQ
+cq
 FX
 FX
 XM
@@ -6968,7 +6914,7 @@ FX
 cq
 FU
 FX
-Qh
+FX
 Rb
 XM
 Mf
@@ -7074,9 +7020,9 @@ XM
 XM
 XM
 Xu
-Qh
 FX
-vC
+FX
+PJ
 FX
 XM
 XM
@@ -7184,7 +7130,7 @@ Mf
 XM
 qf
 PJ
-Qh
+FX
 an
 XM
 XM
@@ -7293,7 +7239,7 @@ Mf
 XM
 XM
 Nm
-kL
+Xu
 XM
 XM
 Mf
@@ -7570,7 +7516,7 @@ za
 Dh
 wb
 IA
-Lp
+RS
 Lp
 Lp
 RS
@@ -7777,9 +7723,9 @@ mK
 Mf
 za
 za
-pP
+if
 pL
-HB
+SS
 Wx
 cW
 za
@@ -7793,7 +7739,7 @@ Pg
 Pg
 Wi
 IA
-Lp
+RS
 wD
 wD
 wD
@@ -7899,7 +7845,7 @@ md
 ed
 Pg
 wb
-tM
+Pg
 Pg
 nl
 Lp
@@ -8006,7 +7952,7 @@ rg
 Ak
 Ak
 ed
-tM
+Pg
 Pg
 Pg
 Pg
@@ -8113,11 +8059,11 @@ za
 xx
 xx
 Ak
-Ak
+PQ
 ed
 Pg
 Pg
-tM
+Pg
 Pg
 ev
 iN
@@ -8213,10 +8159,10 @@ Mf
 za
 Bz
 Nw
-HB
-HB
-HB
-HB
+SS
+SS
+SS
+SS
 cW
 za
 za
@@ -8227,7 +8173,7 @@ CX
 Ux
 bf
 Pg
-tM
+Pg
 ev
 Lp
 wD
@@ -8290,7 +8236,7 @@ MG
 MG
 uK
 iU
-Qe
+wD
 SR
 Vk
 vA
@@ -8440,7 +8386,7 @@ za
 za
 za
 za
-Lp
+RS
 RS
 FM
 CX
@@ -9264,8 +9210,8 @@ mK
 mK
 mK
 Mf
-TD
-bb
+cS
+HB
 bL
 oK
 BS
