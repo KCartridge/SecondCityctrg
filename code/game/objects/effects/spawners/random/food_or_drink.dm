@@ -224,7 +224,7 @@
 	)
 
 /obj/effect/spawner/random/food_or_drink/pizzaparty
-	name = "pizza bomb spawner"
+	name = "pizza spawner" // DARKPACK EDIT CHANGE
 	icon_state = "pizzabox"
 	loot = list(
 		/obj/item/pizzabox/margherita = 2,
@@ -232,7 +232,8 @@
 		/obj/item/pizzabox/mushroom = 2,
 		/obj/item/pizzabox/pineapple = 2,
 		/obj/item/pizzabox/vegetable = 2,
-		// /obj/item/pizzabox/bomb/armed = 1, // APOC EDIT REMOVAL
+		// /obj/item/pizzabox/bomb/armed = 1, // DARKPACK EDIT REMOVAL
+
 	)
 
 /obj/effect/spawner/random/food_or_drink/seed_vault
