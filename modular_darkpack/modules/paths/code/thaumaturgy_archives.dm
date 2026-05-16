@@ -1,5 +1,5 @@
 /obj/structure/retail/occult
-	icon_state = "menu" // APOC EDIT ADD
+	icon_state = "menu"
 	owner_needed = FALSE
 	desc = "Use your occult research to reap the benefits of safeguarded knowledge and artifacts."
 
@@ -318,4 +318,3 @@
 
 		qdel(spellbook)
 		return ITEM_INTERACT_SUCCESS
-
