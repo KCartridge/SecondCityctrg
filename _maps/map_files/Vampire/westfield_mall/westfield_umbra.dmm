@@ -2050,7 +2050,7 @@
 /turf/open/floor/plating/asphalt,
 /area/vtm/outside/penumbra)
 "CW" = (
-/obj/structure/chair/comfy/darkpack/dark{
+/obj/structure/chair/comfy/black{
 	dir = 1
 	},
 /obj/effect/decal/cleanable/litter,
