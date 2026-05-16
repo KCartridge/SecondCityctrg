@@ -165,6 +165,7 @@
 	sentience_type = SENTIENCE_BOSS
 	has_emissive = FALSE
 	var/spawn_type = /mob/living/basic/mining/legion
+	var/spawn_type = /mob/living/basic/mining/legion
 
 /mob/living/basic/mining/legion/large/Initialize(mapload)
 	. = ..()

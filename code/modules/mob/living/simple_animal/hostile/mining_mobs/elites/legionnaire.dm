@@ -55,6 +55,8 @@
 
 	var/bonfire_type = /obj/structure/legionnaire_bonfire // APOC EDIT ADD - Gray masses support
 
+	var/bonfire_type = /obj/structure/legionnaire_bonfire // APOC EDIT ADD - Gray masses support
+
 /datum/action/innate/elite_attack/legionnaire_charge
 	name = "Legionnaire Charge"
 	button_icon_state = "legionnaire_charge"
