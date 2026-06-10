@@ -22,8 +22,10 @@
 	pixel_x = base_pixel_x + rand(-5, 5)
 	pixel_y = base_pixel_y + rand(-5, 5)
 
+// APOC EDIT CHANGE START
 /obj/effect/decal/cleanable/ash/NeverShouldHaveComeHere(turf/here_turf)
-	return !istype(here_turf, /obj/structure/bodycontainer/crematorium) && ..()
+	return isclosedturf(here_turf)
+// APOC EDIT CHANGE END
 
 /obj/effect/decal/cleanable/ash/large
 	name = "large pile of ashes"
@@ -362,20 +364,20 @@ GLOBAL_LIST_EMPTY(nebula_vomits)
 	beauty = -150
 	clean_type = CLEAN_TYPE_HARD_DECAL
 
-// DARKPACK EDIT ADDITION START
+// DARKPACK EDIT ADD START
 /obj/effect/decal/cleanable/garbage/NeverShouldHaveComeHere(turf/here_turf)
 	return isclosedturf(here_turf)
-// DARKPACK EDIT ADDITION END
+// DARKPACK EDIT ADD END
 
 /obj/effect/decal/cleanable/garbage/Initialize(mapload)
 	. = ..()
 	icon_state = "garbage[rand(1, 6)]" // DARKPACK EDIT ADD
 	AddElement(/datum/element/swabable, CELL_LINE_TABLE_SLUDGE, CELL_VIRUS_TABLE_GENERIC, rand(2,4), 15)
 
-// DARKPACK EDIT ADDITION START
+// DARKPACK EDIT ADD START
 /obj/effect/decal/cleanable/garbage/NeverShouldHaveComeHere(turf/here_turf)
 	return isclosedturf(here_turf)
-// DARKPACK EDIT ADDITION END
+// DARKPACK EDIT ADD END
 
 /obj/effect/decal/cleanable/rubble
 	name = "rubble"
