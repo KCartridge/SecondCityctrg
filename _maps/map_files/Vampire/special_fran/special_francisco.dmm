@@ -14987,8 +14987,7 @@
 	},
 /obj/item/pizzabox{
 	pixel_x = 0;
-	pixel_y = 16;
-	layer = 3.1
+	pixel_y = 13
 	},
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/police)
