@@ -25,12 +25,11 @@
 /area/vtm/voivodate)
 "abs" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 14;
-	pixel_x = -2
-	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/ghetto)
+/obj/machinery/microwave,
+/obj/effect/decal/wallpaper/stone/low,
+/obj/structure/platform/lowwall/rich,
+/turf/open/floor/plating/rough,
+/area/vtm/interior/apartment)
 "aby" = (
 /obj/effect/turf_decal/siding/thinplating/light{
 	dir = 4
@@ -79,9 +78,7 @@
 /area/vtm)
 "acN" = (
 /obj/structure/table/wood,
-/obj/machinery/microwave{
-	pixel_y = 13
-	},
+/obj/machinery/microwave,
 /obj/item/reagent_containers/cup/glass/dry_ramen{
 	pixel_x = -1;
 	pixel_y = 27
@@ -416,9 +413,10 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/chinatown)
 "anL" = (
-/obj/item/restraints/handcuffs,
-/turf/open/floor/plating/concrete,
-/area/space)
+/obj/machinery/light/directional/north,
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/endron_facility/restricted)
 "anP" = (
 /obj/effect/turf_decal/bordur/corner{
 	dir = 1
@@ -1556,14 +1554,15 @@
 /turf/open/floor/fakebasalt,
 /area/vtm/interior/voivodate/cave)
 "aVJ" = (
-/obj/structure/retail/antique,
-/turf/open/space/basic,
+/turf/cordon,
 /area/space)
 "aVK" = (
 /obj/structure/table,
 /obj/effect/decal/wallpaper/paper/darkred/low,
 /obj/machinery/chem_dispenser/drinks{
-	dir = 8
+	dir = 8;
+	pixel_x = 0;
+	pixel_y = -5
 	},
 /obj/structure/platform/lowwall/brick,
 /obj/structure/sign/city/order/directional/north{
@@ -2294,9 +2293,6 @@
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
 "buR" = (
-/obj/structure/railing{
-	dir = 4
-	},
 /obj/effect/landmark/npcwall,
 /obj/structure/sign/city/store/bacotell/directional/north{
 	pixel_x = 0;
@@ -2430,6 +2426,24 @@
 /obj/item/tank/internals/anesthetic,
 /obj/item/clothing/mask/breath,
 /obj/item/clothing/mask/breath,
+/obj/item/stack/medical/wrap/sticky_tape/surgical,
+/obj/item/stack/medical/bone_gel{
+	pixel_x = 0;
+	pixel_y = 0
+	},
+/obj/item/stack/medical/wrap/gauze/twelve,
+/obj/item/storage/medkit/darkpack/standard{
+	pixel_y = 0;
+	pixel_x = 0
+	},
+/obj/item/clothing/suit/apron/surgical{
+	pixel_y = 0;
+	pixel_x = 0
+	},
+/obj/item/clothing/gloves/vampire/latex{
+	pixel_x = 0;
+	pixel_y = 0
+	},
 /turf/open/floor/iron/showroomfloor,
 /area/vtm/interior/clinic)
 "byO" = (
@@ -2949,10 +2963,15 @@
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/voivodate)
 "bMa" = (
-/obj/structure/table,
-/obj/structure/platform/lowwall/brick,
-/turf/open/floor/plating/rough,
-/area/vtm/interior/supply)
+/obj/effect/turf_decal/siding/wood{
+	dir = 1
+	},
+/obj/structure/extinguisher_cabinet/directional/west,
+/obj/effect/turf_decal/trimline/red/warning{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/gang)
 "bMb" = (
 /turf/closed/indestructible/the_matrix,
 /area/vtm/interior)
@@ -4610,7 +4629,9 @@
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/police)
 "cGY" = (
-/obj/structure/vampdoor/old,
+/obj/structure/vampdoor/old{
+	dir = 8
+	},
 /obj/effect/mapping_helpers/door/access/chantry,
 /obj/effect/mapping_helpers/door/lock,
 /obj/effect/turf_decal/siding/wood{
@@ -5322,10 +5343,7 @@
 /area/vtm/interior/clinic)
 "daq" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 7;
-	pixel_x = -2
-	},
+/obj/machinery/microwave,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "dat" = (
@@ -5405,7 +5423,9 @@
 /area/vtm/interior/laundromat)
 "ddx" = (
 /obj/item/gun/ballistic/automatic/darkpack/ar15,
-/obj/structure/guncase,
+/obj/structure/guncase{
+	open = 0
+	},
 /obj/item/gun/ballistic/automatic/darkpack/ar15,
 /obj/item/gun/ballistic/automatic/darkpack/sniper,
 /turf/open/floor/city/plating,
@@ -6007,10 +6027,6 @@
 /obj/effect/decal/shadow,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/sewer)
-"dyR" = (
-/obj/item/kirbyplants/darkpack/random,
-/turf/open/floor/city/bacotell,
-/area/vtm/interior/shop/bubway)
 "dyX" = (
 /turf/closed/indestructible/the_matrix,
 /area/vtm/interior/sewer)
@@ -6097,7 +6113,9 @@
 "dCA" = (
 /obj/structure/table/countertop/bubway,
 /obj/structure/sink/directional/north{
-	icon_state = "basin"
+	icon_state = "basin";
+	pixel_x = 0;
+	pixel_y = -8
 	},
 /obj/item/reagent_containers/cup/glass/mug{
 	pixel_x = -20;
@@ -6255,10 +6273,6 @@
 	icon_state = "basin"
 	},
 /obj/structure/platform/lowwall/painted,
-/obj/item/clothing/gloves/vampire/latex{
-	pixel_x = 9;
-	pixel_y = 30
-	},
 /obj/item/storage/box/masks{
 	pixel_y = 24;
 	pixel_x = -8
@@ -6544,8 +6558,9 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/laundromat)
 "dPG" = (
-/obj/machinery/vending/cola{
-	pixel_y = 20;
+/obj/machinery/vending/cola/shamblers{
+	pixel_x = 0;
+	pixel_y = 22;
 	density = 0
 	},
 /turf/open/floor/city/toilet/large,
@@ -6923,11 +6938,7 @@
 /area/vtm/interior/museum)
 "ebL" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_x = -3;
-	pixel_y = 5
-	},
+/obj/machinery/microwave,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/ghetto)
 "ebR" = (
@@ -7683,10 +7694,7 @@
 /area/vtm/interior/wyrm_corrupted)
 "exk" = (
 /obj/structure/coclock,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /obj/structure/table,
 /turf/open/floor/city/clinic,
 /area/vtm/interior/millennium_tower)
@@ -7938,7 +7946,9 @@
 /area/vtm/interior/supply)
 "eIq" = (
 /mob/living/basic/pet/dog/wolf/kinfolk/spiral{
-	pixel_x = 1
+	pixel_x = 0;
+	pixel_y = 0;
+	name = "Princess"
 	},
 /turf/open/indestructible/necropolis/air,
 /area/vtm/interior/wyrm_corrupted)
@@ -8311,9 +8321,7 @@
 /area/vtm/interior/ghetto)
 "eSG" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 8
-	},
+/obj/machinery/microwave,
 /obj/item/reagent_containers/cup/glass/dry_ramen{
 	pixel_x = -1;
 	pixel_y = 21
@@ -9402,11 +9410,7 @@
 /area/vtm/outside/financialdistrict)
 "fui" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_x = -3;
-	pixel_y = 5
-	},
+/obj/machinery/microwave,
 /turf/open/floor/city/plating_mono,
 /area/vtm/interior/endron_facility/restricted)
 "fuH" = (
@@ -9480,7 +9484,8 @@
 "fwv" = (
 /obj/structure/table,
 /obj/machinery/microwave{
-	pixel_y = 10
+	pixel_y = 0;
+	pixel_x = 0
 	},
 /obj/effect/decal/wallpaper/stone/low,
 /obj/structure/platform/lowwall/rich,
@@ -10238,11 +10243,12 @@
 	},
 /obj/structure/rack/tall/wood_shelf{
 	pixel_x = 0;
-	pixel_y = 24
+	pixel_y = 12;
+	density = 0
 	},
 /obj/item/toy/mecha/ripley{
 	pixel_x = 0;
-	pixel_y = 54;
+	pixel_y = 34;
 	anchored = 1
 	},
 /turf/open/floor/wood/smooth/old,
@@ -10263,9 +10269,8 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/voivodate)
 "fUT" = (
-/obj/structure/table,
 /obj/machinery/computer/cargo/express,
-/obj/structure/platform/lowwall/brick,
+/obj/structure/table/countertop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "fUX" = (
@@ -11250,10 +11255,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 15
-	},
+/obj/machinery/microwave,
 /obj/structure/table,
 /obj/machinery/light/directional/north,
 /turf/open/floor/city/bacotell,
@@ -12312,10 +12314,7 @@
 /area/vtm/interior/police)
 "gZI" = (
 /obj/structure/table/countertop/bubway,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 13
-	},
+/obj/machinery/microwave,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/hotel)
 "gZJ" = (
@@ -13802,6 +13801,14 @@
 	},
 /obj/item/gas_can/full,
 /obj/item/melee/vamp/tire,
+/obj/item/storage/medkit/darkpack/standard{
+	pixel_x = -6;
+	pixel_y = 11
+	},
+/obj/item/storage/medkit/darkpack/standard{
+	pixel_x = 6;
+	pixel_y = 12
+	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/clinic)
 "hUy" = (
@@ -14404,12 +14411,11 @@
 /turf/open/floor/plating/sidewalk/poor,
 /area/vtm/outside/unionsquare)
 "ikL" = (
-/obj/structure/table,
 /obj/item/melee/vamp/tire{
 	pixel_x = 5;
 	pixel_y = 1
 	},
-/obj/structure/platform/lowwall/brick,
+/obj/structure/table/countertop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "ikM" = (
@@ -14544,7 +14550,6 @@
 "ioR" = (
 /obj/effect/decal/cleanable/trash,
 /obj/machinery/light/directional/west,
-/obj/machinery/vending/cola,
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/gang)
 "ioV" = (
@@ -15052,14 +15057,15 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/shop/pawnshop)
 "iEU" = (
-/obj/item/pizzabox/meat{
-	pixel_y = 7
-	},
-/obj/item/pizzabox/mushroom{
-	pixel_y = 10
-	},
-/obj/item/knife/plastic,
 /obj/structure/table,
+/obj/item/pizzabox{
+	pixel_x = 0;
+	pixel_y = 12
+	},
+/obj/item/pizzabox{
+	pixel_x = 0;
+	pixel_y = 15
+	},
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/police)
 "iFe" = (
@@ -15111,7 +15117,8 @@
 "iHN" = (
 /obj/structure/table,
 /obj/machinery/microwave{
-	pixel_y = 10
+	pixel_y = 0;
+	pixel_x = 0
 	},
 /obj/structure/platform/lowwall/rich,
 /turf/open/floor/plating/rough,
@@ -15463,10 +15470,7 @@
 /area/vtm/interior/clinic)
 "iTG" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /obj/structure/platform/lowwall/brick,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/ghetto)
@@ -19377,21 +19381,11 @@
 /turf/open/openspace,
 /area/vtm/interior/clinic)
 "liN" = (
-/obj/item/gun/ballistic/automatic/darkpack/aug{
-	desc = "A specialty Steyr AUG, a holdover from your days in the SWAT unit. For when the freaks come out to riot, you'll be ready.";
-	name = "SFPD Captain's AUG"
-	},
 /obj/structure/closet/cabinet,
-/obj/item/ammo_box/darkpack/c556,
 /obj/item/gun/ballistic/revolver/darkpack/magnum,
-/obj/item/ammo_box/darkpack/c44,
-/obj/item/storage/box/teargas,
 /obj/item/melee/baton/telescopic,
-/obj/item/storage/fancy/hardcase,
-/obj/item/ammo_box/magazine/darkpackaug,
-/obj/item/ammo_box/magazine/darkpackaug,
-/obj/item/ammo_box/magazine/darkpackaug,
-/obj/item/ammo_box/magazine/darkpackaug,
+/obj/item/storage/box/teargas,
+/obj/item/ammo_box/darkpack/c44,
 /obj/item/megaphone,
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/police)
@@ -19409,10 +19403,7 @@
 /area/vtm/interior/laundromat)
 "ljm" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/shop/bubway)
 "ljD" = (
@@ -19855,9 +19846,7 @@
 /area/vtm/interior/vet)
 "lxQ" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 8
-	},
+/obj/machinery/microwave,
 /obj/item/reagent_containers/cup/glass/mug/tea{
 	pixel_x = 7;
 	pixel_y = 18
@@ -20341,7 +20330,7 @@
 	pixel_x = -10;
 	pixel_y = 8
 	},
-/obj/structure/platform/lowwall/brick,
+/obj/structure/table/countertop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "lNZ" = (
@@ -21117,9 +21106,7 @@
 /area/vtm)
 "mmn" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /obj/structure/platform/lowwall/old,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/voivodate)
@@ -21494,7 +21481,6 @@
 /area/vtm/interior/millennium_tower)
 "mym" = (
 /obj/structure/bed/medical/emergency,
-/obj/item/storage/medkit/darkpack/standard,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/clinic)
 "myr" = (
@@ -21506,7 +21492,9 @@
 /turf/open/floor/wood/old,
 /area/vtm/interior/sewer)
 "myN" = (
-/obj/structure/guncase,
+/obj/structure/guncase{
+	open = 0
+	},
 /obj/item/gun/ballistic/shotgun/vampire,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/radio)
@@ -21865,6 +21853,15 @@
 /obj/item/storage/fancy/hardcase/mag_556,
 /obj/item/storage/fancy/hardcase/mag_556,
 /obj/item/storage/fancy/hardcase/mag_556,
+/obj/item/ammo_box/magazine/darkpackaug,
+/obj/item/ammo_box/magazine/darkpackaug,
+/obj/item/ammo_box/magazine/darkpackaug,
+/obj/item/ammo_box/magazine/darkpackaug,
+/obj/item/storage/fancy/hardcase,
+/obj/item/gun/ballistic/automatic/darkpack/aug{
+	desc = "A specialty Steyr AUG, a holdover from your days in the SWAT unit. For when the freaks come out to riot, you'll be ready.";
+	name = "SFPD Captain's AUG"
+	},
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/police)
 "mII" = (
@@ -23060,12 +23057,13 @@
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/police)
 "nqt" = (
-/obj/structure/table/countertop/bubway,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow."
+/obj/machinery/vending/cola/shamblers{
+	pixel_x = 0;
+	pixel_y = 22;
+	density = 0
 	},
-/turf/open/floor/wood/smooth/old,
-/area/vtm/interior/hotel)
+/turf/open/floor/city/plating_mono,
+/area/vtm/interior/endron_facility/restricted)
 "nqv" = (
 /obj/structure/table/wood,
 /obj/item/paper_bin{
@@ -23185,21 +23183,23 @@
 "nvn" = (
 /obj/structure/rack/tall/wood_shelf{
 	pixel_x = 0;
-	pixel_y = 24
+	pixel_y = 12;
+	density = 0
 	},
 /obj/item/toy/plush/moth{
 	pixel_x = 0;
-	pixel_y = 50;
+	pixel_y = 38;
 	anchored = 1;
 	name = "Cloth Eatron"
 	},
 /obj/item/toy/mecha/firefighter{
 	pixel_x = 0;
-	pixel_y = 27
+	pixel_y = 17;
+	anchored = 1
 	},
 /obj/item/clothing/head/costume/kitty{
 	pixel_x = 0;
-	pixel_y = 34;
+	pixel_y = 24;
 	anchored = 1
 	},
 /turf/open/floor/wood/smooth/old,
@@ -23699,8 +23699,8 @@
 /obj/structure/platform/lowwall/brick,
 /obj/structure/table,
 /obj/machinery/coffeemaker/impressa{
-	pixel_x = 2;
-	pixel_y = 11
+	pixel_x = 5;
+	pixel_y = 5
 	},
 /turf/open/floor/wood/ornate,
 /area/vtm/interior/coffee)
@@ -23822,7 +23822,8 @@
 /obj/structure/table/countertop/bubway,
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 4;
-	pixel_x = -3
+	pixel_x = -3;
+	pixel_y = -5
 	},
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/gang)
@@ -24120,7 +24121,8 @@
 /obj/machinery/light/directional/west,
 /obj/structure/guncase{
 	pixel_x = 0;
-	pixel_y = 0
+	pixel_y = 0;
+	open = 0
 	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/shop)
@@ -25079,7 +25081,9 @@
 /obj/effect/turf_decal/siding/red{
 	dir = 4
 	},
-/obj/structure/guncase,
+/obj/structure/guncase{
+	open = 0
+	},
 /obj/item/gun/ballistic/automatic/pistol/darkpack/m1911,
 /obj/item/gun/ballistic/automatic/pistol/darkpack/m1911,
 /obj/item/gun/ballistic/automatic/pistol/darkpack/m1911,
@@ -25799,21 +25803,22 @@
 "oSs" = (
 /obj/structure/rack/tall/wood_shelf{
 	pixel_x = 0;
-	pixel_y = 24
+	pixel_y = 12;
+	density = 0
 	},
 /obj/item/toy/katana{
 	pixel_x = 2;
-	pixel_y = 35;
+	pixel_y = 20;
 	anchored = 1
 	},
 /obj/item/toy/plush/human{
 	pixel_x = 0;
-	pixel_y = 52;
+	pixel_y = 39;
 	anchored = 1;
 	name = "Runescape Matthews"
 	},
 /obj/item/toy/figure/ian{
-	pixel_y = 27;
+	pixel_y = 16;
 	pixel_x = 8;
 	anchored = 1;
 	name = "\improper Clifford action figure";
@@ -26069,7 +26074,10 @@
 "oYN" = (
 /obj/structure/table,
 /obj/item/pen,
-/obj/item/paper_bin,
+/obj/item/paper_bin{
+	pixel_x = 0;
+	pixel_y = 6
+	},
 /obj/item/pen,
 /obj/structure/coclock,
 /turf/open/floor/plating/granite,
@@ -27039,10 +27047,7 @@
 /area/vtm/interior/anarch/basement)
 "pCz" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /obj/machinery/light/small/directional/north,
 /obj/structure/platform/lowwall/bar,
 /turf/open/floor/plating/rough,
@@ -29054,10 +29059,7 @@
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 15
-	},
+/obj/machinery/microwave,
 /obj/structure/table,
 /obj/item/storage/box/donkpockets{
 	pixel_y = -4
@@ -30208,12 +30210,6 @@
 /area/vtm/interior/sewer)
 "rmh" = (
 /obj/structure/table,
-/obj/item/storage/medkit/darkpack/standard{
-	pixel_y = 11
-	},
-/obj/item/stack/medical/wrap/gauze/twelve,
-/obj/item/stack/medical/wrap/sticky_tape/surgical,
-/obj/item/stack/medical/bone_gel,
 /obj/effect/turf_decal/siding/thinplating/dark{
 	dir = 5
 	},
@@ -30433,14 +30429,13 @@
 /turf/open/floor/city/toilet/large,
 /area/vtm/interior/police/fed)
 "rsx" = (
-/obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_x = -3;
-	pixel_y = 5
+/obj/machinery/vending/cola/starkist{
+	pixel_x = 0;
+	pixel_y = 22;
+	density = 0
 	},
-/turf/open/floor/city/bacotell,
-/area/vtm/interior/ghetto)
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/gang)
 "rsK" = (
 /obj/structure/fluff/tv/order/three{
 	pixel_x = -15;
@@ -30770,7 +30765,7 @@
 /turf/open/misc/dirt,
 /area/vtm/interior)
 "rAs" = (
-/obj/structure/platform/lowwall/brick,
+/obj/structure/table/countertop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "rAM" = (
@@ -32030,10 +32025,11 @@
 /turf/open/floor/iron/grimy,
 /area/vtm/interior/millennium_tower/f4)
 "sqX" = (
-/obj/effect/turf_decal/siding/white{
-	dir = 1
+/obj/effect/landmark/npcwall,
+/obj/structure/railing{
+	dir = 4
 	},
-/turf/closed/wall/vampwall/brick,
+/turf/open/floor/plating/sidewalk,
 /area/vtm)
 "srx" = (
 /obj/machinery/light/directional/east,
@@ -32276,7 +32272,6 @@
 /turf/open/floor/plating/canal,
 /area/vtm/interior/sewer)
 "swO" = (
-/obj/structure/table,
 /obj/vampire_computer{
 	owner = "Supply Technician"
 	},
@@ -32296,7 +32291,7 @@
 	pixel_y = 25;
 	pixel_x = -4
 	},
-/obj/structure/platform/lowwall/brick,
+/obj/structure/table/countertop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "sxc" = (
@@ -32628,9 +32623,7 @@
 /area/vtm/interior/bianchiBank)
 "sFV" = (
 /obj/structure/table/wood,
-/obj/machinery/microwave{
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/apartment)
 "sGd" = (
@@ -33280,9 +33273,7 @@
 /turf/open/floor/city/plating,
 /area/vtm/interior/endron_facility/restricted)
 "sYd" = (
-/obj/machinery/microwave{
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /obj/structure/table,
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/voivodate)
@@ -33295,7 +33286,10 @@
 /area/vtm/interior/apartment)
 "sYp" = (
 /obj/structure/table/wood,
-/obj/machinery/chem_dispenser/drinks/fullupgrade,
+/obj/machinery/chem_dispenser/drinks/fullupgrade{
+	pixel_x = 0;
+	pixel_y = 0
+	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/millennium_tower/f2)
 "sYE" = (
@@ -34553,9 +34547,6 @@
 "tJK" = (
 /turf/closed/wall/vampwall/brick_old,
 /area/vtm/interior/supply)
-"tKb" = (
-/turf/open/space/basic,
-/area/misc/cordon)
 "tKf" = (
 /obj/structure/closet/secure_closet/freezer/fridge/all_access,
 /obj/item/storage/box/ingredients/vegetarian,
@@ -34765,10 +34756,6 @@
 	},
 /obj/machinery/light/directional/west,
 /obj/structure/platform/lowwall/painted,
-/obj/item/clothing/suit/apron/surgical{
-	pixel_y = 6;
-	pixel_x = 9
-	},
 /turf/open/floor/plating/rough,
 /area/vtm/interior/clinic)
 "tOI" = (
@@ -35411,7 +35398,7 @@
 /obj/machinery/chem_dispenser/drinks{
 	dir = 1;
 	pixel_x = -1;
-	pixel_y = 10
+	pixel_y = 0
 	},
 /obj/structure/table/countertop/purple,
 /turf/open/floor/city/plating,
@@ -35485,9 +35472,10 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/bianchiBank)
 "ujt" = (
-/obj/machinery/vending/cola{
-	density = 0;
-	pixel_y = 22
+/obj/machinery/vending/cola/pwr_game{
+	pixel_x = 0;
+	pixel_y = 22;
+	density = 0
 	},
 /turf/open/floor/eighties,
 /area/vtm/interior/mallarcade)
@@ -35595,9 +35583,7 @@
 /area/vtm/outside/pacificheights)
 "una" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	pixel_y = 9
-	},
+/obj/machinery/microwave,
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/radio)
 "unj" = (
@@ -36181,9 +36167,8 @@
 /area/vtm/interior/voivodate)
 "uCZ" = (
 /obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_x = -1;
-	pixel_y = 6
+	pixel_x = 0;
+	pixel_y = 0
 	},
 /obj/machinery/light/directional/west,
 /obj/structure/table,
@@ -36452,11 +36437,6 @@
 /obj/effect/turf_decal/asphaltline,
 /turf/open/floor/plating/asphalt,
 /area/vtm/interior)
-"uKR" = (
-/obj/effect/decal/wallpaper/paper/darkred,
-/obj/effect/decal/wallpaper/paper/stripe,
-/turf/closed/wall/vampwall/rich,
-/area/vtm/interior/apartment)
 "uKV" = (
 /obj/effect/decal/wallpaper/paper/green,
 /turf/closed/wall/vampwall/junk,
@@ -37875,7 +37855,9 @@
 /obj/item/gun/ballistic/shotgun/vampire,
 /obj/item/gun/ballistic/shotgun/vampire,
 /obj/machinery/light/small/directional/north,
-/obj/structure/guncase,
+/obj/structure/guncase{
+	open = 0
+	},
 /obj/item/gun/ballistic/automatic/darkpack/ak74,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/anarch/basement)
@@ -38281,9 +38263,8 @@
 /turf/open/floor/plating/sidewalk/old,
 /area/vtm/outside/chinatown)
 "vRO" = (
-/obj/structure/table,
 /obj/machinery/light/directional/north,
-/obj/structure/platform/lowwall/brick,
+/obj/structure/table/countertop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "vRV" = (
@@ -38832,7 +38813,8 @@
 /obj/structure/table/countertop/bubway,
 /obj/machinery/chem_dispenser/drinks{
 	dir = 4;
-	pixel_x = -3
+	pixel_x = -3;
+	pixel_y = -5
 	},
 /turf/open/floor/carpet/darkpack/blackgold,
 /area/vtm/interior/gang)
@@ -39140,7 +39122,8 @@
 /area/vtm/interior/chantry)
 "wsQ" = (
 /mob/living/carbon/human/npc/shop{
-	resistant_to_disciplines = 1
+	resistant_to_disciplines = 1;
+	dir = 8
 	},
 /turf/open/floor/carpet/darkpack/old,
 /area/vtm/interior/shop/ishu)
@@ -39148,12 +39131,11 @@
 /turf/open/floor/iron/stairs,
 /area/vtm/interior/voivodate)
 "wsY" = (
-/obj/structure/table,
 /obj/item/paper_bin{
 	pixel_y = 6
 	},
 /obj/item/pen,
-/obj/structure/platform/lowwall/brick,
+/obj/structure/table/countertop,
 /turf/open/floor/plating/rough,
 /area/vtm/interior/supply)
 "wtr" = (
@@ -39326,8 +39308,9 @@
 /obj/effect/decal/wallpaper/stone/low,
 /obj/machinery/microwave{
 	icon_state = "mwb";
-	pixel_y = 10;
-	broken = 1
+	pixel_y = 0;
+	broken = 1;
+	pixel_x = 0
 	},
 /obj/structure/platform/lowwall/rich,
 /turf/open/floor/plating/rough,
@@ -39932,7 +39915,9 @@
 /turf/closed/wall/vampwall/rich/old,
 /area/vtm/interior/vet)
 "wRm" = (
-/obj/structure/guncase,
+/obj/structure/guncase{
+	open = 0
+	},
 /obj/item/gun/ballistic/automatic/darkpack/mp5,
 /obj/item/gun/ballistic/automatic/darkpack/mp5,
 /obj/item/gun/ballistic/automatic/darkpack/mp5,
@@ -40460,10 +40445,7 @@
 /area/vtm/outside/financialdistrict)
 "xhv" = (
 /obj/structure/table,
-/obj/machinery/microwave{
-	desc = "Cooks and boils stuff, somehow.";
-	pixel_y = 10
-	},
+/obj/machinery/microwave,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/ghetto)
 "xhx" = (
@@ -41192,7 +41174,7 @@
 /obj/machinery/chem_dispenser/drinks/beer{
 	dir = 1;
 	pixel_x = 3;
-	pixel_y = 10
+	pixel_y = 0
 	},
 /obj/structure/table/countertop/purple,
 /turf/open/floor/city/plating,
@@ -41290,7 +41272,7 @@
 /obj/effect/decal/wallpaper/blue,
 /obj/item/toy/plush/horse{
 	pixel_x = 0;
-	pixel_y = -5;
+	pixel_y = -19;
 	anchored = 1;
 	name = "Petah"
 	},
@@ -41628,14 +41610,15 @@
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/endron_facility/restricted)
 "xPX" = (
-/obj/machinery/vending/cola{
-	pixel_y = 22;
-	density = 0;
-	pixel_x = 0
-	},
 /obj/effect/turf_decal/siding/white{
 	dir = 4
 	},
+/obj/machinery/vending/cola/starkist{
+	pixel_x = 0;
+	pixel_y = 22;
+	density = 0
+	},
+/obj/item/knife/plastic,
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/police)
 "xQi" = (
@@ -41697,7 +41680,7 @@
 /obj/effect/decal/wallpaper/blue,
 /obj/item/reagent_containers/cup/glass/baggie/meth/cocaine{
 	pixel_x = -8;
-	pixel_y = 2;
+	pixel_y = -10;
 	name = "sherbert packet"
 	},
 /turf/closed/wall/vampwall/brick,
@@ -47377,7 +47360,7 @@ euo
 qcO
 "}
 (49,1,1) = {"
-mpg
+wrk
 mpg
 mpg
 mpg
@@ -47484,12 +47467,12 @@ aSg
 qcO
 "}
 (50,1,1) = {"
+wrk
 ame
 oPI
 eMX
 dJr
 vKJ
-dyR
 mpg
 cKM
 bTS
@@ -47591,9 +47574,9 @@ rzd
 qcO
 "}
 (51,1,1) = {"
+wrk
 ame
 tMU
-psP
 psP
 psP
 tMU
@@ -47698,9 +47681,9 @@ wwe
 wwe
 "}
 (52,1,1) = {"
+wrk
 ame
 hRz
-tMU
 tMU
 tMU
 tMU
@@ -47805,10 +47788,10 @@ rDC
 wwe
 "}
 (53,1,1) = {"
+wrk
 ame
 qVx
 hLL
-tMU
 cMy
 vnA
 mpg
@@ -47912,10 +47895,10 @@ eLw
 wwe
 "}
 (54,1,1) = {"
+wrk
 ame
 tsP
 rew
-tMU
 mpg
 mpg
 mpg
@@ -48019,9 +48002,9 @@ wwe
 wwe
 "}
 (55,1,1) = {"
+wrk
 oGv
 ooO
-wnq
 wnq
 wnq
 wnq
@@ -48126,14 +48109,14 @@ ybx
 wwe
 "}
 (56,1,1) = {"
+wrk
 oGv
 wnq
 wnq
 wnq
 wnq
 wnq
-wnq
-sqX
+dad
 iOU
 njq
 mll
@@ -48233,10 +48216,10 @@ ybx
 wwe
 "}
 (57,1,1) = {"
+wrk
 oGv
 poF
 qmy
-wnq
 wnq
 wnq
 mpg
@@ -48340,10 +48323,10 @@ ybx
 wwe
 "}
 (58,1,1) = {"
+wrk
 oGv
 nsc
 cdi
-wnq
 wnq
 wnq
 vUF
@@ -48447,10 +48430,10 @@ ybx
 wwe
 "}
 (59,1,1) = {"
+wrk
 oGv
 oPT
 wqq
-wnq
 wnq
 wnq
 mfG
@@ -48554,9 +48537,9 @@ ybx
 wwe
 "}
 (60,1,1) = {"
+wrk
 oGv
 vLq
-wnq
 wnq
 wnq
 cDo
@@ -48603,7 +48586,7 @@ aIk
 hdl
 hdl
 hdl
-rsx
+xhv
 xyH
 pmL
 lea
@@ -48661,10 +48644,10 @@ ybx
 wwe
 "}
 (61,1,1) = {"
+wrk
 oGv
 lRK
 lUj
-wnq
 wnq
 pGD
 vUF
@@ -48768,10 +48751,10 @@ kIX
 wwe
 "}
 (62,1,1) = {"
+wrk
 oGv
 rny
 rny
-wnq
 wnq
 hbl
 vUF
@@ -48875,7 +48858,7 @@ wwe
 wwe
 "}
 (63,1,1) = {"
-mpg
+wrk
 mpg
 mpg
 mpg
@@ -48984,9 +48967,9 @@ wwe
 (64,1,1) = {"
 wrk
 wrk
+wrk
 mpg
 fGA
-bgN
 bgN
 mpg
 aJU
@@ -49090,11 +49073,11 @@ wwe
 "}
 (65,1,1) = {"
 oFp
+oFp
 wrk
 mpg
 lEu
 lfL
-bgN
 mpg
 wgU
 wgU
@@ -49197,8 +49180,8 @@ wwe
 "}
 (66,1,1) = {"
 oFp
+oFp
 wrk
-mpg
 mpg
 mpg
 mpg
@@ -49304,7 +49287,7 @@ wwe
 "}
 (67,1,1) = {"
 oFp
-wrk
+aVJ
 wrk
 wrk
 wrk
@@ -54523,7 +54506,7 @@ lUl
 xnJ
 alS
 jLk
-nqt
+gZI
 qBx
 lUl
 uoe
@@ -55511,7 +55494,7 @@ qkY
 "}
 (20,1,2) = {"
 oFp
-aVJ
+oFp
 wrk
 jBE
 coe
@@ -57222,7 +57205,7 @@ cSQ
 qUw
 "}
 (36,1,2) = {"
-tKb
+oFp
 wrk
 sRy
 mNE
@@ -57329,7 +57312,7 @@ hMx
 qUw
 "}
 (37,1,2) = {"
-tKb
+oFp
 wrk
 sRy
 sRy
@@ -57436,7 +57419,7 @@ mua
 qUw
 "}
 (38,1,2) = {"
-tKb
+oFp
 wrk
 dad
 wZy
@@ -57543,7 +57526,7 @@ sGk
 qUw
 "}
 (39,1,2) = {"
-tKb
+oFp
 wrk
 dad
 rYQ
@@ -57650,7 +57633,7 @@ sli
 sli
 "}
 (40,1,2) = {"
-tKb
+oFp
 wrk
 dad
 rYQ
@@ -57757,7 +57740,7 @@ sli
 wrk
 "}
 (41,1,2) = {"
-tKb
+oFp
 wrk
 dad
 rYQ
@@ -57864,7 +57847,7 @@ sli
 wrk
 "}
 (42,1,2) = {"
-tKb
+oFp
 wrk
 dad
 rYQ
@@ -57971,7 +57954,7 @@ sli
 wrk
 "}
 (43,1,2) = {"
-tKb
+oFp
 wrk
 dad
 ulu
@@ -58078,7 +58061,7 @@ sli
 wrk
 "}
 (44,1,2) = {"
-tKb
+oFp
 wrk
 qkY
 ohU
@@ -58185,7 +58168,7 @@ sli
 wrk
 "}
 (45,1,2) = {"
-tKb
+oFp
 wrk
 qkY
 wQu
@@ -58292,7 +58275,7 @@ sli
 wrk
 "}
 (46,1,2) = {"
-tKb
+oFp
 wrk
 qkY
 wQu
@@ -58576,7 +58559,7 @@ pgP
 oBT
 oBT
 oBT
-qdl
+bMa
 hFq
 hFq
 hFq
@@ -59158,7 +59141,7 @@ aoR
 qkY
 buR
 sRt
-sRt
+sqX
 jwQ
 qmj
 qmj
@@ -59537,7 +59520,7 @@ wzz
 nFG
 vFP
 kSa
-eEa
+rsx
 hFq
 hFq
 hFq
@@ -59986,7 +59969,7 @@ xdw
 qfK
 xdw
 aSa
-igS
+gdF
 xnW
 gdF
 gdF
@@ -60093,7 +60076,7 @@ xdw
 qfK
 xdw
 aSa
-igS
+gdF
 hzE
 gdF
 gdF
@@ -60200,7 +60183,7 @@ xdw
 pkn
 xdw
 aSa
-igS
+gdF
 gdF
 gdF
 gdF
@@ -60307,7 +60290,7 @@ xdw
 qfK
 nRZ
 aSa
-igS
+gdF
 nbx
 gdF
 gdF
@@ -60414,7 +60397,7 @@ jsq
 jsq
 xdw
 nYB
-igS
+gdF
 gdF
 gdF
 gdF
@@ -60521,7 +60504,7 @@ oay
 jsq
 xdw
 nYB
-igS
+gdF
 hzE
 gdF
 gdF
@@ -60628,7 +60611,7 @@ oay
 jsq
 xdw
 aSa
-igS
+iqf
 xnW
 gdF
 iqf
@@ -61043,7 +61026,7 @@ tAU
 fYl
 vRO
 wsY
-bMa
+rAs
 puI
 puI
 lHD
@@ -63818,7 +63801,7 @@ lea
 msK
 fzi
 uKV
-abs
+daq
 fME
 hLw
 npi
@@ -65699,7 +65682,7 @@ rdj
 rdj
 rdj
 eeP
-gEn
+anL
 eDm
 eDm
 dIN
@@ -65759,7 +65742,7 @@ lUl
 xnJ
 alS
 jLk
-nqt
+gZI
 qBx
 lUl
 uoe
@@ -65806,7 +65789,7 @@ rdj
 rdj
 rdj
 eeP
-pep
+nqt
 eDm
 eDm
 dIN
@@ -72819,7 +72802,7 @@ sFs
 awi
 kFx
 woU
-fwv
+abs
 pgC
 sTv
 ivw
@@ -84268,7 +84251,7 @@ woU
 qec
 woU
 sPI
-uKR
+xbT
 ojQ
 xAO
 mRu
@@ -84482,7 +84465,7 @@ woU
 woU
 woU
 woU
-uKR
+xbT
 iWk
 cPB
 mRu
@@ -84696,7 +84679,7 @@ woU
 woU
 woU
 woU
-uKR
+xbT
 vue
 bJC
 bJC
