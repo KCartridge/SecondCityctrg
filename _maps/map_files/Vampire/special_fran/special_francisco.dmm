@@ -9965,9 +9965,9 @@
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/ghetto)
 "fMI" = (
-/obj/structure/billboard/darkpack/king{
+/obj/effect/spawner/random/structure/billboard/darkpack{
 	pixel_x = 0;
-	pixel_y = 9
+	pixel_y = 3
 	},
 /turf/open/misc/dirt,
 /area/vtm/outside/financialdistrict)

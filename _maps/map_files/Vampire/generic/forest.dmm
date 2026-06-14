@@ -1758,7 +1758,7 @@
 /turf/open/misc/grass/random,
 /area/vtm/outside/forest)
 "pX" = (
-/turf/open/water/beach/vamp/deep,
+/turf/open/water/river/deep,
 /area/vtm/outside/forest)
 "qb" = (
 /obj/effect/turf_decal/darkpack/rough{
@@ -3014,6 +3014,10 @@
 /obj/effect/turf_decal/darkpack/sand{
 	dir = 9
 	},
+/obj/machinery/vending/cola{
+	pixel_y = 20;
+	density = 0
+	},
 /turf/open/floor/plating/concrete,
 /area/vtm/interior/forest)
 "AB" = (
@@ -3963,7 +3967,7 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 6
 	},
-/turf/open/water/beach/vamp/deep,
+/turf/open/water/river/deep,
 /area/vtm/outside/forest)
 "IO" = (
 /obj/effect/decal/remains/human,
@@ -4142,7 +4146,7 @@
 /obj/effect/turf_decal/darkpack/cave/corner{
 	dir = 4
 	},
-/turf/open/water/beach/vamp/deep,
+/turf/open/water/river/deep,
 /area/vtm/outside/forest)
 "KD" = (
 /obj/effect/turf_decal/darkpack/dirt/corner,
@@ -5482,7 +5486,7 @@
 /obj/effect/turf_decal/darkpack/cave{
 	dir = 4
 	},
-/turf/open/water/beach/vamp/deep,
+/turf/open/water/river/deep,
 /area/vtm/outside/forest)
 "WK" = (
 /mob/living/basic/cockroach/apoc,
