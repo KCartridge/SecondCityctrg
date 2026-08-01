@@ -40,7 +40,7 @@
 	name = JOB_PENTEX_SEC
 	jobtype = /datum/job/vampire/pentex_sec
 
-//	ears = /obj/item/p25radio
+	ears = /obj/item/p25radio
 	id = /obj/item/card/pentex/sec
 	uniform =  /obj/item/clothing/under/vampire/pentex_shortsleeve
 	shoes = /obj/item/clothing/shoes/vampire/jackboots
