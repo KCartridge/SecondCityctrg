@@ -11,3 +11,9 @@
       them
   Potatocrip:
   - code_imp: lets ghouls pick bruiser and sweeper
+2026-08-07:
+  Potatocrip:
+  - balance: slowed down skate shop vehicles
+  dwinters99:
+  - bugfix: Gray Mass Ultraspore no longer informs all players, only people in the
+      dungeon.
