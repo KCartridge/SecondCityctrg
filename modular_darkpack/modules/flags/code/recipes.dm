@@ -61,3 +61,20 @@
 	)
 	result = /obj/item/sign/flag/pride/rabies
 	category = CAT_FURNITURE
+
+/datum/crafting_recipe/enby
+	name = "non-binary pride flag"
+	reqs = list(
+		/obj/item/stack/sheet/cloth = 3,
+	)
+	result = /obj/item/sign/flag/pride/enby
+	category = CAT_FURNITURE
+
+/datum/crafting_recipe/inter
+	name = "intersex pride flag"
+	reqs = list(
+		/obj/item/stack/sheet/cloth = 3,
+	)
+	result = /obj/item/sign/flag/pride/inter
+	category = CAT_FURNITURE
+

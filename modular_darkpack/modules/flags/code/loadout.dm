@@ -29,3 +29,11 @@
 /datum/loadout_item/pocket_items/rabies
 	name = "flag, rabies"
 	item_path = /obj/item/sign/flag/pride/rabies
+
+/datum/loadout_item/pocket_items/enby
+	name = "flag, non-binary"
+	item_path = /obj/item/sign/flag/pride/enby
+
+/datum/loadout_item/pocket_items/inter
+	name = "flag, intersex"
+	item_path = /obj/item/sign/flag/pride/inter
