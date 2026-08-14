@@ -25,3 +25,7 @@
 /datum/loadout_item/pocket_items/mlm
 	name = "flag, mlm"
 	item_path = /obj/item/sign/flag/pride/mlm
+
+/datum/loadout_item/pocket_items/rabies
+	name = "flag, rabies"
+	item_path = /obj/item/sign/flag/pride/rabies

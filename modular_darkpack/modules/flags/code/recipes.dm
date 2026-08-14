@@ -53,3 +53,11 @@
 	)
 	result = /obj/item/sign/flag/pride/mlm
 	category = CAT_FURNITURE
+
+/datum/crafting_recipe/rabies
+	name = "rabies pride flag"
+	reqs = list(
+		/obj/item/stack/sheet/cloth = 3,
+	)
+	result = /obj/item/sign/flag/pride/rabies
+	category = CAT_FURNITURE
