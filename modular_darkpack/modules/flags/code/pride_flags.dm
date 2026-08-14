@@ -61,6 +61,22 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/pride/pan, 32)
 
 MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/pride/trans, 32)
 
+/obj/structure/sign/flag/pride/mlm
+	name = "mlm pride flag"
+	desc = "The flag of mlm pride."
+	icon_state = "flag_mlm"
+	item_flag = /obj/item/sign/flag/pride/mlm
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/pride/mlm, 32)
+
+/obj/structure/sign/flag/pride/rabies
+	name = "rabies pride flag"
+	desc = "The flag of rabies pride."
+	icon_state = "flag_rabies"
+	item_flag = /obj/item/sign/flag/pride/rabies
+
+MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/pride/rabies, 32)
+
 // FOLDED
 
 /obj/item/sign/flag/pride
@@ -116,3 +132,15 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/sign/flag/pride/trans, 32)
 	desc = "The folded flag of trans pride."
 	icon_state = "folded_pride_trans"
 	sign_path = /obj/structure/sign/flag/pride/trans
+
+/obj/item/sign/flag/pride/mlm
+	name = "folded mlm pride flag"
+	desc = "The folded flag of mlm pride."
+	icon_state = "folded_pride_mlm"
+	sign_path = /obj/structure/sign/flag/pride/mlm
+
+/obj/item/sign/flag/pride/rabies
+	name = "folded rabies pride flag"
+	desc = "The folded flag of rabies pride."
+	icon_state = "folded_pride_rabies"
+	sign_path = /obj/structure/sign/flag/pride/rabies
