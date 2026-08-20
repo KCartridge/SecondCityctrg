@@ -613,7 +613,9 @@
 /area/centcom/central_command_areas/admin)
 "cC" = (
 /obj/machinery/light/prince/directional/west,
-/turf/open/floor/iron/stairs/black,
+/turf/open/floor/iron/stairs/black{
+	dir = 1
+	},
 /area/vtm/interior/movie_theatre/screening)
 "cD" = (
 /obj/structure/table/wood,
@@ -5907,7 +5909,9 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/supply)
 "zi" = (
-/turf/open/floor/iron/stairs/black,
+/turf/open/floor/iron/stairs/black{
+	dir = 1
+	},
 /area/vtm/interior/movie_theatre/screening)
 "zk" = (
 /obj/machinery/door/airlock/medical/glass{
@@ -8052,7 +8056,9 @@
 /area/centcom/tdome/administration)
 "JK" = (
 /obj/machinery/light/prince/directional/east,
-/turf/open/floor/iron/stairs/black,
+/turf/open/floor/iron/stairs/black{
+	dir = 1
+	},
 /area/vtm/interior/movie_theatre/screening)
 "JO" = (
 /obj/machinery/modular_computer/preset/id/centcom,
@@ -11281,7 +11287,9 @@
 /area/centcom/central_command_areas/supplypod)
 "XV" = (
 /obj/effect/decal/cleanable/dirt,
-/turf/open/floor/iron/stairs/black,
+/turf/open/floor/iron/stairs/black{
+	dir = 1
+	},
 /area/vtm/interior/movie_theatre/screening)
 "Ya" = (
 /turf/closed/indestructible/riveted,
