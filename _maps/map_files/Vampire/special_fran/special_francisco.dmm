@@ -6916,7 +6916,8 @@
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
 	max_integrity = 300;
-	name = "Parking Shutter"
+	name = "Parking Shutter";
+	id = "camarilla garage"
 	},
 /obj/effect/landmark/npcwall,
 /obj/effect/turf_decal/bordur{
@@ -7852,7 +7853,7 @@
 /area/vtm/interior/wyrm_corrupted)
 "eIv" = (
 /obj/machinery/button/door{
-	id = 1;
+	id = "camarilla garage";
 	name = "Parking Shutters Control"
 	},
 /turf/closed/wall/vampwall/rich,
@@ -20917,7 +20918,7 @@
 "mnN" = (
 /obj/structure/table,
 /obj/machinery/button/door{
-	id = 1;
+	id = "camarilla garage";
 	name = "Parking Shutters Control"
 	},
 /obj/effect/decal/rugs,
@@ -25490,7 +25491,8 @@
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
 	max_integrity = 300;
-	name = "Parking Shutter"
+	name = "Parking Shutter";
+	id = "camarilla garage"
 	},
 /obj/effect/landmark/npcwall,
 /obj/effect/turf_decal/bordur{
@@ -36182,7 +36184,8 @@
 /obj/machinery/door/poddoor/shutters{
 	damage_deflection = 60;
 	max_integrity = 300;
-	name = "Parking Shutter"
+	name = "Parking Shutter";
+	id = "camarilla garage"
 	},
 /obj/effect/landmark/npcwall,
 /turf/open/floor/plating/asphalt,
