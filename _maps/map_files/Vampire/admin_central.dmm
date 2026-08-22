@@ -8921,7 +8921,7 @@
 /obj/effect/turf_decal/bordur{
 	dir = 1
 	},
-/obj/structure/table,
+/obj/structure/table/no_smooth/wood/low,
 /turf/open/floor/carpet/darkpack,
 /area/vtm/interior/movie_theatre/screening)
 "NM" = (
