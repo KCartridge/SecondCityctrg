@@ -551,6 +551,9 @@
 /obj/effect/decal/shadow{
 	pixel_y = 8
 	},
+/obj/fake_platform/stone{
+	pixel_y = 8
+	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/jazz_bar)
 "cg" = (
@@ -1140,7 +1143,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/evacuation/ship)
 "ee" = (
-/obj/machinery/button/door{
+/obj/machinery/button/curtain{
 	pixel_x = -5;
 	pixel_y = 2;
 	id = "jazz_private_1"
@@ -1364,14 +1367,14 @@
 /obj/structure/table/no_smooth/modular_desk/left{
 	dir = 1
 	},
-/obj/machinery/button/door{
-	pixel_y = 5;
-	id = "jazz_office"
-	},
 /obj/machinery/light_switch{
 	pixel_x = -10;
 	pixel_y = 5;
 	name = "house lights"
+	},
+/obj/machinery/button/curtain{
+	pixel_y = 5;
+	id = "jazz_office"
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazz_bar)
@@ -1623,6 +1626,16 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/catwalk_floor,
 /area/centcom/central_command_areas/evacuation/ship)
+"fX" = (
+/obj/machinery/light/small/directional/north,
+/obj/structure/closet/crate,
+/obj/item/storage/box/mousetraps,
+/obj/item/storage/box/lights/mixed{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/jazz_bar/backroom)
 "fZ" = (
 /obj/effect/landmark/ctf,
 /turf/open/space/basic,
@@ -2063,6 +2076,13 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/observation)
+"hK" = (
+/obj/structure/mop_bucket/janitorialcart,
+/obj/item/reagent_containers/cup/bucket,
+/obj/item/mop,
+/obj/effect/decal/cleanable/cobweb/cobweb2,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/jazz_bar/backroom)
 "hN" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Thunderdome"
@@ -2739,7 +2759,6 @@
 /turf/open/floor/iron,
 /area/centcom/tdome/arena)
 "kc" = (
-/obj/effect/decal/wallpaper/stone/low,
 /obj/machinery/sprinkler,
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazz_bar)
@@ -4412,6 +4431,12 @@
 /obj/effect/mapping_helpers/airlock/access/all/admin/captain,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/prison)
+"qM" = (
+/obj/structure/railing/darkpack/wood/single{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/jazz_bar)
 "qO" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 8
@@ -5048,6 +5073,10 @@
 /obj/structure/sign/departments/drop,
 /turf/closed/indestructible/riveted,
 /area/centcom/central_command_areas/ferry)
+"te" = (
+/obj/structure/table/countertop/black,
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/jazz_bar/backroom)
 "tf" = (
 /obj/structure/steps/directional/north,
 /turf/open/floor/wood/smooth/old,
@@ -5351,6 +5380,10 @@
 /obj/machinery/jukebox{
 	anchored = 0;
 	name = "wheeled jukebox"
+	},
+/obj/effect/light_emitter{
+	light_color = "#8d4741";
+	set_cap = 1
 	},
 /turf/open/floor/carpet/darkpack/redsilver,
 /area/vtm/interior/jazz_bar)
@@ -6268,11 +6301,14 @@
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/admin/storage)
 "xA" = (
-/obj/structure/table/no_smooth/metal,
-/obj/item/flashlight/lamp/green{
-	light_range = 3
+/obj/effect/turf_decal/siding/wood{
+	color = "#4a3925";
+	dir = 1
 	},
-/turf/open/floor/carpet/darkpack/blacksilver,
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = "jazz_private_2"
+	},
+/turf/open/floor/wood/smooth,
 /area/vtm/interior/jazz_bar)
 "xD" = (
 /obj/machinery/computer/security{
@@ -7217,6 +7253,10 @@
 /obj/machinery/reagentgrinder/kitchen{
 	pixel_y = 5
 	},
+/obj/machinery/camera/directional/north{
+	network = list("elysium");
+	pixel_y = 22
+	},
 /turf/open/floor/city/bacotell,
 /area/vtm/interior/jazz_bar/backroom)
 "Bj" = (
@@ -7748,7 +7788,9 @@
 	color = "#4a3925";
 	dir = 1
 	},
-/obj/structure/curtain/bounty,
+/obj/structure/curtain/cloth/fancy/mechanical/luxurious{
+	id = "jazz_private_1"
+	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazz_bar)
 "CY" = (
@@ -8366,7 +8408,8 @@
 "FN" = (
 /obj/structure/table/no_smooth/wood,
 /obj/item/flashlight/lamp/green{
-	light_range = 3
+	light_range = 3;
+	light_color = "#8d4741"
 	},
 /obj/machinery/sprinkler,
 /turf/open/floor/wood/smooth/old,
@@ -8523,7 +8566,8 @@
 /area/centcom/tdome/administration)
 "Gz" = (
 /obj/effect/light_emitter{
-	light_color = "#8d4741"
+	light_color = "#8d4741";
+	set_cap = 1
 	},
 /turf/open/floor/wood/smooth,
 /area/vtm/interior/jazz_bar)
@@ -8567,10 +8611,17 @@
 	},
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/evacuation)
+"GE" = (
+/obj/structure/sink/directional/east,
+/obj/effect/decal/cleanable/litter,
+/obj/effect/decal/cleanable/blood/oil,
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/jazz_bar/backroom)
 "GG" = (
 /obj/structure/table/wood/fancy/red,
 /obj/item/flashlight/lamp/green{
-	light_range = 3
+	light_range = 3;
+	light_color = "#8d4741"
 	},
 /turf/open/floor/carpet/darkpack/blacksilver,
 /area/vtm/interior/jazz_bar)
@@ -8813,9 +8864,6 @@
 	},
 /obj/structure/filingcabinet{
 	pixel_x = -5
-	},
-/obj/item/radio/intercom/prison/directional/north{
-	canhear_range = 1
 	},
 /turf/open/floor/city/plating_stone,
 /area/vtm/interior/jazz_bar/foyer)
@@ -9832,7 +9880,8 @@
 /area/vtm/interior/jazz_bar/backroom)
 "Ma" = (
 /obj/item/flashlight/lamp/green{
-	light_range = 3
+	light_range = 3;
+	light_color = "#8d4741"
 	},
 /obj/structure/table/wood/fancy/red,
 /turf/open/floor/carpet/darkpack/blacksilver,
@@ -10010,6 +10059,15 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/courtroom)
+"MR" = (
+/obj/structure/vampdoor/simple{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/wood/dark{
+	dir = 8
+	},
+/turf/open/floor/wood/smooth/old,
+/area/vtm/interior/jazz_bar/backroom)
 "MS" = (
 /obj/machinery/shower/directional/west,
 /obj/effect/turf_decal/tile/red{
@@ -11106,7 +11164,8 @@
 "QW" = (
 /obj/structure/table/no_smooth/wood,
 /obj/item/flashlight/lamp/green{
-	light_range = 3
+	light_range = 3;
+	light_color = "#8d4741"
 	},
 /turf/open/floor/wood/smooth/old,
 /area/vtm/interior/jazz_bar)
@@ -11398,6 +11457,9 @@
 /obj/effect/turf_decal/tile/blue,
 /turf/open/floor/iron,
 /area/centcom/central_command_areas/control)
+"Sb" = (
+/turf/open/floor/plating/concrete,
+/area/vtm/interior/jazz_bar/backroom)
 "Sd" = (
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/structure/lattice,
@@ -12582,6 +12644,12 @@
 /obj/effect/landmark/ert_spawn,
 /turf/open/floor/iron/dark,
 /area/centcom/central_command_areas/briefing)
+"Wz" = (
+/obj/structure/railing/darkpack/wood/single{
+	dir = 4
+	},
+/turf/open/floor/wood/smooth,
+/area/vtm/interior/jazz_bar)
 "WA" = (
 /obj/structure/chair/sofa/right{
 	color = "#793532"
@@ -12675,8 +12743,8 @@
 /area/centcom/central_command_areas/control)
 "WQ" = (
 /obj/structure/table/no_smooth/large/wood/square,
-/obj/machinery/button/door{
-	pixel_x = 7;
+/obj/machinery/button/curtain{
+	pixel_x = 5;
 	pixel_y = 2;
 	id = "jazz_private_2"
 	},
@@ -27519,12 +27587,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
+LW
+LW
+LW
+LW
+LW
+LW
 aa
 aa
 aa
@@ -27776,12 +27844,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
+LW
+LS
+LS
+LS
+LS
+LW
 aa
 aa
 aa
@@ -28033,12 +28101,12 @@ aa
 aa
 aa
 aa
-aa
-aa
-aa
-aa
-aa
-aa
+LW
+LS
+fX
+GE
+LS
+LW
 aa
 aa
 aa
@@ -28291,10 +28359,10 @@ LW
 LW
 LW
 LW
-LW
-LW
-LW
-LW
+LS
+hK
+Sb
+LS
 LW
 LW
 LW
@@ -28550,7 +28618,7 @@ LS
 LS
 LS
 LS
-LS
+MR
 LS
 LS
 LS
@@ -29580,7 +29648,7 @@ MN
 MN
 MN
 MN
-MN
+te
 LS
 LS
 LS
@@ -29837,7 +29905,7 @@ VI
 MN
 MN
 MN
-MN
+te
 ns
 yJ
 JL
@@ -32388,12 +32456,12 @@ SU
 Jf
 Jf
 Jf
-Jf
+qM
 zX
 XZ
 jT
 vM
-xA
+XZ
 VA
 ok
 ph
@@ -33416,12 +33484,12 @@ Jf
 Jf
 Jf
 Jf
-Jf
+Wz
 zX
-xA
+XZ
 jT
 vM
-xA
+XZ
 VA
 ok
 ph
@@ -33437,7 +33505,7 @@ vM
 vM
 vM
 vM
-CX
+xA
 LT
 DE
 DE
