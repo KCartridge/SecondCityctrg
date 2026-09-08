@@ -338,23 +338,21 @@
 	icon_state = "prayer_veil"
 	flags_inv = HIDEEARS|HIDEHAIR
 
-/obj/item/clothing/head/vampire/pentex_yellowhardhat
+/obj/item/clothing/head/vampire/hardhat/pentex_yellow
 	name = "\improper " + MAIN_EVIL_COMPANY + " hardhat"
 	desc = "A yellow hardhat. This one has an " + MAIN_EVIL_COMPANY + "  logo on it!"
 	icon_state = "pentex_hardhat_yellow"
-	flags_inv = HIDEHAIR
 
-/obj/item/clothing/head/vampire/pentex_whitehardhat
+/obj/item/clothing/head/vampire/hardhat/pentex_white
 	name = "\improper " + MAIN_EVIL_COMPANY + " hardhat"
 	desc = "A white hardhat. This one has an " + MAIN_EVIL_COMPANY + " logo on it!"
 	icon_state = "pentex_hardhat_white"
-	flags_inv = HIDEHAIR
 
 /obj/item/clothing/head/vampire/pentex_beret
 	name = "First Team beret"
 	desc = "A black beret with a mysterious golden insigna bearing a spiral."
 	icon_state = "pentex_beret"
-	flags_inv = HIDEHAIR
+	armor_type = /datum/armor/armored_hat
 
 /obj/item/clothing/head/vampire/blackbag
 	name = "black bag"
